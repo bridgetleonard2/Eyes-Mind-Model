@@ -1,8 +1,9 @@
 
 import tkinter as tk
 from tkinter import messagebox, simpledialog
-from PIL import Image, ImageTk, ImageFilter # Functions for image loading and displaying
-import glob # Photo file path finder
+from PIL import Image, ImageTk  # Image loading and displaying
+import glob  # Photo file path finder
+
 
 class QuestionnaireApp:
     def __init__(self, root, questions):
@@ -18,7 +19,8 @@ class QuestionnaireApp:
         self.root.title("Questionnaire Score Sheet")
 
         # Label for displaying the question
-        self.question_label = tk.Label(self.root, text="", font=("Helvetica", 16))
+        self.question_label = tk.Label(self.root, text="",
+                                       font=("Helvetica", 16))
         self.question_label.pack(pady=20)
 
         # Label for displaying the image
@@ -33,10 +35,12 @@ class QuestionnaireApp:
         self.display_question(self.current_question_index)
 
         # Navigation buttons
-        self.prev_button = tk.Button(self.root, text="Previous", command=self.prev_question)
+        self.prev_button = tk.Button(self.root, text="Previous",
+                                     command=self.prev_question)
         self.prev_button.pack(side=tk.LEFT, padx=10)
 
-        self.next_button = tk.Button(self.root, text="Next", command=self.next_question)
+        self.next_button = tk.Button(self.root, text="Next",
+                                     command=self.next_question)
         self.next_button.pack(side=tk.RIGHT, padx=10)
 
     def display_question(self, index):
@@ -66,15 +70,18 @@ class QuestionnaireApp:
             # Load and display image
             try:
                 image = Image.open(image_path)
-                image = image.resize((600, 350), Image.Resampling.LANCZOS)  # Adjust the size as needed
-                self.photo = ImageTk.PhotoImage(image)  # Make photo an instance variable
+                image = image.resize((600, 350), Image.Resampling.LANCZOS)
+                self.photo = ImageTk.PhotoImage(image)
                 self.image_label.config(image=self.photo)
             except FileNotFoundError:
-                messagebox.showwarning("Image Not Found", f"Image file not found: {image_path}")
+                messagebox.showwarning("Image Not Found",
+                                       f"Image file not found: {image_path}")
                 self.image_label.config(image=None)
 
             for answer in answers:
-                btn = tk.Button(self.answers_frame, text=answer, command=lambda a=answer: self.record_response(question, a))
+                btn = tk.Button(self.answers_frame, text=answer,
+                                command=lambda a=answer:
+                                self.record_response(question, a))
                 btn.pack(side=tk.LEFT, padx=10)
 
     def record_response(self, question, answer):
@@ -91,14 +98,17 @@ class QuestionnaireApp:
             self.display_question(self.current_question_index)
         else:
             self.save_responses()
-            messagebox.showinfo("Completed", "Questionnaire completed. Responses saved.")
+            messagebox.showinfo("Completed", "Questionnaire completed. \
+                                Responses saved.")
 
     def save_responses(self):
-        file_name = simpledialog.askstring("Save File", "Enter file name to save responses:", parent=self.root)
+        file_name = simpledialog.askstring("Save File", "Enter file name to \
+                                           save responses:", parent=self.root)
         if file_name:
             with open(file_name + ".txt", "w") as file:
                 for question, response in self.responses.items():
                     file.write(f"{question}: {response}\n")
+
 
 # Read the questions from a file
 def read_questions(file_path):
@@ -111,9 +121,12 @@ def read_questions(file_path):
             questions.append((question, answers))
     return questions
 
+
 if __name__ == "__main__":
-    # Replace 'your_file_path_here.txt' with the path to your file containing the words
-    questions = read_questions('C:\\Users\\Bridget Leonard\\Desktop\\eyes_emotion\\wordOptions.txt')
+    # Replace 'your_file_path_here.txt' with the path to your file containing
+    # the words
+    questions = read_questions('C:\\Users\\Bridget Leonard\\Desktop'
+                               '\\eyes_emotion\\wordOptions.txt')
 
     # Create the GUI application
     root = tk.Tk()
