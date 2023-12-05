@@ -127,7 +127,7 @@ class QuestionnaireApp:
                 print('failed to grab frame')
                 break
             # the frame will show with the title of test
-            cv2.imshow('test', frame)
+            cv2.imshow('Take photo with spacebar, once done hit escape', frame)
             # to get continuous live video feed from my laptops webcam
             k = cv2.waitKey(1)
             # if the escape key is been pressed, the app will stop
