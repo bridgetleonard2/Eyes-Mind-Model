@@ -1,4 +1,3 @@
-
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 import cv2
@@ -10,7 +9,7 @@ class QuestionnaireApp:
         self.root = root
         self.questions = questions
         self.responses = {}
-        self.current_question_index = 0
+        self.current_question_index = -1
         self.participant_code = ""
 
         self.setup_ui()
@@ -26,14 +25,6 @@ class QuestionnaireApp:
         # Frame for answer buttons
         self.answers_frame = tk.Frame(self.root)
         self.answers_frame.pack(pady=10)
-
-        # Entry widget for participant code
-        self.participant_code_label = tk.Label(self.root,
-                                               text="Participant Code:")
-        self.participant_code_label.pack(pady=10)
-
-        self.participant_code_entry = tk.Entry(self.root)
-        self.participant_code_entry.pack(pady=5)
 
         # Navigation buttons
         self.prev_button = tk.Button(self.root, text="Previous",
@@ -56,8 +47,19 @@ class QuestionnaireApp:
         for widget in self.answers_frame.winfo_children():
             widget.destroy()
 
-        if index < len(self.questions):
+        if index < 0:
+            # Entry widget for participant code
+            self.participant_code_label = tk.Label(self.root,
+                                                   text="Participant Code:")
+            self.participant_code_label.pack(pady=10)
+
+            self.participant_code_entry = tk.Entry(self.root)
+            self.participant_code_entry.pack(pady=5)
+        elif index < len(self.questions):
             question, answers = self.questions[index]
+
+            self.participant_code_label.pack_forget()
+            self.participant_code_entry.pack_forget()
 
             self.question_label.config(text=question)
             for answer in answers:
@@ -75,6 +77,14 @@ class QuestionnaireApp:
             self.display_question(self.current_question_index)
 
     def next_question(self):
+        if self.current_question_index == -1:
+            # Check if participant code is entered
+            participant_code = self.participant_code_entry.get()
+            if not participant_code:
+                messagebox.showerror("Error",
+                                     "Please enter a participant code.")
+                return
+
         if self.current_question_index < len(self.questions) - 1:
             self.current_question_index += 1
             self.display_question(self.current_question_index)
@@ -193,15 +203,14 @@ class QuestionnaireApp:
             cv2.destroyAllWindows()
 
             # Modify file_path to include the index and word names
-            participant_code = self.participant_code_entry.get()  # Get participant code from entry
-            participant_folder = os.path.join(participant_code, 'eyes')
+            participant_code = self.participant_code_entry.get()
             # create participant image folder if doesn't exist
-            if not os.exists(participant_folder):
-                os.mkdir(participant_folder)
+            if not os.path.exists(participant_code):
+                os.mkdir(participant_code)
             index = self.current_question_index + 1
             words = '_'.join(self.questions[self.current_question_index][1])
-            file_path = os.path.join(participant_folder,
-            f'{index:02d}-{words}.png')
+            file_path = os.path.join(participant_code,
+                                     f'{index:02d}-{words}.png')
             cv2.imwrite(file_path, cropped_image)
             # Save the cropped image
             cv2.imwrite(file_path, cropped_image)
