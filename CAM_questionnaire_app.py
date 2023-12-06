@@ -1,6 +1,9 @@
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 import cv2
+import base64
+import requests
+import re
 import os
 
 
@@ -9,8 +12,10 @@ class QuestionnaireApp:
         self.root = root
         self.questions = questions
         self.responses = {}
+        self.gpt_response = {}
         self.current_question_index = -1
         self.participant_code = ""
+        self.api_key = '***REMOVED***'
 
         self.setup_ui()
 
@@ -100,13 +105,18 @@ class QuestionnaireApp:
             with open(file_name + ".txt", "w") as file:
                 for question, response in self.responses.items():
                     file.write(f"{question}: {response}\n")
+            with open(file_name + "_gpt.txt", "w") as file:
+                for question, response in self.gpt_response.items():
+                    file.write(f"{question}: {response}\n")
 
     def capture_and_crop(self):
         # Take webcam picture and save the image path
         img_path = self.im_capture()
 
         # Get cropped eyes image
-        self.eye_crop(img_path)
+        base64_img_path = self.eye_crop(img_path)
+
+        self.gpt_analyze(base64_img_path)
 
     def im_capture(self):
         # intialize the webcam and pass a constant which is 0
@@ -204,26 +214,98 @@ class QuestionnaireApp:
 
             # Modify file_path to include the index and word names
             participant_code = self.participant_code_entry.get()
+
             # create participant image folder if doesn't exist
             if not os.path.exists(participant_code):
                 os.mkdir(participant_code)
+
             index = self.current_question_index + 1
             words = '_'.join(self.questions[self.current_question_index]
                              [1][:4])
             file_path = os.path.join(participant_code,
                                      f'{index:02d}-{words}.png')
             cv2.imwrite(file_path, cropped_image)
+
             # Save the cropped image
             cv2.imwrite(file_path, cropped_image)
 
             # Delete original image
             if os.path.exists(image_path):
                 os.remove(image_path)
-                print(f"File {image_path} has been deleted successfully.")
+
+                # Encode the cropped image to base64
+                base64_image = self.encode_image(cropped_image)
+
+                return base64_image
             else:
                 print(f"File {image_path} not found.")
         else:
             print("At least two eyes are required for eye pair detection.")
+
+    def encode_image(self, image):
+        _, buffer = cv2.imencode('.png', image)
+        return base64.b64encode(buffer).decode('utf-8')
+
+    def gpt_analyze(self, base64_image):
+        print('ChatGPT is analyzing the image...')
+        question, answers = self.questions[self.current_question_index]
+
+        prompt = f"Choose which word best describes what \
+            the person in the picture is thinking or feeling based \
+                on just their eyes alone. \
+                You may feel that more than one word is applicable, \
+                    but please choose just one word, the word \
+                    which you consider to be most suitable. \
+                        Your 4 choices are:, {answers}"
+
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {self.api_key}"
+        }
+
+        payload = {
+            "model": "gpt-4-vision-preview",
+            "messages": [
+                {
+                 "role": "user",
+                 "content": [
+                    {
+                     "type": "text",
+                     "text": prompt
+                     },
+                    {
+                     "type": "image_url",
+                     "image_url": {
+                        "url": f"data:image/jpeg;base64,{base64_image}"
+                     }
+                    }
+                 ]
+                }
+            ],
+            "max_tokens": 300
+        }
+
+        response = requests.post("https://api.openai.com/v1/chat/completions",
+                                 headers=headers, json=payload)
+
+        response_json = response.json()
+
+        print(response_json)
+        if 'choices' in response_json:
+            # Extracting the generated answer
+            short_response = response_json['choices'][0]['message']['content']
+            answer = re.findall(r'"([^"]*)"', short_response)
+
+            if answer:
+                answer = answer[0]
+            else:
+                answer = 'None'
+
+            print(answer)
+            # Record response
+            self.gpt_response[question] = answer
+        else:
+            print(response_json)
 
 
 # Read the questions from a file

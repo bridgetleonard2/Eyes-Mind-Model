@@ -66,7 +66,7 @@ class QuestionnaireApp:
 
             # Use glob to find matching filenames
             image_path = glob.glob(pattern)[0]
-            print(image_path)
+
             # Load and display image
             try:
                 image = Image.open(image_path)
@@ -117,7 +117,7 @@ def read_questions(file_path):
         for line in file:
             words = line.strip().split()
             question = f"Question {len(questions) + 1}"
-            answers = words + ["refuse", "no answer"]
+            answers = words
             questions.append((question, answers))
     return questions
 
