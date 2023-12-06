@@ -208,7 +208,8 @@ class QuestionnaireApp:
             if not os.path.exists(participant_code):
                 os.mkdir(participant_code)
             index = self.current_question_index + 1
-            words = '_'.join(self.questions[self.current_question_index][1][:4])
+            words = '_'.join(self.questions[self.current_question_index]
+                             [1][:4])
             file_path = os.path.join(participant_code,
                                      f'{index:02d}-{words}.png')
             cv2.imwrite(file_path, cropped_image)
