@@ -48,6 +48,11 @@ class QuestionnaireApp:
         for widget in self.answers_frame.winfo_children():
             widget.destroy()
 
+        # Create an all-white image
+        white_image = Image.new('RGB', (600, 350), 'white')
+        self.photo = ImageTk.PhotoImage(white_image)
+        self.image_label.config(image=self.photo)
+
         if index < len(self.questions):
             question, answers = self.questions[index]
 
@@ -67,22 +72,48 @@ class QuestionnaireApp:
             # Use glob to find matching filenames
             image_path = glob.glob(pattern)[0]
 
-            # Load and display image
-            try:
-                image = Image.open(image_path)
-                image = image.resize((600, 350), Image.Resampling.LANCZOS)
-                self.photo = ImageTk.PhotoImage(image)
-                self.image_label.config(image=self.photo)
-            except FileNotFoundError:
-                messagebox.showwarning("Image Not Found",
-                                       f"Image file not found: {image_path}")
-                self.image_label.config(image=None)
+            # Load and display image after 3 seconds
+            self.root.after(3000, self.update_image, image_path)
 
             for answer in answers:
                 btn = tk.Button(self.answers_frame, text=answer,
                                 command=lambda a=answer:
                                 self.record_response(question, a))
                 btn.pack(side=tk.LEFT, padx=10)
+
+    def update_image(self, image_path):
+        try:
+            image = Image.open(image_path)
+            image = image.resize((600, 350), Image.Resampling.LANCZOS)
+            self.photo = ImageTk.PhotoImage(image)
+            self.image_label.config(image=self.photo)
+        except FileNotFoundError:
+            messagebox.showwarning("Image Not Found",
+                                   f"Image file not found: {image_path}")
+            self.image_label.config(image=None)
+        # Schedule the next question after 3 seconds
+        self.root.after(3000, self.display_next_question)
+
+        # Clear existing answer buttons
+        for widget in self.answers_frame.winfo_children():
+            widget.destroy()
+
+        # Display answer buttons
+        question, answers = self.questions[self.current_question_index]
+        for answer in answers:
+            btn = tk.Button(self.answers_frame, text=answer,
+                            command=lambda a=answer:
+                            self.record_response(question, a))
+            btn.pack(side=tk.LEFT, padx=10)
+
+    def display_next_question(self):
+        # Record a response of "no response" if no answer has been given
+        question, answers = self.questions[self.current_question_index]
+        if question not in self.responses:
+            self.record_response(question, "no response")
+
+        # Move to the next question
+        self.next_question()
 
     def record_response(self, question, answer):
         self.responses[question] = answer
