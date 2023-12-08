@@ -139,6 +139,8 @@ class QuestionnaireApp:
             with open(file_name + ".txt", "w") as file:
                 for question, response in self.responses.items():
                     file.write(f"{question}: {response}\n")
+            # Close the window after saving responses
+            self.root.destroy()
 
 
 # Read the questions from a file
