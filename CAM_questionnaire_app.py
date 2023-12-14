@@ -5,6 +5,7 @@ import base64
 import requests
 import re
 import os
+from transformers import pipeline
 
 
 class QuestionnaireApp:
@@ -13,6 +14,7 @@ class QuestionnaireApp:
         self.questions = questions
         self.responses = {}
         self.gpt_response = {}
+        self.llava_response = {}
         self.current_question_index = -1
         self.participant_code = ""
         self.api_key = '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'
@@ -117,6 +119,7 @@ class QuestionnaireApp:
         base64_img_path = self.eye_crop(img_path)
 
         self.gpt_analyze(base64_img_path)
+        # self.llava_analyze(base64_img_path)
 
     def im_capture(self):
         # intialize the webcam and pass a constant which is 0
@@ -306,6 +309,31 @@ class QuestionnaireApp:
             self.gpt_response[question] = answer
         else:
             print(response_json)
+
+    # def llava_analyze(self, base64_image):
+    #     print("Llava is analyzing the image...")
+    #     pipe = pipeline("image-to-text", model="llava-hf/llava-1.5-13b-hf")
+    #     question, answers = self.questions[self.current_question_index]
+
+    #     image = base64_image
+    #     prompt = f'''USER: <image>
+    #         Choose which word best describes what the person in the picture is
+    #         thinking or feeling based on just their eyes alone.
+    #         You may feel that more than one word is applicable,
+    #         but please choose just one word, the word
+    #         which you consider to be most suitable.
+    #         Your 4 choices are: {answers}
+    #         ASSISTANT:'''
+
+    #     outputs = pipe(image, prompt=prompt, generate_kwargs={"max_new_tokens": 200})
+    #     result = [line.split(':')[-1].strip() for line in outputs[0]['generated_text'].split('\n')][-1]
+
+    #     if result is None:
+    #         print('No response given')
+    #     else:
+    #         print(result)
+    #     # Record response
+    #     self.llava_response[question] = result
 
 
 # Read the questions from a file
