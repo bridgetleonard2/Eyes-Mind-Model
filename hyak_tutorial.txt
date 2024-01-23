@@ -1,0 +1,306 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Windows\system32> wsl --install
+Ubuntu is already installed.
+Launching Ubuntu...
+Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.15.133.1-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+This message is shown once a day. To disable it please create the
+/root/.hushlogin file.
+root@bridgetleonard:~# ssh bll313@klone.hyak.uw.edu
+The authenticity of host 'klone.hyak.uw.edu (198.48.92.23)' can't be established.
+ED25519 key fingerprint is SHA256:Ww2boukhve4pYouM6N/I5Ri1dsVjd383DthYcmFAmsE.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'klone.hyak.uw.edu' (ED25519) to the list of known hosts.
+(bll313@klone.hyak.uw.edu) Password:
+(bll313@klone.hyak.uw.edu) Duo two-factor login for bll313
+
+Enter a passcode or select one of the following options:
+
+ 1. Duo Push to XXX-XXX-3670
+ 2. Phone call to XXX-XXX-3670
+
+Passcode or option (1-2): 1
+Success. Logging you in...
+     _    _                    _                 _
+    | | _| | ___  _ __   ___  | |__  _   _  __ _| | __
+    | |/ / |/ _ \| '_ \ / _ \ | '_ \| | | |/ _` | |/ /
+    |   <| | (_) | | | |  __/ | | | | |_| | (_| |   <
+    |_|\_\_|\___/|_| |_|\___| |_| |_|\__, |\__,_|_|\_\
+                                     |___/
+
+This login node is meant for interacting with the job scheduler and
+transferring data to and from KLONE. Please work by requesting an
+interactive session on (or submitting batch jobs to) compute nodes.
+
+Visit the HYAK website for more documentation:
+https://hyak.uw.edu/docs/
+
+Questions? E-mail help@uw.edu with "hyak" in the subject.
+
+Run "scontrol show res" to see any reservations in place that will
+prevent your jobs from running with the reason "ReqNodeNotAvail".
+
+[bll313@klone-login03 ~]$ nano
+[bll313@klone-login03 ~]$ [ ! -r ~/.ssh/id_rsa ] && ssh-keygen -t rsa -b 4096 -N '' -C "your-uw-netid@uw.edu" -f ~/.ssh/id_rsa
+.eduGenerating public/private rsa key pair.
+Created directory '/mmfs1/home/bll313/.ssh'.
+Your identification has been saved in /mmfs1/home/bll313/.ssh/id_rsa.
+Your public key has been saved in /mmfs1/home/bll313/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:01UTWf8vIM5/GPO7vSexbplU1ZLhowJJvawBnTGtEq0 your-uw-netid@uw.edu
+The key's randomart image is:
++---[RSA 4096]----+
+|       o+=    =*o|
+|      o.+oo  o+.+|
+|       +oo .. o.o|
+|      E ooo. . .o|
+|       .So+ o  ..|
+|        .+ oo.o .|
+|          o  *.=.|
+|           .. Oo.|
+|            .++=+|
++----[SHA256]-----+
+[bll313@klone-login03 ~]$ ssh-keygen -t rsa -b 4096 -N '' -C bll313@uw.edu -f ~/.ssh/id_rsa
+Generating public/private rsa key pair.
+/mmfs1/home/bll313/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Your identification has been saved in /mmfs1/home/bll313/.ssh/id_rsa.
+Your public key has been saved in /mmfs1/home/bll313/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:uhTleSD9eivQEcp4L6heul6fUrLmoSOX1g/C22JJLI8 bll313@uw.edu
+The key's randomart image is:
++---[RSA 4096]----+
+|                 |
+|       ..        |
+|     o..+.       |
+|    . ++.+       |
+| .   o.oS.o      |
+|..o o +ooo       |
+| =o==+oo. .      |
+|E @O== o.. .     |
+| BB*oo=  ..      |
++----[SHA256]-----+
+[bll313@klone-login03 ~]$ nano ~/.ssh/config
+[bll313@klone-login03 ~]$ ssh klone.hyak.uw.edu
+/mmfs1/home/bll313/.ssh/config: line 2: Bad configuration option: \342\200\202\342\200\202\342\200\202\342\200\202\342\200\202\342\200\202user
+/mmfs1/home/bll313/.ssh/config: line 3: Bad configuration option: \342\200\202\342\200\202\342\200\202\342\200\202\342\200\202\342\200\202controlpath
+/mmfs1/home/bll313/.ssh/config: line 4: Bad configuration option: \342\200\202\342\200\202\342\200\202\342\200\202\342\200\202\342\200\202controlmaster
+/mmfs1/home/bll313/.ssh/config: line 5: Bad configuration option: \342\200\202\342\200\202\342\200\202\342\200\202\342\200\202\342\200\202controlpersist
+/mmfs1/home/bll313/.ssh/config: line 6: Bad configuration option: \342\200\202\342\200\202\342\200\202\342\200\202\342\200\202\342\200\202serveraliveinterval
+/mmfs1/home/bll313/.ssh/config: line 7: Bad configuration option: \342\200\202\342\200\202\342\200\202\342\200\202\342\200\202\342\200\202serveralivecountmax
+/mmfs1/home/bll313/.ssh/config: line 8: Bad configuration option: \342\200\202\342\200\202\342\200\202\342\200\202\342\200\202\342\200\202identityfile
+/mmfs1/home/bll313/.ssh/config: terminating, 7 bad configuration options
+[bll313@klone-login03 ~]$ nano ~/.ssh/config
+[bll313@klone-login03 ~]$ ssh klone.hyak.uw.edu
+Warning: Permanently added 'klone.hyak.uw.edu,198.48.92.23' (ECDSA) to the list of known hosts.
+Password:
+Duo two-factor login for bll313
+
+Enter a passcode or select one of the following options:
+
+ 1. Duo Push to XXX-XXX-3670
+ 2. Phone call to XXX-XXX-3670
+
+Passcode or option (1-2): 1
+Success. Logging you in...
+     _    _                    _                 _
+    | | _| | ___  _ __   ___  | |__  _   _  __ _| | __
+    | |/ / |/ _ \| '_ \ / _ \ | '_ \| | | |/ _` | |/ /
+    |   <| | (_) | | | |  __/ | | | | |_| | (_| |   <
+    |_|\_\_|\___/|_| |_|\___| |_| |_|\__, |\__,_|_|\_\
+                                     |___/
+
+This login node is meant for interacting with the job scheduler and
+transferring data to and from KLONE. Please work by requesting an
+interactive session on (or submitting batch jobs to) compute nodes.
+
+Visit the HYAK website for more documentation:
+https://hyak.uw.edu/docs/
+
+Questions? E-mail help@uw.edu with "hyak" in the subject.
+
+Run "scontrol show res" to see any reservations in place that will
+prevent your jobs from running with the reason "ReqNodeNotAvail".
+
+Last login: Thu Jan 18 14:30:46 2024 from 10.18.73.124
+[bll313@klone-login03 ~]$ hyakalloc
+      Account resources available to user: bll313
+╭──────────┬───────────┬──────┬────────┬──────┬───────╮
+│  Account │ Partition │ CPUs │ Memory │ GPUs │       │
+├──────────┼───────────┼──────┼────────┼──────┼───────┤
+│ escience │   gpu-a40 │   52 │   994G │    8 │ TOTAL │
+│          │           │    6 │   100G │    1 │ USED  │
+│          │           │   46 │   894G │    7 │ FREE  │
+├──────────┼───────────┼──────┼────────┼──────┼───────┤
+│ escience │ gpu-rtx6k │   10 │    81G │    2 │ TOTAL │
+│          │           │    0 │     0G │    0 │ USED  │
+│          │           │   10 │    81G │    2 │ FREE  │
+╰──────────┴───────────┴──────┴────────┴──────┴───────╯
+ Checkpoint Resources
+╭───────┬──────┬──────╮
+│       │ CPUs │ GPUs │
+├───────┼──────┼──────┤
+│ Idle: │ 8363 │   47 │
+╰───────┴──────┴──────╯
+[bll313@klone-login03 ~]$ salloc --account escience --partition gpu-a40 --mem 64G -c 8 --time 1:00:00 --gpus 2
+salloc: Pending job allocation 16151345
+salloc: job 16151345 queued and waiting for resources
+salloc: job 16151345 has been allocated resources
+salloc: Granted job allocation 16151345
+salloc: Nodes g[3064,3072] are ready for job
+[bll313@g3064 ~]$ ^C
+[bll313@g3064 ~]$ exit
+srun: error: g3064: task 0: Exited with exit code 130
+salloc: Relinquishing job allocation 16151345
+[bll313@klone-login03 ~]$ salloc --account escience --partition gpu-a40 --mem 64G -c 8 -n 1 --time 1:00:00 --gpus 2
+salloc: Pending job allocation 16151382
+salloc: job 16151382 queued and waiting for resources
+salloc: job 16151382 has been allocated resources
+salloc: Granted job allocation 16151382
+salloc: Nodes g3040 are ready for job
+[bll313@g3040 ~]$ ls
+[bll313@g3040 ~]$ ls /gscratch
+aaplasma      cesg         escience            jamiemmt      mostafavilab        retina         thinklab
+aims          chem         fanlab              jayadevlab    myo                 rna4tw         tial
+amath         cheme        fellows             johnsenlab    nape                robotics       tmp
+anantram      cheung       ferrante            kawaldorflab  nearshore           rselab         tsunami
+arce-mcshane  clmbr        ferreiralab         kirschen      niac                sciencehub     ubicomp
+argon         cmt          flash               kovacs        optospintronicslab  scrubbed       uwapl-a2i
+ark           coenv        forsyth             krishna       pdml                sewoong        uwb
+astro         comdata      foster              kurtlab       pedslabs            sexdiffad      uwmcf
+baker         composites   fosterfinance       labfairhall   pedslabs_hoffman    shlneuroai     uwmpl
+balazinska    cosmo        freedmanlab         leache        pfaendtner          simondu        vashisth
+barnardlab    csde         fuhrmeister         livnegroup    pmec                sonora         vsm
+bbiosci       cse          gandalf             lolo-test     prl                 spe            walkerlab
+bdata         deepthought  goaclim             macc          psylab              ssmc           wang
+biology       derakhti     gwastro             mambrino      radlab              ssmc-dev       wasser
+brett         dirac        h2lab               mamslab       radonc.physics      stergachislab  weirdlab
+brl           dynamicsai   hyakteam            mccoy         raivn               stf            xlab
+camposlab     ece          icrc                mcshane       randommatrix        stlab          zaneveld
+cardss        efml         ifml1               memc          rao                 tdekok         zeelab
+cbehyak       elbert       intelligentsystems  merlab        realitylab          temporary      zlab
+cei           emitlab      iscrm               ml4ml         rehlab              tenas
+[bll313@g3040 ~]$ mkdir -p /gscratch/scrubbed/$USER
+[bll313@g3040 ~]$ cd /gscratch/scrubbed/$USER
+[bll313@g3040 bll313]$ export APPTAINER_CACHEDIR="${APPTAINER_CACHEDIR:-/gscratch/scrubbed/${USER}/apptainer-cache}"
+ ^^ T[bll313@g3040 bll313]$ # ^^ This is needed to avoid running out of space in your home directory! ^^
+[bll313@g3040 bll313]$
+scratch/[bll313@g3040 bll313]$ # Note: Storage under /gscratch/scrubbed may be slow. If model loading is slow,
+[bll313@g3040 bll313]$ # you can try using a different directory for the HuggingFace cache,
+[bll313@g3040 bll313]$ # e.g. /gscratch/your-group/${USER}/hf-cache
+[bll313@g3040 bll313]$
+AYS b[bll313@g3040 bll313]$ # ALWAYS be sure your APPTAINER_CACHEDIR and HUGGINGFACE_HUB_CACHE are set;
+[bll313@g3040 bll313]$ # otherwise, you may run out of space in your home directory!
+[bll313@g3040 bll313]$
+n LLaV[bll313@g3040 bll313]$ # Run LLaVA:
+[bll313@g3040 bll313]$ apptainer run \
+>     --nv \
+>     --writable-tmpfs \
+>     --bind /gscratch \
+>     --env HUGGINGFACE_HUB_CACHE=/gscratch/scrubbed/${USER}/hf-cache \
+>     oras://ghcr.io/uw-psych/llava-container:0.0.2 \
+>     llava-run \
+>     --model-path liuhaotian/llava-v1.5-7b \
+>     --image-file "https://llava-vl.github.io/static/images/view.jpg" \
+>     --query "What's going on here?"
+INFO:    Downloading oras image
+408.0b / 408.0b [==============================================================================================] 100 %0s2.7GiB / 2.7GiB [==================================================================================] 100 % 60.4 MiB/s 0sTraceback (most recent call last):
+  File "/opt/local/bin/llava-run", line 8, in <module>
+    from llava.constants import (
+ImportError: cannot import name 'IMAGE_PLACEHOLDER' from 'llava.constants' (/opt/conda/lib/python3.11/site-packages/llava/constants.py)
+[bll313@g3040 bll313]$ ls
+hf-cache
+[bll313@g3040 bll313]$ echo $APPTAINER_CACHEDIR/
+/tmp/.apptainer-bll313/
+[bll313@g3040 bll313]$ export APPTAINER_CACHEDIR="/gscratch/scrubbed/${USER}/apptainer-cache"
+[bll313@g3040 bll313]$ apptainer run     --nv     --writable-tmpfs     --bind /gscratch     --env HUGGINGFACE_HUB_CACHE=/gscratch/scrubbed/${USER}/hf-cache     oras://ghcr.io/uw-psych/llava-container:0.0.2     llava-run     --model-path liuhaotian/llava-v1.5-7b     --image-file "https://llava-vl.github.root@bridgetleonard:~#
+INFO:    Downloading oras image
+408.0b / 408.0b [==============================================================================================] 100 %0s2.7GiB / 2.7GiB [==================================================================================] 100 % 57.8 MiB/s 0sTraceback (most recent call last):
+  File "/opt/local/bin/llava-run", line 8, in <module>
+    from llava.constants import (
+ImportError: cannot import name 'IMAGE_PLACEHOLDER' from 'llava.constants' (/opt/conda/lib/python3.11/site-packages/llava/constants.py)
+[bll313@g3040 bll313]$ apptainer run     --nv     --writable-tmpfs     --bind /gscratch     --env HUGGINGFACE_HUB_CACHE=/gscratch/scrubbed/${USER}/hf-cache     oras://ghcr.io/uw-psych/llava-container/llava-container:0.0.1     llava-run
+--model-path liuhaotian/llava-v1.5-7b     --image-file "https://llava-vl.github.io/static/images/view.jpg"     --query "What's going on here?"
+INFO:    Downloading oras image
+408.0b / 408.0b [==============================================================================================] 100 %0s2.6GiB / 2.6GiB [==================================================================================] 100 % 58.7 MiB/s 0stokenizer_config.json: 100%|███████████████████████████████████████████████████████████| 749/749 [00:00<00:00, 5.93MB/s]tokenizer.model: 100%|████████████████████████████████████████████████████████████████| 500k/500k [00:00<00:00, 183MB/s]special_tokens_map.json: 100%|█████████████████████████████████████████████████████████| 438/438 [00:00<00:00, 3.86MB/s]config.json: 100%|█████████████████████████████████████████████████████████████████| 1.16k/1.16k [00:00<00:00, 8.66MB/s]pytorch_model.bin.index.json: 100%|█████████████████████████████████████████████████| 27.1k/27.1k [00:00<00:00, 190MB/s]pytorch_model-00001-of-00002.bin: 100%|█████████████████████████████████████████████| 9.98G/9.98G [00:24<00:00, 406MB/s]pytorch_model-00002-of-00002.bin: 100%|█████████████████████████████████████████████| 3.54G/3.54G [00:09<00:00, 389MB/s]Downloading shards: 100%|█████████████████████████████████████████████████████████████████| 2/2 [00:33<00:00, 16.95s/it]config.json: 100%|█████████████████████████████████████████████████████████████████| 4.76k/4.76k [00:00<00:00, 37.4MB/s]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████| 2/2 [00:21<00:00, 10.73s/it]generation_config.json: 100%|██████████████████████████████████████████████████████████| 124/124 [00:00<00:00, 1.01MB/s]preprocessor_config.json: 100%|████████████████████████████████████████████████████████| 316/316 [00:00<00:00, 2.30MB/s]pytorch_model.bin: 100%|████████████████████████████████████████████████████████████| 1.71G/1.71G [00:05<00:00, 297MB/s]The image features a pier extending out into a large body of water, likely a lake. The pier is made of wood and has a few benches placed on it, providing a place for people to sit and enjoy the view. The water is calm and serene, creating a peaceful atmosphere.
+
+In the background, there are mountains visible, adding to the picturesque scenery. The pier is situated near a forest, which further enhances the natural beauty of the scene.
+[bll313@g3040 bll313]$ apptainer run     --nv     --writable-tmpfs     --bind /gscratch     --env HUGGINGFACE_HUB_CACHE=/gscratch/scrubbed/${USER}/hf-cache     oras://ghcr.io/uw-psych/llava-container/llava-container:0.0.1     llava-run     --model-path liuhaotian/llava-v1.5-7b     --image-file "https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FphSxLtPuOSPsnJF0obkh5A%252FA_Friend_in_Need_1903_C.M.Coolidge.jpg&width=910https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FphSxLtPuOSPsnJF0obkh5A%252FA_Friend_in_Need_1903_C.M.Coolidge.jpg&width=910"     --query "How many players are there here?"
+INFO:    Using cached SIF image
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████| 2/2 [00:20<00:00, 10.35s/it]There are six players in the image.
+[bll313@g3040 bll313]$ apptainer run     --nv     --writable-tmpfs     --bind /gscratch     --env HUGGINGFACE_HUB_CACHE=/gscratch/scrubbed/${USER}/hf-cache     oras://ghcr.io/uw-psych/llava-container/llava-container:0.0.1     llava-run     --model-path liuhaotian/llava-v1.5-7b     --image-file "https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FphSxLtPuOSPsnJF0obkh5A%252FA_Friend_in_Need_1903_C.M.Coolidge.jpg&width=910https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FphSxLtPuOSPsnJF0obkh5A%252FA_Friend_in_Need_1903_C.M.Coolidge.jpg&width=910"
+INFO:    Using cached SIF image
+usage: llava-run [-h] [--model-path MODEL_PATH] [--model-base MODEL_BASE] --image-file IMAGE_FILE --query QUERY [--conv-mode CONV_MODE]
+                 [--sep SEP] [--temperature TEMPERATURE] [--top_p TOP_P] [--num_beams NUM_BEAMS] [--max_new_tokens MAX_NEW_TOKENS]
+                 [--load-8bit] [--load-4bit] [--device DEVICE] [--hf-cache-dir HF_CACHE_DIR]
+llava-run: error: the following arguments are required: --query
+[bll313@g3040 bll313]$ apptainer run     --nv     --writable-tmpfs     --bind /gscratch     --env HUGGINGFACE_HUB_CACHE=/gscratch/scrubbed/${USER}/hf-cache     oras://ghcr.io/uw-psych/llava-container/llava-container:0.0.1     python -m llava.serve.cli     --model-path liuhaotian/llava-v1.5-7b     --image-file "https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FphSxLtPuOSPsnJF0obkh5A%252FA_Friend_in_Need_1903_C.M.Coolidge.jpg&width=910https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FphSxLtPuOSPsnJF0obkh5A%252FA_Friend_in_Need_1903_C.M.Coolidge.jpg&width=910"
+INFO:    Using cached SIF image
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████| 2/2 [00:20<00:00, 10.28s/it]USER: What game is being played here?
+ASSISTANT: The game being played in the image is poker.
+USER: Is there anything unusual about this image?
+ASSISTANT: Yes, there is something unusual about this image. It is a painting of dogs playing poker at a table, which is not a typical scene you would see in real life.
+USER: exit...
+[bll313@g3040 bll313]$ export APPTAINER_BIND=/gscratch APPTAINER_WRITABLE_TMPFS=1 APPTAINER_NV=1
+[bll313@g3040 bll313]$
+[bll313@g3040 bll313]$ # Set up the HuggingFace cache:
+[bll313@g3040 bll313]$ export HUGGINGFACE_HUB_CACHE="$PWD/hf-cache"
+[bll313@g3040 bll313]$ apptainer run oras://ghcr.io/uw-psych/llava-container/llava-container:0.0.1     llava-run     --model-path liuhaotian/llava-v1.5-7b     --image-file "https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FphSxLtPuOSPsnJF0obkh5A%252FA_Friend_in_Need_1903_C.M.Coolidge.jpg&width=910https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FphSxLtPuOSPsnJF0obkh5A%252FA_Friend_in_Need_1903_C.M.Coolidge.jpg&width=910"
+INFO:    Using cached SIF image
+usage: llava-run [-h] [--model-path MODEL_PATH] [--model-base MODEL_BASE] --image-file IMAGE_FILE --query QUERY [--conv-mode CONV_MODE] [--sep SEP]
+                 [--temperature TEMPERATURE] [--top_p TOP_P] [--num_beams NUM_BEAMS] [--max_new_tokens MAX_NEW_TOKENS] [--load-8bit] [--load-4bit]
+                 [--device DEVICE] [--hf-cache-dir HF_CACHE_DIR]
+llava-run: error: the following arguments are required: --query
+[bll313@g3040 bll313]$ squeue --me
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          16151382   gpu-a40 interact   bll313  R      27:41      1 g3040
+[bll313@g3040 bll313]$ exit
+exit
+salloc: Relinquishing job allocation 16151382
+salloc: Job allocation 16151382 has been revoked.
+[bll313@klone-login03 ~]$ squeue --me
+[bll313@klone-login03 ~]$ client_loop: send disconnect: Broken pipe
+root@bridgetleonard:~# u-a40 interact   bll313 CG      28:53      1 g3040
+[bll313@klone-login03 ~]$ squeue --me
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          16151382   gpu-a40 interact   bll313 CG      28:53      1 g3040
+[bll313@klone-login03 ~]$ squeue --me
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          16151382   gpu-a40 interact   bll313 CG      28:53      1 g3040
+[bll313@klone-login03 ~]$ hyakalloc
+      Account resources available to user: bll313
+╭──────────┬───────────┬──────┬────────┬──────┬───────╮
+│  Account │ Partition │ CPUs │ Memory │ GPUs │       │
+├──────────┼───────────┼──────┼────────┼──────┼───────┤
+│ escience │   gpu-a40 │   52 │   994G │    8 │ TOTAL │
+│          │           │    6 │   100G │    1 │ USED  │
+│          │           │   46 │   894G │    7 │ FREE  │
+├──────────┼───────────┼──────┼────────┼──────┼───────┤
+│ escience │ gpu-rtx6k │   10 │    81G │    2 │ TOTAL │
+│          │           │    0 │     0G │    0 │ USED  │
+│          │           │   10 │    81G │    2 │ FREE  │
+╰──────────┴───────────┴──────┴────────┴──────┴───────╯
+ Checkpoint Resources
+╭───────┬──────┬──────╮
+│       │ CPUs │ GPUs │
+├───────┼──────┼──────┤
+│ Idle: │ 7845 │   44 │
+╰───────┴──────┴──────╯
+[bll313@klone-login03 ~]$ squeue --me
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+[bll313@klone-login03 ~]$ exit
+logout
+Shared connection to klone.hyak.uw.edu closed.
+[bll313@klone-login03 ~]$ ssh klone.hyak.uw.edu
+Last login: Thu Jan 18 14:39:34 2024 from 198.48.92.23
+root@bridgetleonard:~# ssh-copy-id -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa bll313@klone.hyak.uw.edu

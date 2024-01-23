@@ -1,0 +1,49 @@
+Hyak Protocol
+
+Start wsl:
+open powershell: wsl
+
+Login: 
+ssh bll313@klone.hyak.uw.edu
+password & Duo
+
+
+
+Sending local files/folders to hyak
+
+path/on/cluster:
+/gscratch/scrubbed/$USER -- for temporary large Storage
+/gscratch/escience/$USER -- for long term large storage 
+
+file:
+scp path/to/your/local/file.npy username@cluster_address:/path/on/cluster/
+
+folder:
+scp -r path/to/your/local/folder username@cluster_address:/path/on/cluster/
+
+
+Pulling files/folders from hyak to local
+
+file:
+scp username@cluster_address:/path/on/cluster/file.npy /path/to/local/directory
+
+folder:
+scp -r username@cluster_address:/path/on/cluster/folder /path/to/local/directory
+
+
+
+Running python scripts in apptainer:
+1. Transfer Local Files to HPC Cluster
+Files to Transfer: Include both the Python script that contains your linear regression model and the dataset(s) you plan to use.
+Transfer Method: Use secure methods like scp (secure copy), rsync, or any other recommended method by your HPC provider.
+2. Create an Apptainer Definition File
+Specify Base Image: Choose a base image that matches your requirements (e.g., a Python image).
+Install Libraries: In the %post section, install necessary libraries like NumPy, SciPy, scikit-learn, etc.
+Python Version: Ensure the Python version in the container matches the one needed for your script. This can be specified in the From: tag in the Bootstrap header.
+Script Inclusion (Optional): You can copy the Python script into the container if you want it bundled with the image. However, for flexibility and ease of updating the script, you might prefer to access it via a bind mount.
+3. Make Data Accessible to Apptainer Using Bind Mounts
+Identify Data Location: Know where your data is stored on the HPC cluster.
+Bind Mount Syntax: Use the --bind /path/on/host:/path/in/container option when running your Apptainer container. This makes the data on the host (HPC cluster) accessible inside the container.
+4. Run the Script within the Container
+Accessing the Script: If the script is inside the container, navigate to its location and run it. If it's accessed via a bind mount, run it directly from the mounted directory.
+Executing the Model: Execute your Python script normally as you would on a regular system. The script will run the linear regression model using the libraries installed in the container and the data from the bind mount.
