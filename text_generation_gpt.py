@@ -1,6 +1,5 @@
-import glob
+import json
 import requests
-import re
 
 api_key = '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'
 
@@ -24,6 +23,7 @@ def get_response(prompt):
     response_json = response.json()
 
     print(response_json)
+    return response_json
 
 
 file_path = 'uniqueWords.txt'
@@ -31,38 +31,21 @@ words = []
 
 with open(file_path, 'r') as file:
     for line in file:
-        words.append(line)
-
-responses = {}
+        word = line.strip()
+        words.append(word)
 
 # Test one description/prompt engineering
 prompt = "Create a textual description of someone who looks regretful."
 
 get_response(prompt)
 
+text_description = {}
 
-#for index in range(len(questions)):
-index = 0
-question, answers = questions[index]
-print(question)
-text = f"Choose which word best describes what \
-    the person in the picture is thinking or feeling. \
-        You may feel that more than one word is applicable, \
-            but please choose just one word, the word \
-                which you consider to be most suitable. \
-                    Your 4 choices are:, {answers}"
+for description in words[28:]:
+    text = f"Create a textual description of someone who looks {description}."
+    print("Generating a description for someone who looks", description)
+    response = get_response(text)
+    text_description[description] = response
 
-folder = subject  # Change to relevant subject
-pattern = f"{folder}/{index + 1:02d}*.png"
-
-# Use glob to find matching filenames
-image_path = glob.glob(pattern)[0]
-print(image_path)
-
-response = get_response(text, image_path)
-
-responses[question] = response
-
-with open(subject + "_gpt.txt", "w") as file:
-    for question, response in responses.items():
-        file.write(f"{question}: {response}\n")
+with open('text_descriptions.txt', 'w') as file:
+    file.write(json.dumps(text_description))
