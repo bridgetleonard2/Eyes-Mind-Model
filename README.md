@@ -4,8 +4,12 @@
 
 This project explores the capabilities of AI models, specifically GPT-4 Vision API and LLava, in performing the Reading the Mind in the Eyes Test (RMET). RMET is a widely used tool in cognitive psychology, which assesses the ability to understand emotions by looking at a picture of eyes and selecting the emotion that best describes them from four options.
 
-![Sample RMET Image](/task_materials/regular/01-playful-comforting-irritated-bored-300x175.jpg)
-*Sample RMET Image with Options: [playful, comforting, irritated, bored]*
+<div align="center">
+  <img src="/task_materials/regular/01-playful-comforting-irritated-bored-300x175.jpg" alt="Sample RMET Image"/>
+  <br>
+  <i>Sample RMET Image with Options: [playful, comforting, irritated, bored]</i>
+  <br>
+</div>
 
 Our research focuses on comparing the performance of GPT-4 Vision API and LLava in this context and improving LLava's performance through fine-tuning.
 
