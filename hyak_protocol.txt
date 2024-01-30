@@ -34,7 +34,7 @@ scp username@cluster_address:/path/on/cluster/file.npy /path/to/local/directory
 folder:
 scp -r username@cluster_address:/path/on/cluster/folder /path/to/local/directory
 
-
+/mmfs1
 
 Running python scripts in apptainer:
 1. Transfer Local Files to HPC Cluster
@@ -56,6 +56,7 @@ Executing the Model: Execute your Python script normally as you would on a regul
 Llava test:
 1. move test image into hyak: /gscratch/scrubbed/$USER/01-playful-comforting-irritated-bored-300x175.jpg -- with example path above in windows powershell
 2. salloc to request resources: salloc --account escience --partition gpu-a40 --mem 64G -c 8 -n 1 --time 1:00:00 --gpus 2
+    salloc -A <lab> -p <node_type> -N <NUM_NODES> -c <NUM_CPUS> --mem=<MEM>[UNIT] --time=DD-HH:MM:SS
 3. run image query with llava:
     apptainer run \
 >     --nv \
@@ -104,3 +105,18 @@ You get:
 {"image": "/mmfs1/gscratch/escience/altan/view.jpg", "query": "What's unusual about this image?", "output": "The unusual aspect of this image is that the pier is located in the middle of a lake, rather than being near a shoreline or a river. This is not a typical setting for a pier, as piers are usually found near bodies of water like rivers, lakes, or oceans, where they provide access to the water for boats and other watercraft. The presence of a pier in the middle of a lake is an interesting and unexpected sight."}
 {"image": "/mmfs1/gscratch/escience/altan/view.jpg", "query": "Where is this image set?", "output": "This image is set at a pier or dock on a lake, with a mountain in the background."}
 ```
+
+
+
+Building apptainer defintion ** make sure using real path mmfs1/...
+
+ORDER:
+1. login
+2. go to directory using real path
+3. adjust scripts if needed
+4. use salloc to start session
+5. build a new container if needed
+    a. if getting mount error make sure APPTAINER_BIND and APPTAINER_BINDPATH are not environmental variable 'env'
+    b. use unset "" if exist in env
+6. run script
+
