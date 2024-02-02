@@ -137,7 +137,7 @@ class QuestionnaireApp:
         file_name = simpledialog.askstring("Save File", "Enter file name to \
                                            save responses:", parent=self.root)
         if file_name:
-            with open(os.path.join("data", file_name + ".txt"), "w") as file:
+            with open(os.path.join("rmet_modified_task/data", file_name + ".txt"), "w") as file:
                 for question, response in self.responses.items():
                     file.write(f"{question}: {response}\n")
             # Close the window after saving responses
@@ -162,7 +162,7 @@ if __name__ == "__main__":
     home_directory = os.path.expanduser("~")
 
     questions = read_questions(os.path.join(home_directory, 'Desktop'
-                               '\\eyes_emotion\\task_materials\\wordOptions.txt'))
+                               '\\Eyes-Mind-Model\\task_materials\\wordOptions.txt'))
 
     # Create the GUI application
     root = tk.Tk()
