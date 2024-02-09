@@ -352,9 +352,8 @@ if __name__ == "__main__":
     # Replace 'your_file_path_here.txt' with the path to your file
     # containing the words
     home_directory = os.path.expanduser("~")
-    
-    path_to_questions = os.path.join(home_directory, 'Desktop'
-                               '\\eyes_emotion\\task_materials\\wordOptions.txt')
+
+    path_to_questions = os.path.join(home_directory, 'Desktop\\eyes_emotion\\task_materials\\wordOptions.txt')
     questions = read_questions(path_to_questions)
 
     # Create the GUI application
