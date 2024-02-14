@@ -1,36 +1,36 @@
-Question 1: irritated
-Question 2: no response
-Question 3: no response
+Question 1: bored
+Question 2: upset
+Question 3: desire
 Question 4: no response
-Question 5: worried
-Question 6: no response
-Question 7: no response
-Question 8: no response
-Question 9: no response
-Question 10: no response
-Question 11: no response
-Question 12: no response
-Question 13: decisive
-Question 14: no response
-Question 15: contemplative
-Question 16: no response
+Question 5: irritated
+Question 6: fantasizing
+Question 7: uneasy
+Question 8: despondent
+Question 9: preoccupied
+Question 10: cautious
+Question 11: regretful
+Question 12: skeptical
+Question 13: anticipating
+Question 14: irritated
+Question 15: no response
+Question 16: thoughtful
 Question 17: doubtful
 Question 18: no response
-Question 19: arrogant
+Question 19: tentative
 Question 20: no response
-Question 21: no response
-Question 22: no response
-Question 23: no response
+Question 21: embarrassed
+Question 22: preoccupied
+Question 23: curious
 Question 24: no response
-Question 25: no response
-Question 26: no response
+Question 25: interested
+Question 26: alarmed
 Question 27: no response
-Question 28: no response
-Question 29: aghast
-Question 30: no response
-Question 31: dispirited
-Question 32: no response
-Question 33: no response
-Question 34: no response
-Question 35: no response
-Question 36: no response
+Question 28: interested
+Question 29: reflective
+Question 30: flirtatious
+Question 31: no response
+Question 32: serious
+Question 33: concerned
+Question 34: distrustful
+Question 35: nervous
+Question 36: suspicious
