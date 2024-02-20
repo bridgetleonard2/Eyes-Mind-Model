@@ -4,7 +4,7 @@ apptainer run \
     --bind llava_hyak/output:/container/output \
     --bind llava_hyak/scripts:/container/scripts \
     oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
-    /container/training_script/train_mem.py \
+    deepspeed /container/training_script/train_mem.py \
     --lora_enable True \
     --lora_r 128 \
     --lora_alpha 256 \
@@ -12,7 +12,7 @@ apptainer run \
     --deepspeed /container/scripts/zero3.json \
     --model_name_or_path liuhaotian/llava-v1.5-7b \
     --version v1 \
-    --data_path /container/data/llava_v1_5_mix665k.json \
+    --data_path /container/data/train_data.jsonl \
     --image_folder /container/data \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --mm_projector_type mlp2x_gelu \
@@ -41,3 +41,4 @@ apptainer run \
     --dataloader_num_workers 4 \
     --lazy_preprocess True \
     --report_to wandb
+    --cache_dir 
