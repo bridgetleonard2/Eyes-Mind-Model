@@ -1,8 +1,8 @@
 apptainer run \
-    -v llava_hyak/train:/container/training_script \
-    -v llava_hyak/playground/data:/container/data \
-    -v llava_hyak/output:/container/output \
-    -v llava_hyak/scripts:/container/scripts \
+    --bind llava_hyak/train:/container/training_script \
+    --bind llava_hyak/playground/data:/container/data \
+    --bind llava_hyak/output:/container/output \
+    --bind llava_hyak/scripts:/container/scripts \
     oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
     /container/training_script \
     --lora_enable True \
