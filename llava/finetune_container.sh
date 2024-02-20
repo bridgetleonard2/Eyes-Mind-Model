@@ -4,13 +4,13 @@ apptainer run \
     --bind llava_hyak/output:/container/output \
     --bind llava_hyak/scripts:/container/scripts \
     oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
-    /container/training_script \
+    /container/training_script/train_mem.py \
     --lora_enable True \
     --lora_r 128 \
     --lora_alpha 256 \
     --mm_projector_lr 2e-5 \
     --deepspeed /container/scripts/zero3.json \
-    --model_name_or_path liuhaotian/llava-v1.5-13b \
+    --model_name_or_path liuhaotian/llava-v1.5-7b \
     --version v1 \
     --data_path /container/data/llava_v1_5_mix665k.json \
     --image_folder /container/data \
@@ -36,7 +36,6 @@ apptainer run \
     --warmup_ratio 0.03 \
     --lr_scheduler_type "cosine" \
     --logging_steps 1 \
-    --tf32 True \
     --model_max_length 2048 \
     --gradient_checkpointing True \
     --dataloader_num_workers 4 \
