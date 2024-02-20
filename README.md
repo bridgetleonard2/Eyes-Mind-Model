@@ -24,17 +24,7 @@ The RMET presents a significant challenge in understanding human emotions, a tas
 
 Through this project, we observed a **% increase in performance in the LLava model, post fine-tuning on a dataset of *n-size*.
 
-## Installation
-
-To set up this project locally, follow these steps:
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-# Instructions for setting up a virtual environment (if applicable)
-# Additional installation instructions
-```
-
 ## Results
+**In progress**
 
 ## Acknowledgements
