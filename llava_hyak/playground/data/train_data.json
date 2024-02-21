@@ -1,7 +1,7 @@
 [
     {
       "id": "01",
-      "image": "01-playful.jpg",
+      "image": "playful.jpg",
       "conversations": [
         {
           "from": "human",
@@ -15,7 +15,7 @@
     },
     {
         "id": "02",
-        "image": "02-comforting.jpg",
+        "image": "comforting.jpg",
         "conversations": [
           {
             "from": "human",
