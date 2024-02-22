@@ -23,9 +23,121 @@
             },
             {
                 "model": "llava-v1.5-13b-task-lora",
-                "response": "The person in the image appears to be feeling relaxed and content, as they are sitting comfortably in a chair with their hands resting on their face, and their eyes are closed. This posture and facial expression suggest that they might be experiencing a sense of calmness, tranquility, or even daydreaming. It is also possible that they are simply taking a break from their daily activities and enjoying a moment of rest."
+                "response": "The person in the image appears to be feeling or thinking something serious or contemplative, as they are looking off into the distance with a neutral facial expression and their arms crossed. This body language can be interpreted as a sign of deep thought, concentration, or even a sense of detachment from the immediate surroundings. It is not uncommon for people to adopt this posture when they are trying to process complex information, make important decisions, or engage in introspection. However, without more context or information about the individual's facial expression or other non-verbal cues, it is difficult to pinpoint the exact emotion or thought process they might be experiencing."
             }
         ]
     },
+    {
+        "id" : "sarcastic",
+        "image": "test3.jpg",
+        "results": [
+            {
+                "model": "llava-v1.5-13b",
+                "response": ""
+            },
+            {
+                "model": "llava-v1.5-13b-task-lora",
+                "response": "The person in the image appears to be feeling or thinking about something that is not immediately apparent. Their facial expression is neutral, and their eyes are not focused on a specific point or object, which can suggest that they are in a state of contemplation or deep thought. Additionally, their body language, such as the relaxed posture and the slight tilt of the head, can also indicate that they are engaged in introspection or considering a complex issue. However, without more context or information, it is difficult to pinpoint the exact topic or emotion they might be experiencing."
+            }
+        ]
+    },
+    {
+        "id" : "guilty",
+        "image": "test4.jpg",
+        "results": [
+            {
+                "model": "llava-v1.5-13b",
+                "response": ""
+            },
+            {
+                "model": "llava-v1.5-13b-task-lora",
+                "response": "The person in the image appears to be feeling or thinking about something that is causing them concern or worry. Their facial expression, which includes furrowed brows, a slight frown, and a slightly downward gaze, often indicates that they are deep in thought or contemplating a problem. Additionally, their hands are clasped together, which can be a sign of anxiety or stress. Overall, the combination of facial expression and body language suggests that the person might be experiencing some level of concern or worry."
+            }
+        ]
+    },
+    {
+        "id" : "contented",
+        "image": "test5.jpg",
+        "results": [
+            {
+                "model": "llava-v1.5-13b",
+                "response": ""
+            },
+            {
+                "model": "llava-v1.5-13b-task-lora",
+                "response": "The person in the image appears to be feeling or thinking about something that is making them smile or feel content. Their facial expression, which includes a slight smile and a relaxed posture, suggests that they are experiencing positive emotions or thoughts. This could be due to a variety of reasons, such as receiving good news, engaging in a pleasant conversation, or simply enjoying a moment of happiness or relaxation. The fact that they are looking up and not directly at the camera also indicates that their attention is directed towards something outside of the frame, which might be the source of their positive emotions or thoughts."
+            }
+        ]
+    },
+    {
+        "id" : "concerned",
+        "image": "test6.jpg",
+        "results": [
+            {
+                "model": "llava-v1.5-13b",
+                "response": ""
+            },
+            {
+                "model": "llava-v1.5-13b-task-lora",
+                "response": "The person in the image appears to be deep in thought or contemplation. Their facial expression, with a furrowed brow and a slightly downward gaze, suggests that they are concentrating on something important or trying to make a decision. Additionally, their hand resting on their chin is a common gesture associated with thoughtfulness or contemplation. Overall, the person's body language and facial expression convey a sense of seriousness and introspection."
+            }
+        ]
+    },
+    {
+        "id" : "excited",
+        "image": "test7.jpg",
+        "results": [
+            {
+                "model": "llava-v1.5-13b",
+                "response": ""
+            },
+            {
+                "model": "llava-v1.5-13b-task-lora",
+                "response": "The person in the image appears to be feeling or thinking about something that is surprising, unexpected, or possibly unpleasant. Their facial expression, with a wide-eyed gaze and raised eyebrows, suggests that they are reacting to something that has caught their attention or caused a sudden change in their emotional state. The fact that they are making a face and looking directly at the camera also implies that they are trying to communicate their reaction or emotion to the viewer. However, without more context or information, it is difficult to pinpoint the exact cause of their reaction or the nature of their thoughts."
+            }
+        ]
+    },
+    {
+        "id" : "baffled",
+        "image": "test8.jpg",
+        "results": [
+            {
+                "model": "llava-v1.5-13b",
+                "response": ""
+            },
+            {
+                "model": "llava-v1.5-13b-task-lora",
+                "response": "The person in the image appears to be feeling or thinking deeply, possibly contemplating or reflecting on something. Their facial expression, with a slight furrow in the brow and a neutral or slightly downward gaze, can be interpreted as a sign of concentration or introspection. The eyes are not wide open, which might suggest a more introspective or focused state of mind. However, it is important to note that interpreting emotions and thoughts from facial expressions can be subjective and may not always accurately convey the person's true feelings or thoughts."
+            }
+        ]
+    },
+    {
+        "id" : "flustered",
+        "image": "test9.jpg",
+        "results": [
+            {
+                "model": "llava-v1.5-13b",
+                "response": ""
+            },
+            {
+                "model": "llava-v1.5-13b-task-lora",
+                "response": "The person in the image appears to be feeling or thinking deeply, as they are looking upwards with a contemplative expression on their face. Their hand is on their chin, which is a gesture often associated with deep thought or concentration. Additionally, they are wearing glasses, which can sometimes be associated with intellectual or analytical individuals. Overall, the combination of these visual cues suggests that the person might be engaged in a thoughtful or reflective process."
+            }
+        ]
+    },
+    {
+        "id" : "sympathetic",
+        "image": "test10.jpg",
+        "results": [
+            {
+                "model": "llava-v1.5-13b",
+                "response": ""
+            },
+            {
+                "model": "llava-v1.5-13b-task-lora",
+                "response": "The person in the image appears to be feeling or thinking about something with a sense of contemplation or introspection. Their eyes are slightly squinted, and their eyebrows are slightly furrowed, which can be indicative of deep thought or concentration. Additionally, the person's facial expression is neutral, which might suggest that they are not experiencing strong emotions at the moment. Overall, the person's facial expression and body language convey a sense of calm and focused attention to something, which could be related to their thoughts or feelings."
+            }
+        ]
+    }
 ]
 
