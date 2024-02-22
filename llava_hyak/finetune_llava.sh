@@ -2,7 +2,7 @@
 
 apptainer run --nv \
     --bind llava_hyak/train:/container/training_script \
-    --bind llava_hyak/playground/data:/container/data \
+    --bind llava_hyak/dataset:/container/dataset \
     --bind llava_hyak/output:/container/output \
     --bind llava_hyak/scripts:/container/scripts \
     oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
@@ -14,8 +14,9 @@ apptainer run --nv \
     --deepspeed /container/scripts/zero3.json \
     --model_name_or_path liuhaotian/llava-v1.5-13b \
     --version v1 \
-    --data_path /container/data/train_data.jsonl \
-    --image_folder /container/data \
+    --data_path /container/dataset/train/train_data.json \
+    --validation_data_path /container/dataset/validation/val_data.json \
+    --image_folder /container/dataset/images \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --mm_projector_type mlp2x_gelu \
     --mm_vision_select_layer -2 \
@@ -25,7 +26,7 @@ apptainer run --nv \
     --group_by_modality_length True \
     --bf16 True \
     --output_dir /container/output/checkpoints/llava-v1.5-13b-task-lora \
-    --num_train_epochs 1 \
+    --num_train_epochs 20 \
     --per_device_train_batch_size 16 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 1 \
