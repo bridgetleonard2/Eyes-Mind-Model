@@ -1,1 +1,12 @@
 ai_results/gpt4/chatgpt.py
+llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora/adapter_model.bin
+llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora/non_lora_trainables.bin
+
+llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora-v1.1/adapter_model.bin
+llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora-v1.1/non_lora_trainables.bin
+
+llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora-v1.2/adapter_model.bin
+llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora-v1.2/non_lora_trainables.bin
+
+llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora-v1.3/adapter_model.bin
+llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora-v1.3/non_lora_trainables.bin
