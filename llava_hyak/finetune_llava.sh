@@ -26,7 +26,7 @@ apptainer run --nv \
     --group_by_modality_length True \
     --bf16 True \
     --output_dir /container/output/checkpoints/llava-v1.5-13b-task-lora \
-    --num_train_epochs 20 \
+    --num_train_epochs 5 \
     --per_device_train_batch_size 16 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 1 \
