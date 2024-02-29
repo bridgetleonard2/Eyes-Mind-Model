@@ -27,7 +27,7 @@ Through this project, we observed a **% increase in performance in the LLava mod
 ## Results
 ### Fine-Tuning
 We fine tuned the model on a dataset created using image caption pairs from Adobe Firefly and GPT-4 vision. We trained 4 different instances using different numbers of epochs:
-<img src="/llava_hyak/output/trainloss.png" width="650" alt="Training Loss over Epochs"/>
+<img src="/llava_hyak/output/trainloss.png" width="550" alt="Training Loss over Epochs"/>
 <img src="/llava_hyak/output/evalloss.png" width="450" alt="Evaluation Loss over Epochs"/>
 
 ## Acknowledgements
