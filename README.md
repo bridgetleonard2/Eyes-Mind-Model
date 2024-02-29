@@ -30,7 +30,7 @@ We fine tuned the model on a dataset created using image caption pairs from Adob
 <div align="center">
   <br>
   <img src="/llava_hyak/output/trainloss.png" width="450" alt="Training Loss over Epochs"/>
-  <img src="/llava_hyak/output/evalloss.png" width="350" alt="Evaluation Loss over Epochs"/>
+  <img src="/llava_hyak/output/evalloss.png" width="450" alt="Evaluation Loss over Epochs"/>
 </div>
 
 ## Acknowledgements
