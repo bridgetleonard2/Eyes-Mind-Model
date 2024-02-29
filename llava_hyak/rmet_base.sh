@@ -30,43 +30,11 @@ for ((i = 0; i < ${#questions[@]}; i++)); do
     apptainer run \
     --bind llava_hyak/output:/container/output \
     --bind llava_hyak/rmet_materials:/container/rmet_materials \
-    oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
+    oras://ghcr.io/uw-psych/llava-container/llava-container:latest \
     llava-run \
     --model-path liuhaotian/llava-v1.5-13b \
     --query "$prompt" \
     --image-file "$image_path" \
     | tail -n 1 \
-    | tee -a llava_hyak/rmet_results/rmet_base-1.txt # "tee" writes the output to output.json while also printing it on the screen
+    | tee -a llava_hyak/rmet_results/rmet_base-2.txt # "tee" writes the output to output.json while also printing it on the screen
 done
-
-# Report number correct
-answers=()
-
-while IFS= read -r line; do
-  answers+=("$line")
-done < "llava_hyak/rmet_materials/answers.txt"
-
-results=()
-
-while IFS= read -r line; do
-  results+=("$line")
-done < "rmet_results/rmet_base-1.txt"
-
-# Get the length of the arrays
-length=${#results[@]}
-
-counter=0
-
-# Loop through each index of the arrays
-for ((i=0; i<length; i++)); do
-    # Convert both elements to lowercase
-    elem1="${results[i],,}"
-    elem2="${answers[i],,}"
-
-    # Compare the elements
-    if [ "$elem1" == "$elem2" ]; then
-        ((counter+=1))
-    fi
-done
-
-echo $counter
