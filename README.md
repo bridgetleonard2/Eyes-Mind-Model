@@ -25,7 +25,10 @@ The RMET presents a significant challenge in understanding human emotions, a tas
 Through this project, we observed a **% increase in performance in the LLava model, post fine-tuning on a dataset of *n-size*.
 
 ## Results
-**In progress**
+### Fine-Tuning
+We fine tuned the model on a dataset created using image caption pairs from Adobe Firefly and GPT-4 vision. We trained 4 different instances using different numbers of epochs:
+<img src="/llava_hyak/output/trainloss.png" alt="Training Loss over Epochs"/>
+<img src="/llava_hyak/output/evalloss.png" alt="Evaluation Loss over Epochs"/>
 
 ## Acknowledgements
 Baron-Cohen, S., Jolliffe, T., Mortimore, C., & Robertson, M. (1997). Another advanced test of theory of mind: evidence from very high functioning adults with autism or asperger syndrome. Journal of child psychology and psychiatry, and allied disciplines, 38(7), 813–822. https://doi.org/10.1111/j.1469-7610.1997.tb01599.x
