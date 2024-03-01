@@ -1,4 +1,14 @@
 #!/bin/bash
+# Start by clearing cache
+rm -R .cache/huggingface
+
+# Set up cache directories:
+export APPTAINER_CACHEDIR="/gscratch/scrubbed/${USER}/.cache/apptainer"
+export HUGGINGFACE_HUB_CACHE="/gscratch/scrubbed/${USER}/.cache/huggingface"
+mkdir -p "${APPTAINER_CACHEDIR}" "${HUGGINGFACE_HUB_CACHE}"
+
+# Set up Apptainer:
+export APPTAINER_BIND=/gscratch APPTAINER_WRITABLE_TMPFS=1 APPTAINER_NV=1
 
 # Define questions for the task
 questions=()
@@ -27,7 +37,7 @@ for ((i = 0; i < ${#questions[@]}; i++)); do
     image_path="$directory/${image_files[i]}"
     echo "$image_path"
 
-    apptainer run \
+    output=$(apptainer run \
     --bind llava_hyak/output:/container/output \
     --bind llava_hyak/rmet_materials:/container/rmet_materials \
     oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
@@ -35,39 +45,11 @@ for ((i = 0; i < ${#questions[@]}; i++)); do
     --model-path /container/output/checkpoints/llava-v1.5-13b-task-lora-v1.3 \
     --model-base liuhaotian/llava-v1.5-13b \
     --query "$prompt" \
-    --image-file "$image_path" \
-    | tail -n 1 \
-    | tee -a llava_hyak/rmet_results/rmet_v1-3.txt # "tee" writes the output to output.json while also printing it on the screen
+    --image-file "$image_path" 2>&1)
+
+    # Print the entire output to the screen
+    echo "$output"
+
+    # Append only the last line of the output to the file
+    echo "$output" | tail -n 1 | tee -a llava_hyak/rmet_results/rmet_1ep-4.txt
 done
-
-# Report number correct
-answers=()
-
-while IFS= read -r line; do
-  answers+=("$line")
-done < "llava_hyak/rmet_materials/answers.txt"
-
-results=()
-
-while IFS= read -r line; do
-  results+=("$line")
-done < "rmet_results/rmet_v1-3.txt"
-
-# Get the length of the arrays
-length=${#results[@]}
-
-counter=0
-
-# Loop through each index of the arrays
-for ((i=0; i<length; i++)); do
-    # Convert both elements to lowercase
-    elem1="${results[i],,}"
-    elem2="${answers[i],,}"
-
-    # Compare the elements
-    if [ "$elem1" == "$elem2" ]; then
-        ((counter+=1))
-    fi
-done
-
-echo $counter
