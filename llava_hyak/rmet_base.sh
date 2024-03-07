@@ -30,7 +30,8 @@ done
 
 # Assuming both arrays have the same length
 for ((i = 0; i < ${#questions[@]}; i++)); do
-    prompt="Choose which word best describes what the person in the picture is thinking or feeling based on just their eyes alone. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 4 choices are: ${questions[i]}"
+    readarray -t shuffled_questions < <(printf "%s\n" "${questions[i]}" | shuf) 
+    prompt="Choose which word best describes what the person in the picture is thinking or feeling based on just their eyes alone. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 4 choices are: ${shuffled_questions[*]}"
     echo "$prompt"
 
     image_path="$directory/${image_files[i]}"
