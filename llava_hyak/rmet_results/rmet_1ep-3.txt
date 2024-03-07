@@ -14,7 +14,7 @@ skeptical
 shy
 depressed
 contemplative
-sympathetic
+thoughtful
 aghast
 amused
 tentative
@@ -24,12 +24,12 @@ preoccupied
 curious
 pensive
 interested
-anxious
+alarmed
 reassuring
 interested
 reflective
 disappointed
-ashamed
+confident
 serious
 concerned
 baffled
