@@ -9,7 +9,7 @@ uneasy
 despondent
 horrified
 cautious
-terrified
+regretful
 skeptical
 threatening
 accusing
@@ -18,7 +18,7 @@ sympathetic
 doubtful
 aghast
 tentative
-dominant
+guilty
 confused
 insisting
 curious
@@ -30,8 +30,8 @@ interested
 reflective
 flirtatious
 confident
-ashamed
+serious
 concerned
 distrustful
-contemplative
+puzzled
 suspicious
