@@ -1,7 +1,7 @@
-llava_7ep-2
+llava_7ep-5
 comforting
 upset
-desire
+convinced
 insisting
 worried
 alarmed
@@ -9,7 +9,7 @@ uneasy
 despondent
 preoccupied
 cautious
-terrified
+regretful
 skeptical
 shy
 accusing
@@ -28,8 +28,8 @@ anxious
 reassuring
 interested
 reflective
-disappointed
-ashamed
+flirtatious
+confident
 ashamed
 concerned
 distrustful
