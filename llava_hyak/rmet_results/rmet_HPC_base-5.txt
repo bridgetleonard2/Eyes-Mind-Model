@@ -1,7 +1,7 @@
-llava_HPC_base-4
-playful
+llava_HPC_base-5
+bored
 upset
-convinced
+joking
 insisting
 worried
 aghast
@@ -14,7 +14,7 @@ skeptical
 shy
 depressed
 contemplative
-thoughtful
+sympathetic
 aghast
 amused
 tentative
@@ -23,10 +23,10 @@ confused
 preoccupied
 curious
 pensive
-panicked
+despondent
 alarmed
 reassuring
-contented
+interested
 reflective
 flirtatious
 confident
