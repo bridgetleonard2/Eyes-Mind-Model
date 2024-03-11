@@ -1,7 +1,7 @@
-llava_base-2
+llava_HPC_base-2
 bored
-upset
-convinced
+annoyed
+joking
 insisting
 worried
 alarmed
@@ -9,12 +9,12 @@ uneasy
 despondent
 preoccupied
 cautious
-terrified
+regretful
 skeptical
 shy
 depressed
 contemplative
-sympathetic
+thoughtful
 aghast
 amused
 tentative
@@ -23,7 +23,7 @@ confused
 preoccupied
 curious
 pensive
-interested
+panicked
 alarmed
 reassuring
 interested
