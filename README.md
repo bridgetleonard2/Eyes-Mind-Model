@@ -22,7 +22,7 @@ The RMET presents a significant challenge in understanding human emotions, a tas
 3. Fine-tune the LLava model using image-caption pairs related to various emotions.
 4. Evaluate the improvement in LLava's performance post fine-tuning.
 
-Through this project, we observed a **% increase in performance in the LLava model, post fine-tuning on a dataset of *n-size*.
+Through this project, we observed a **% increase in performance in the LLava model, post fine-tuning on a 84 KB dataset (77 items).
 
 ## Results
 ### Fine-Tuning
