@@ -40,7 +40,7 @@ We saw an increase of performance of the fine tuned models on the RMET task. Spe
   <img src="/llava_hyak/output/ft_performance.png" width="500" alt="Increase in performance over epochs"/>
 </div>
 
-
+<br>
 The performance of the 5 and 7 epoch fine tuned models often met the lower threshold of average human performance (star data points), and approached the performance of gpt-4 compared to the base model. 
 <div align="center">
   <br>
