@@ -37,7 +37,7 @@ We fine tuned the model on a dataset created using image caption pairs from Adob
 We saw an increase of performance of the fine tuned models on the RMET task. Specifically the models trained with 5 and 7 epochs saw a 12% increase in performance on the task.
 <div align="center">
   <br>
-  <img src="/llava_hyak/output/ft_performance.png" width="800" alt="Increase in performance over epochs"/>
+  <img src="/llava_hyak/output/ft_performance.png" width="500" alt="Increase in performance over epochs"/>
 </div>
 
 The performance of the 5 and 7 epoch fine tuned models often met the lower threshold of average human performance (star data points), and approached the performance of gpt-4 compared to the base model. 
