@@ -33,5 +33,12 @@ We fine tuned the model on a dataset created using image caption pairs from Adob
   <img src="/llava_hyak/output/evalloss.png" width="500" alt="Evaluation Loss over Epochs"/>
 </div>
 
+### RMET Performance
+We saw an increase of performance of the fine tuned models on the RMET task. Specifically the models trained with 5 and 7 epochs saw a 12% increase in performance on the task.
+<img src="/llava_hyak/output/ft_performance.png" width="500" alt="Increase in performance over epochs"/>
+
+The performance of the 5 and 7 epoch fine tuned models often met the lower threshold of average human performance (star data points), and approached the performance of gpt-4 compared to the base model. 
+<img src="/llava_hyak/output/ft_compare.png" width="500" alt="Comparing model performance"/>
+
 ## Acknowledgements
 Baron-Cohen, S., Jolliffe, T., Mortimore, C., & Robertson, M. (1997). Another advanced test of theory of mind: evidence from very high functioning adults with autism or asperger syndrome. Journal of child psychology and psychiatry, and allied disciplines, 38(7), 813–822. https://doi.org/10.1111/j.1469-7610.1997.tb01599.x
