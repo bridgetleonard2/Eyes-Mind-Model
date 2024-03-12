@@ -47,5 +47,14 @@ The performance of the 5 and 7 epoch fine tuned models often met the lower thres
   <img src="/llava_hyak/output/ft_compare.png" width="800" alt="Comparing model performance"/>
 </div>
 
+### Model Determinism
+We defined if our model's were deterministic by measuring the cosine similarity between the outputs of each model's 5 runs.
+<div align="center">
+  <br>
+  <img src="/llava_hyak/output/deterministic.png" width="500" alt="Model determinism"/>
+  <br>
+</div>
+Interestingly, although the model fine-tuned with 5 epochs had similar overall performance as the 7 epoch model, we saw that the 5 epoch model gave more varying responses. This flexibility could either benefit model performance to greater than the 7 epoch model or make it fall short of it.
+
 ## Acknowledgements
 Baron-Cohen, S., Jolliffe, T., Mortimore, C., & Robertson, M. (1997). Another advanced test of theory of mind: evidence from very high functioning adults with autism or asperger syndrome. Journal of child psychology and psychiatry, and allied disciplines, 38(7), 813–822. https://doi.org/10.1111/j.1469-7610.1997.tb01599.x
