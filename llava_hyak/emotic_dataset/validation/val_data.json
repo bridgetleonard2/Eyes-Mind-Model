@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "2425",
+    "image": "COCO_train2014_000000442506[172,142,313,338].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disconnection, Engagement, Excitement, Happiness, Peace, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "1803",
+    "image": "frame_2v72rm3ir4lgiz7l[299,87,406,338].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disconnection, Disquietment, Doubt/Confusion, Engagement, Excitement, Happiness, Pain, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "240",
+    "image": "COCO_train2014_000000392087[389,64,620,419].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Disconnection, Disquietment, Engagement, Fatigue"
+      }
+    ]
+  },
+  {
+    "id": "2553",
+    "image": "COCO_train2014_000000223216[245,109,396,340].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disconnection, Engagement, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "1029",
+    "image": "frame_ff6ub5iu0u6q11yq[198,229,311,526].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Engagement, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "2376",
+    "image": "COCO_train2014_000000137332[109,180,353,391].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "527",
+    "image": "COCO_val2014_000000031471[325,110,514,418].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Confidence, Engagement, Excitement, Happiness, Peace, Pleasure, Surprise"
+      }
+    ]
+  },
+  {
+    "id": "1667",
+    "image": "COCO_train2014_000000278697[141,32,312,382].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Confidence, Engagement, Esteem, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "3304",
+    "image": "frame_bj5qbd9zjux0ta4k[481,49,598,451].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anger, Anticipation, Confidence, Engagement, Excitement, Fear, Sensitivity"
+      }
+    ]
+  },
+  {
+    "id": "3150",
+    "image": "COCO_train2014_000000575049[194,54,586,474].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Excitement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2251",
+    "image": "COCO_train2014_000000255983[118,157,235,402].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Annoyance, Anticipation, Confidence, Disconnection, Disquietment, Doubt/Confusion, Embarrassment, Engagement, Fatigue"
+      }
+    ]
+  },
+  {
+    "id": "321",
+    "image": "COCO_train2014_000000523641[57,68,516,465].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disconnection, Disquietment, Engagement, Happiness, Peace, Sensitivity"
+      }
+    ]
+  },
+  {
+    "id": "2623",
+    "image": "frame_9s888iqtrd3v9s40[883,380,1276,1099].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "829",
+    "image": "COCO_train2014_000000047189[85,101,240,327].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "2414",
+    "image": "COCO_train2014_000000385661[92,194,261,408].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Sensitivity, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "2367",
+    "image": "frame_8h6ethm0i6kfifjf[22,85,105,192].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Aversion, Disconnection, Engagement, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "354",
+    "image": "frame_gxvu6rgtprnbptcd[21,54,218,521].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Engagement, Pain, Sadness, Suffering, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "809",
+    "image": "COCO_train2014_000000332133[142,190,323,379].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "1509",
+    "image": "COCO_val2014_000000240495[339,67,479,456].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Annoyance, Anticipation, Disapproval, Disconnection, Engagement, Pain"
+      }
+    ]
+  },
+  {
+    "id": "1609",
+    "image": "COCO_val2014_000000199771[370,66,565,363].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Happiness, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "239",
+    "image": "COCO_train2014_000000425917[363,239,519,466].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "1359",
+    "image": "frame_1awcnwmu1c1kxu7z[182,52,427,354].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Doubt/Confusion, Engagement, Esteem, Pain, Peace, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "2493",
+    "image": "COCO_train2014_000000581065[33,36,107,193].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disquietment, Engagement, Esteem, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "3033",
+    "image": "COCO_train2014_000000442364[183,68,277,335].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Doubt/Confusion, Engagement, Excitement, Happiness, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "463",
+    "image": "COCO_train2014_000000078609[291,163,441,370].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "1376",
+    "image": "COCO_train2014_000000556698[104,129,288,403].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Engagement, Excitement, Happiness, Peace, Pleasure, Surprise, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "203",
+    "image": "COCO_train2014_000000443243[151,90,448,374].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Engagement, Excitement, Fatigue, Happiness, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "194",
+    "image": "COCO_train2014_000000057684[233,52,470,367].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Engagement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "1084",
+    "image": "COCO_val2014_000000089210[282,83,465,332].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Confidence, Engagement, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "2515",
+    "image": "frame_3h03tyyukb98lfxz[8,17,139,334].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Doubt/Confusion, Engagement, Fatigue, Sadness, Suffering"
+      }
+    ]
+  },
+  {
+    "id": "314",
+    "image": "COCO_val2014_000000124013[25,27,148,416].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Excitement, Happiness, Pleasure, Surprise"
+      }
+    ]
+  },
+  {
+    "id": "790",
+    "image": "COCO_train2014_000000099062[224,87,401,419].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Confidence, Engagement, Excitement, Happiness, Peace, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "139",
+    "image": "COCO_train2014_000000484899[226,27,383,416].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disquietment, Engagement, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "2872",
+    "image": "COCO_train2014_000000267851[93,170,276,485].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Happiness, Peace, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "602",
+    "image": "COCO_val2014_000000156246[366,160,613,625].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Excitement, Happiness, Peace, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "291",
+    "image": "COCO_train2014_000000397619[120,59,298,296].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Esteem, Excitement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "image": "COCO_train2014_000000457476[233,135,348,407].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disconnection, Engagement, Happiness, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "1641",
+    "image": "207k8th80nzl684o8g[146,93,224,231].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Engagement, Excitement, Happiness, Peace, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "2274",
+    "image": "COCO_train2014_000000143637[15,191,230,479].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "611",
+    "image": "b68ln6vsad6w9g9wyz[223,22,300,208].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Confidence, Disapproval, Engagement, Excitement, Happiness, Pleasure, Surprise"
+      }
+    ]
+  },
+  {
+    "id": "1397",
+    "image": "COCO_train2014_000000173448[392,133,506,499].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Confidence, Engagement, Excitement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "1666",
+    "image": "COCO_train2014_000000278697[276,27,481,384].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Happiness, Peace"
+      }
+    ]
+  },
+  {
+    "id": "2942",
+    "image": "frame_78f9qfs131fgh21s[1990,907,2545,1967].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "761",
+    "image": "frame_38letayfmgvq3oc3[32,209,473,865].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Annoyance, Confidence, Disconnection, Engagement, Excitement, Fatigue, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "1213",
+    "image": "COCO_val2014_000000097946[170,250,305,456].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Fatigue, Fear, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "2369",
+    "image": "frame_8h6ethm0i6kfifjf[328,73,399,164].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Confidence, Engagement, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "1717",
+    "image": "COCO_train2014_000000284307[217,143,334,422].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "322",
+    "image": "COCO_train2014_000000550140[146,113,374,421].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anger, Annoyance, Anticipation, Aversion, Confidence, Disapproval, Disquietment, Engagement, Esteem, Excitement, Fear, Peace, Sensitivity, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "1659",
+    "image": "2hhyuhixq2bssn3go4[33,46,178,201].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2654",
+    "image": "COCO_train2014_000000496556[178,48,326,436].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Disquietment, Engagement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "134",
+    "image": "COCO_train2014_000000278494[57,16,525,421].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disconnection, Engagement, Peace"
+      }
+    ]
+  },
+  {
+    "id": "1905",
+    "image": "bgaffdfr0iyu9p1yxe[58,18,443,501].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Embarrassment, Engagement, Excitement, Happiness, Surprise, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2534",
+    "image": "frame_kbefjvukzahqqj2a[543,480,603,682].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Doubt/Confusion, Engagement, Peace"
+      }
+    ]
+  },
+  {
+    "id": "1551",
+    "image": "frame_9k6z6dvb9jmczjs0[505,580,1066,1599].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "image": "COCO_train2014_000000556569[123,204,230,378].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disapproval, Disconnection, Disquietment, Engagement, Peace"
+      }
+    ]
+  },
+  {
+    "id": "501",
+    "image": "COCO_train2014_000000291889[49,145,220,426].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Engagement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "2702",
+    "image": "frame_d8qhf19pemmpkdin[96,47,700,587].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "937",
+    "image": "frame_liaawqhu859i16r6[191,137,304,452].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Disquietment, Engagement, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "1611",
+    "image": "frame_datfpbrlaqg6xpih[257,5,513,270].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Fear"
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "image": "COCO_train2014_000000055903[284,193,471,441].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Excitement, Happiness, Peace, Surprise"
+      }
+    ]
+  },
+  {
+    "id": "2473",
+    "image": "frame_6gmtv0nc9klfzvn8[359,1,399,48].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Aversion, Confidence, Disapproval, Disconnection, Engagement, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "2127",
+    "image": "COCO_train2014_000000301712[369,26,534,421].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Esteem, Excitement, Surprise"
+      }
+    ]
+  },
+  {
+    "id": "1689",
+    "image": "COCO_train2014_000000508382[28,9,176,372].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "1477",
+    "image": "COCO_train2014_000000488487[14,239,166,450].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Embarrassment, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "3074",
+    "image": "COCO_train2014_000000291207[55,98,329,474].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Happiness, Peace"
+      }
+    ]
+  },
+  {
+    "id": "1725",
+    "image": "COCO_train2014_000000077873[428,198,550,437].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Disconnection, Engagement, Excitement, Happiness, Pleasure, Surprise, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "3080",
+    "image": "frame_86eeu6a6c2tdgfsw[88,32,242,299].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "3151",
+    "image": "COCO_train2014_000000204275[175,73,373,252].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "1921",
+    "image": "COCO_train2014_000000478311[220,92,390,225].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "838",
+    "image": "COCO_train2014_000000012501[390,25,488,334].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disconnection, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "2115",
+    "image": "efazjbxquvu5z89euq[142,89,427,425].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Disquietment, Pain, Sadness, Suffering"
+      }
+    ]
+  },
+  {
+    "id": "387",
+    "image": "COCO_val2014_000000170974[269,72,616,474].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disconnection, Engagement, Excitement, Happiness, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2782",
+    "image": "frame_2fywuapd7f31kzij[67,84,638,918].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Engagement, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "image": "COCO_train2014_000000393675[112,160,223,406].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "1271",
+    "image": "COCO_train2014_000000439402[64,104,174,356].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "2672",
+    "image": "COCO_train2014_000000205931[91,23,428,422].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Peace"
+      }
+    ]
+  },
+  {
+    "id": "3247",
+    "image": "COCO_train2014_000000236650[376,69,464,396].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Peace, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "image": "COCO_train2014_000000309552[371,48,494,351].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "1497",
+    "image": "sun_azfypkzxpsjqyfls[865,344,1063,806].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Doubt/Confusion, Engagement, Excitement, Fear, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "2748",
+    "image": "COCO_train2014_000000539682[315,110,478,374].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Excitement, Happiness, Peace, Pleasure, Surprise, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "325",
+    "image": "COCO_train2014_000000442103[217,10,440,419].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement, Happiness, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2687",
+    "image": "COCO_train2014_000000177726[388,140,564,355].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "1454",
+    "image": "COCO_train2014_000000307884[334,209,598,480].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Confidence, Engagement, Excitement, Happiness, Peace, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "718",
+    "image": "COCO_train2014_000000485163[35,76,378,326].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "2607",
+    "image": "frame_04k5bkasnserpds7[1383,641,1736,1526].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Excitement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "478",
+    "image": "frame_4ofs92m3rzckkr3s[309,107,377,245].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Annoyance, Anticipation, Disquietment, Engagement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "817",
+    "image": "frame_1lnp4dh222wanywj[1946,438,2366,1700].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "1437",
+    "image": "COCO_train2014_000000495712[14,33,307,517].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Peace, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "1406",
+    "image": "COCO_train2014_000000001586[187,100,334,367].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Disconnection, Disquietment, Engagement, Peace"
+      }
+    ]
+  },
+  {
+    "id": "1777",
+    "image": "frame_ipdrnqshvo5znsg9[345,134,514,570].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disconnection, Engagement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "3279",
+    "image": "frame_bt7orxy7vlfhc9vp[169,82,436,316].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Happiness, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "479",
+    "image": "frame_4ofs92m3rzckkr3s[277,114,318,224].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Esteem, Excitement, Sadness"
+      }
+    ]
+  },
+  {
+    "id": "1323",
+    "image": "COCO_train2014_000000469545[175,103,337,405].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "2353",
+    "image": "frame_bthh4xwqqs1orb33[446,68,592,199].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Aversion, Disquietment, Engagement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "170",
+    "image": "COCO_train2014_000000091595[366,144,599,461].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement, Pleasure, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "image": "COCO_train2014_000000455366[115,106,391,466].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Esteem, Excitement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2632",
+    "image": "COCO_train2014_000000291764[221,139,469,369].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "439",
+    "image": "COCO_train2014_000000579136[386,115,517,329].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "93",
+    "image": "COCO_train2014_000000080246[144,162,255,309].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anger, Anticipation, Confidence, Disapproval, Doubt/Confusion, Engagement, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "449",
+    "image": "COCO_val2014_000000094046[152,108,466,551].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement, Pleasure, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "2087",
+    "image": "COCO_val2014_000000177953[30,188,215,433].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2298",
+    "image": "COCO_train2014_000000531894[62,14,205,259].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "3168",
+    "image": "COCO_train2014_000000086549[154,104,394,444].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "3031",
+    "image": "COCO_train2014_000000069675[309,44,564,473].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Confidence, Engagement, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2283",
+    "image": "frame_l2x996idf16h8x85[1,45,176,442].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Confidence, Engagement, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "599",
+    "image": "COCO_train2014_000000290946[95,269,233,590].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "229",
+    "image": "frame_bdwaj4ikqht9trjj[331,540,513,872].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Engagement, Excitement, Fear, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "1833",
+    "image": "sun_acscizucryhwlsjo[255,35,511,327].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Engagement"
+      }
+    ]
+  },
+  {
+    "id": "3302",
+    "image": "COCO_train2014_000000055809[120,68,278,254].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "2835",
+    "image": "sun_artdhtncikqngtdw[12,139,130,300].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Happiness, Peace, Surprise"
+      }
+    ]
+  },
+  {
+    "id": "2418",
+    "image": "COCO_train2014_000000196365[120,102,307,404].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "1577",
+    "image": "COCO_train2014_000000417070[246,92,335,346].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "1034",
+    "image": "COCO_train2014_000000122818[145,36,260,310].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anger, Anticipation, Aversion, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "679",
+    "image": "COCO_train2014_000000014768[78,45,450,422].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Happiness, Peace, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2375",
+    "image": "COCO_train2014_000000407505[423,137,556,370].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "1624",
+    "image": "sun_adtlxvlfsrlbpcvu[21,3,180,345].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Happiness, Peace"
+      }
+    ]
+  },
+  {
+    "id": "1123",
+    "image": "COCO_val2014_000000005193[289,171,409,399].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Confidence, Engagement, Esteem, Happiness, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2982",
+    "image": "COCO_train2014_000000401085[300,225,407,477].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Engagement, Excitement, Happiness, Pleasure, Sensitivity, Surprise"
+      }
+    ]
+  },
+  {
+    "id": "1586",
+    "image": "COCO_train2014_000000484563[11,165,147,376].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Peace, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "864",
+    "image": "COCO_train2014_000000048118[346,15,448,259].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "2307",
+    "image": "5tvh05h3kvs7u0kdwr[373,32,664,450].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "1608",
+    "image": "COCO_train2014_000000060035[94,13,440,331].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Fatigue, Happiness, Peace, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "295",
+    "image": "COCO_val2014_000000467285[206,56,391,399].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "1344",
+    "image": "COCO_train2014_000000394560[53,21,296,418].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Esteem, Excitement, Pleasure, Yearning"
+      }
+    ]
+  },
+  {
+    "id": "2212",
+    "image": "frame_dlz3v1m1kvfpfs2j[339,30,579,286].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anger, Annoyance, Anticipation, Confidence, Disapproval, Disconnection, Doubt/Confusion, Engagement, Fatigue, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "789",
+    "image": "COCO_train2014_000000467300[151,101,296,411].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Aversion, Engagement, Excitement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "1061",
+    "image": "frame_1c5i8gpyujbf75bb[595,273,724,492].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Fear, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "2022",
+    "image": "COCO_train2014_000000010817[402,262,561,435].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "2262",
+    "image": "COCO_val2014_000000482021[154,53,291,492].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Confidence, Engagement, Esteem, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "2627",
+    "image": "COCO_train2014_000000524966[277,14,373,259].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "183",
+    "image": "frame_7voyclvnguswdb1g[1,214,75,407].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Embarrassment, Engagement, Excitement, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "423",
+    "image": "COCO_train2014_000000539378[375,215,505,403].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "2742",
+    "image": "COCO_train2014_000000081201[119,36,324,339].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "2028",
+    "image": "COCO_train2014_000000575273[155,75,329,369].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Doubt/Confusion, Embarrassment, Engagement, Excitement, Happiness, Surprise, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "1612",
+    "image": "COCO_train2014_000000239307[131,32,448,368].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Disconnection, Engagement, Excitement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "1037",
+    "image": "frame_eb6z4pnavpkrauog[170,284,276,521].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "874",
+    "image": "2xv0pus6da0j85ix7q[123,66,263,194].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "1910",
+    "image": "COCO_train2014_000000350717[96,19,580,537].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Surprise, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "414",
+    "image": "COCO_train2014_000000496115[70,75,304,422].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Confidence, Doubt/Confusion, Engagement, Excitement, Happiness, Pain, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "486",
+    "image": "COCO_val2014_000000047004[152,101,284,459].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "102",
+    "image": "sun_ahvxojpootuwulil[201,196,420,479].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Aversion, Confidence, Disconnection, Engagement, Excitement, Surprise"
+      }
+    ]
+  },
+  {
+    "id": "1876",
+    "image": "0oh2b6b7s9kkl4l5l2[182,84,270,273].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "3023",
+    "image": "COCO_train2014_000000503703[281,77,412,324].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement"
+      }
+    ]
+  },
+  {
+    "id": "1763",
+    "image": "frame_4pxbupnc9huakpse[14,73,122,424].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Doubt/Confusion, Engagement, Fatigue, Happiness"
+      }
+    ]
+  },
+  {
+    "id": "544",
+    "image": "frame_bvjrbpn0m6xfg7ji[486,834,724,1383].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Confidence, Engagement, Excitement, Happiness, Pleasure"
+      }
+    ]
+  },
+  {
+    "id": "2912",
+    "image": "COCO_val2014_000000077754[352,70,599,330].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Aversion, Disconnection, Disquietment, Engagement"
+      }
+    ]
+  },
+  {
+    "id": "1149",
+    "image": "COCO_train2014_000000533220[274,130,419,386].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Excitement, Happiness, Pleasure, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "764",
+    "image": "frame_38letayfmgvq3oc3[639,85,780,393].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Engagement, Happiness, Peace"
+      }
+    ]
+  },
+  {
+    "id": "3111",
+    "image": "COCO_train2014_000000574957[250,95,631,479].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Anticipation, Disconnection, Engagement, Happiness, Sympathy"
+      }
+    ]
+  },
+  {
+    "id": "1330",
+    "image": "frame_5kfbe732u1ee4pvl[158,210,208,324].jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the person enclosed in the red box look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "Affection, Anticipation, Engagement, Excitement, Happiness, Peace, Pleasure, Yearning"
+      }
+    ]
+  }
+]
