@@ -10,7 +10,7 @@ apptainer run --nv \
     --lora_enable True \
     --lora_r 128 \
     --lora_alpha 256 \
-    --mm_projector_lr 2e-5 \
+    --mm_projector_lr 4e-5 \
     --deepspeed /container/scripts/zero3.json \
     --model_name_or_path liuhaotian/llava-v1.5-13b \
     --version v1 \
@@ -34,7 +34,7 @@ apptainer run --nv \
     --save_strategy "steps" \
     --save_steps 50000 \
     --save_total_limit 1 \
-    --learning_rate 2e-4 \
+    --learning_rate 1e-5 \
     --weight_decay 0. \
     --warmup_ratio 0.03 \
     --lr_scheduler_type "cosine" \
