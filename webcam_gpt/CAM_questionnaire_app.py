@@ -17,7 +17,7 @@ class QuestionnaireApp:
         self.llava_response = {}
         self.current_question_index = -1
         self.participant_code = ""
-        self.api_key = '***REMOVED***'
+        self.api_key = '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'
 
         self.setup_ui()
 

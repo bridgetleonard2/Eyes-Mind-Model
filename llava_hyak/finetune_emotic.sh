@@ -10,7 +10,7 @@ apptainer run --nv \
     --lora_enable True \
     --lora_r 128 \
     --lora_alpha 256 \
-    --mm_projector_lr 4e-5 \
+    --mm_projector_lr 2e-5 \
     --deepspeed /container/scripts/zero3.json \
     --model_name_or_path liuhaotian/llava-v1.5-13b \
     --version v1 \

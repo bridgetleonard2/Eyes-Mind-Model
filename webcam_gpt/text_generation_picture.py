@@ -2,7 +2,7 @@ import glob
 import base64
 import requests
 
-api_key = '***REMOVED***'
+api_key = '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'
 
 
 # Function to encode the image
