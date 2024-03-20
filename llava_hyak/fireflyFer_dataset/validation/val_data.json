@@ -1,0 +1,3082 @@
+[
+  {
+    "id": "25076",
+    "image": "fer0025076.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "17223",
+    "image": "fer0017223.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "14752",
+    "image": "fer0014752.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "14642",
+    "image": "fer0014642.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "273",
+    "image": "fer0000273.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "16470",
+    "image": "fer0016470.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "11021",
+    "image": "fer0011021.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "17078",
+    "image": "fer0017078.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "25177",
+    "image": "fer0025177.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "9644",
+    "image": "fer0009644.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "image": "fer0000046.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "2900",
+    "image": "fer0002900.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "6753",
+    "image": "fer0006753.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "15215",
+    "image": "fer0015215.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "8742",
+    "image": "fer0008742.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "21487",
+    "image": "fer0021487.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "9463",
+    "image": "fer0009463.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "7708",
+    "image": "fer0007708.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "5507",
+    "image": "fer0005507.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "8034",
+    "image": "fer0008034.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "25837",
+    "image": "fer0025837.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "14956",
+    "image": "fer0014956.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "18754",
+    "image": "fer0018754.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "13217",
+    "image": "fer0013217.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "21313",
+    "image": "fer0021313.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "2041",
+    "image": "fer0002041.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "18731",
+    "image": "fer0018731.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "3402",
+    "image": "fer0003402.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "6933",
+    "image": "fer0006933.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "20718",
+    "image": "fer0020718.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "23263",
+    "image": "fer0023263.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "7503",
+    "image": "fer0007503.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "disgust"
+      }
+    ]
+  },
+  {
+    "id": "19458",
+    "image": "fer0019458.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "7998",
+    "image": "fer0007998.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "9434",
+    "image": "fer0009434.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "19500",
+    "image": "fer0019500.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "1246",
+    "image": "fer0001246.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "27674",
+    "image": "fer0027674.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "24193",
+    "image": "fer0024193.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "11719",
+    "image": "fer0011719.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "17694",
+    "image": "fer0017694.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "20380",
+    "image": "fer0020380.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "16435",
+    "image": "fer0016435.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "21093",
+    "image": "fer0021093.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "19834",
+    "image": "fer0019834.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "24023",
+    "image": "fer0024023.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "23077",
+    "image": "fer0023077.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "12223",
+    "image": "fer0012223.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "8615",
+    "image": "fer0008615.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "24949",
+    "image": "fer0024949.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "23832",
+    "image": "fer0023832.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "3023",
+    "image": "fer0003023.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "3710",
+    "image": "fer0003710.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "11142",
+    "image": "fer0011142.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "22312",
+    "image": "fer0022312.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "22430",
+    "image": "fer0022430.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "23961",
+    "image": "fer0023961.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "12377",
+    "image": "fer0012377.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "1388",
+    "image": "fer0001388.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "17098",
+    "image": "fer0017098.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "17023",
+    "image": "fer0017023.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "14023",
+    "image": "fer0014023.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "12290",
+    "image": "fer0012290.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "9986",
+    "image": "fer0009986.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "22570",
+    "image": "fer0022570.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "18634",
+    "image": "fer0018634.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "4203",
+    "image": "fer0004203.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "20859",
+    "image": "fer0020859.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "4344",
+    "image": "fer0004344.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "10239",
+    "image": "fer0010239.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "22537",
+    "image": "fer0022537.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "14337",
+    "image": "fer0014337.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "5683",
+    "image": "fer0005683.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "27849",
+    "image": "fer0027849.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "5535",
+    "image": "fer0005535.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "6899",
+    "image": "fer0006899.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "25796",
+    "image": "fer0025796.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "3382",
+    "image": "fer0003382.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "5047",
+    "image": "fer0005047.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "14978",
+    "image": "fer0014978.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "11387",
+    "image": "fer0011387.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "7880",
+    "image": "fer0007880.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "21581",
+    "image": "fer0021581.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "14775",
+    "image": "fer0014775.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "5006",
+    "image": "fer0005006.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "4372",
+    "image": "fer0004372.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "3027",
+    "image": "fer0003027.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "18876",
+    "image": "fer0018876.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "7691",
+    "image": "fer0007691.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "18742",
+    "image": "fer0018742.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "13082",
+    "image": "fer0013082.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "19735",
+    "image": "fer0019735.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "312",
+    "image": "fer0000312.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "11264",
+    "image": "fer0011264.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "24065",
+    "image": "fer0024065.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "28016",
+    "image": "fer0028016.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "20729",
+    "image": "fer0020729.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "19214",
+    "image": "fer0019214.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "23074",
+    "image": "fer0023074.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "16111",
+    "image": "fer0016111.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "25015",
+    "image": "fer0025015.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "10189",
+    "image": "fer0010189.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "23319",
+    "image": "fer0023319.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "12230",
+    "image": "fer0012230.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "14965",
+    "image": "fer0014965.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "3820",
+    "image": "fer0003820.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "6948",
+    "image": "fer0006948.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "19351",
+    "image": "fer0019351.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "4985",
+    "image": "fer0004985.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "1475",
+    "image": "fer0001475.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "9936",
+    "image": "fer0009936.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "15555",
+    "image": "fer0015555.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "7255",
+    "image": "fer0007255.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "27370",
+    "image": "fer0027370.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "6145",
+    "image": "fer0006145.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "disgust"
+      }
+    ]
+  },
+  {
+    "id": "17544",
+    "image": "fer0017544.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "4206",
+    "image": "fer0004206.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "18669",
+    "image": "fer0018669.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "2201",
+    "image": "fer0002201.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "24255",
+    "image": "fer0024255.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "23547",
+    "image": "fer0023547.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "17752",
+    "image": "fer0017752.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "25439",
+    "image": "fer0025439.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "22089",
+    "image": "fer0022089.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "27934",
+    "image": "fer0027934.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "8892",
+    "image": "fer0008892.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "4479",
+    "image": "fer0004479.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "13130",
+    "image": "fer0013130.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "16624",
+    "image": "fer0016624.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "27049",
+    "image": "fer0027049.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "428",
+    "image": "fer0000428.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "6620",
+    "image": "fer0006620.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "5937",
+    "image": "fer0005937.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "23009",
+    "image": "fer0023009.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "11359",
+    "image": "fer0011359.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "5621",
+    "image": "fer0005621.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "15005",
+    "image": "fer0015005.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "1227",
+    "image": "fer0001227.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "4143",
+    "image": "fer0004143.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "20893",
+    "image": "fer0020893.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "7438",
+    "image": "fer0007438.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "11449",
+    "image": "fer0011449.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "11592",
+    "image": "fer0011592.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "11018",
+    "image": "fer0011018.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "6462",
+    "image": "fer0006462.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "8929",
+    "image": "fer0008929.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "6745",
+    "image": "fer0006745.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "8647",
+    "image": "fer0008647.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "24628",
+    "image": "fer0024628.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "12351",
+    "image": "fer0012351.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "24944",
+    "image": "fer0024944.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "10299",
+    "image": "fer0010299.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "17363",
+    "image": "fer0017363.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "4252",
+    "image": "fer0004252.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "7676",
+    "image": "fer0007676.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "16187",
+    "image": "fer0016187.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "1483",
+    "image": "fer0001483.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "11636",
+    "image": "fer0011636.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "28605",
+    "image": "fer0028605.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "15324",
+    "image": "fer0015324.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "4168",
+    "image": "fer0004168.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "14251",
+    "image": "fer0014251.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "10376",
+    "image": "fer0010376.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "7046",
+    "image": "fer0007046.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "9594",
+    "image": "fer0009594.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "26128",
+    "image": "fer0026128.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "2602",
+    "image": "fer0002602.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "15363",
+    "image": "fer0015363.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "24496",
+    "image": "fer0024496.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "10594",
+    "image": "fer0010594.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "4347",
+    "image": "fer0004347.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "866",
+    "image": "fer0000866.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "27518",
+    "image": "fer0027518.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "2457",
+    "image": "fer0002457.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "12053",
+    "image": "fer0012053.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "27454",
+    "image": "fer0027454.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "8779",
+    "image": "fer0008779.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "19062",
+    "image": "fer0019062.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "26538",
+    "image": "fer0026538.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "6133",
+    "image": "fer0006133.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "28261",
+    "image": "fer0028261.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "9614",
+    "image": "fer0009614.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "11176",
+    "image": "fer0011176.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "12033",
+    "image": "fer0012033.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "14655",
+    "image": "fer0014655.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "2393",
+    "image": "fer0002393.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "13177",
+    "image": "fer0013177.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "21645",
+    "image": "fer0021645.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "7652",
+    "image": "fer0007652.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "23775",
+    "image": "fer0023775.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "8164",
+    "image": "fer0008164.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "243",
+    "image": "fer0000243.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "5365",
+    "image": "fer0005365.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "22515",
+    "image": "fer0022515.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "angry"
+      }
+    ]
+  },
+  {
+    "id": "6308",
+    "image": "fer0006308.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "happy"
+      }
+    ]
+  },
+  {
+    "id": "22130",
+    "image": "fer0022130.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "fear"
+      }
+    ]
+  },
+  {
+    "id": "20289",
+    "image": "fer0020289.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "19231",
+    "image": "fer0019231.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "surprise"
+      }
+    ]
+  },
+  {
+    "id": "15189",
+    "image": "fer0015189.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "sad"
+      }
+    ]
+  },
+  {
+    "id": "4160",
+    "image": "fer0004160.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChoose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 7 choices are: angry disgust fear happy sad surprise neutral"
+      },
+      {
+        "from": "gpt",
+        "value": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "v01",
+    "image": "test1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+      },
+      {
+        "from": "gpt",
+        "value": "The person in the image appears relieved, as suggested by their relaxed posture and the content expression on their face. They are leaning back in a comfortable-looking chair, with their hands resting behind their head, a common gesture associated with relaxation or taking a break. Their eyes are closed and they have a slight smile, which often indicates a state of contentment or relief. The setting, with a scenic backdrop and warm, soft lighting, also contributes to the overall sense of ease and tranquility."
+      }
+    ]
+  },
+  {
+      "id": "v02",
+      "image": "test2.jpg",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+        },
+        {
+          "from": "gpt",
+          "value": "The person in the image appears impatient as suggested by their body language and facial expression. They have their arms crossed, which is a classic gesture of impatience or frustration. Their eyebrows are slightly furrowed and the mouth is set in a neutral position, which can indicate a lack of contentment or eagerness for a situation to change. The direct gaze towards the camera can also be interpreted as confrontational or expectant, as if they are waiting for something to happen."
+        }
+      ]
+    },
+    {
+      "id": "v03",
+      "image": "test3.jpg",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+        },
+        {
+          "from": "gpt",
+          "value": "The person in the image may give an impression of being sarcastic based on their facial expression and smile. The smile is somewhat asymmetrical, which can sometimes indicate sarcasm or a non-serious demeanor. Additionally, the raised eyebrow and the slight tilt of the head could be interpreted as a playful or teasing gesture, which is often associated with sarcasm. The combination of these facial cues along with the confident appearance given by the hat and glasses can contribute to the perception of a sarcastic attitude."
+        }
+      ]
+    },
+    {
+      "id": "v04",
+      "image": "test4.jpg",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+        },
+        {
+          "from": "gpt",
+          "value": "The person in the image might be perceived as looking guilty based on several non-verbal cues. Their wide-eyed expression with raised eyebrows can suggest a degree of surprise or concern, which is sometimes associated with being caught off-guard or feeling guilty. The way they are holding their hands up, with palms facing outward and close to the body, can be seen as a defensive or placating gesture, which is often a natural response when someone feels accused or is admitting fault. The tight-lipped smile could indicate a forced or uncomfortable acknowledgement of a situation. These cues combined give the impression that the person may feel guilty or is acknowledging a mistake."
+        }
+      ]
+    },
+    {
+      "id": "v05",
+      "image": "test5.jpg",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+        },
+        {
+          "from": "gpt",
+          "value": "The person in the image looks contented due to their relaxed, genuine smile which reaches their eyes, causing slight crinkling at the corners, often referred to as 'crow's feet,' which are typically indicative of a true smile. Their eyes appear bright and focused, suggesting engagement and satisfaction with the moment. The open, relaxed posture while sitting, with a slight lean towards what appears to be a laptop screen, suggests they are at ease and comfortable in their environment. The overall composure and facial expression convey a sense of happiness and contentment."
+        }
+      ]
+    },
+    {
+      "id": "v06",
+      "image": "test6.jpg",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+        },
+        {
+          "from": "gpt",
+          "value": "The individual in the image exhibits a contemplative expression, which could be interpreted as concern. Specific features that contribute to this perception include: Furrowed Brow: The slight furrowing of the brow can indicate worry or deep thought. Gaze Direction: The person is looking out of the window, which often signifies looking towards something or reflecting on something significant. Hand Position: The hand resting on the chin is a classic gesture of contemplation or concern. Mouth Expression: The mouth is closed and not smiling, which aligns more with a serious or concerned demeanor rather than a relaxed or happy one. These elements combined give an overall impression of someone who may be preoccupied with thoughts or worries."
+        }
+      ]
+    },
+    {
+      "id": "v07",
+      "image": "test7.jpg",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+        },
+        {
+          "from": "gpt",
+          "value": "The person in the image appears excited due to several expressive features: Wide Eyes: Their eyes are wide open, a common indication of surprise or excitement. Raised Eyebrows: The eyebrows are raised, which often accompanies expressions of joy or excitement. Open Mouth: The mouth is open in a way that resembles joyful shouting or exclaiming, which is typical in situations of excitement. Smile: The wide smile indicates positive emotion. Body Language: The clenched fists near the chin and the tensed posture suggest a physical reaction to excitement, as if gearing up for a cheer or celebration. These visual cues collectively convey a strong sense of enthusiasm and excitement."
+        }
+      ]
+    },
+    {
+      "id": "v08",
+      "image": "test8.jpg",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+        },
+        {
+          "from": "gpt",
+          "value": "The person in the image has a facial expression that could be interpreted as bafflement: Eyes: The eyes are slightly widened, indicating surprise or confusion. Eyebrows: The eyebrows are slightly drawn together and upward, often a sign of puzzlement or trying to understand something. Mouth: The mouth is closed and the lips are neutral, which could reflect uncertainty or the attempt to process something unexpected. Head Position: The head is positioned straight on, and the focus appears to be directed towards something specific, which can be a sign of concentration or an attempt to comprehend something. Overall Facial Expression: There is an absence of a smile or any strong emotional display, which, along with the other features, contributes to an appearance of being puzzled or baffled. "
+        }
+      ]
+    },
+    {
+      "id": "v09",
+      "image": "test9.jpg",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+        },
+        {
+          "from": "gpt",
+          "value": "The person in the image might be perceived as flustered due to several visual cues: Hand on Forehead: The gesture of one hand on the forehead can signal distress or a feeling of being overwhelmed. Furrowed Brow: The eyebrows are drawn together, creating a furrowed look that is often associated with worry or concentration. Tense Expression: The mouth is closed, and the overall facial expression is tight, not relaxed, which can reflect tension. Gaze: The person is looking off to the side, not making direct eye contact, which might suggest distraction or preoccupation with troubling thoughts. Body Language: The other hand appears to be clutching at the shirt, which can be a self-soothing action when someone is feeling anxious or stressed. Together, these elements may contribute to the impression of someone who is momentarily flustered or experiencing some form of mild distress."
+        }
+      ]
+    },
+    {
+      "id": "v10",
+      "image": "test10.jpg",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+        },
+        {
+          "from": "gpt",
+          "value": "The person in the image conveys a sympathetic expression through several subtle facial cues: Gentle Smile: The slight, soft smile does not overwhelm the face, indicating a warmth and kindness which are often associated with sympathy. Eye Contact: The direct, soft gaze suggests attentiveness and a willingness to listen or connect, which is characteristic of a sympathetic demeanor. Relaxed Eyebrows: The eyebrows are slightly raised and not furrowed, contributing to a look of concern and openness. Head Tilt: The slight tilt of the head can be a nonverbal cue of empathy and understanding. These features together create an overall impression of someone who is approachable, understanding, and emotionally in tune with others, which are key aspects of a sympathetic person."
+        }
+      ]
+    },
+    {
+      "id": "v11",
+      "image": "test11.jpg",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+        },
+        {
+          "from": "gpt",
+          "value": "The person in the image has a facial expression and posture that could be interpreted as defiant: Intense Gaze: The direct and steady eye contact with the camera can be a sign of confidence and challenge, which are often associated with defiance. Firm Mouth: The lips are closed in a straight line, which can suggest determination or resolve. Head Position: The level head position, neither bowed nor tilted, contributes to an overall impression of self-assuredness. Facial Expression: The neutral to slight frown of the eyebrows can indicate seriousness and a no-nonsense attitude. Posture: The straight shoulders and squared-off stance also convey strength and a readiness to stand one's ground. Combined, these visual cues create the impression of someone who is resolute and not easily swayed, which aligns with a defiant demeanor."
+        }
+      ]
+    },
+    {
+        "id": "v12",
+        "image": "test12.jpg",
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+          },
+          {
+            "from": "gpt",
+            "value": "The person in the image has a facial expression and gaze that could suggest they are fantasizing or daydreaming: Upward Gaze: The eyes directed upward typically indicate thinking, reflecting, or imagining something beyond the immediate surroundings. Slight Smile: The subtle smile on their face can imply pleasant thoughts or the enjoyment of their internal musings. Relaxed Facial Features: The relaxed state of the facial features suggests a calm and peaceful engagement with their thoughts. Distant Focus: The eyes do not seem to be focused on anything in the immediate vicinity, which often accompanies daydreaming or being lost in thought. Overall Expression: There's a certain serenity and introspective quality to the expression that is often associated with someone who is imagining or fantasizing. These elements together create an impression of someone who is absorbed in their own thoughts, possibly imagining scenarios or reflecting on aspirations."
+          }
+        ]
+      },
+      {
+        "id": "v13",
+        "image": "test13.jpg",
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+          },
+          {
+            "from": "gpt",
+            "value": "The person in the image could be perceived as apologetic due to several non-verbal cues: Hand Gesture: The hands pressed together in a pleading or prayer-like position are often associated with supplication or asking for forgiveness. Facial Expression: The slight tilt of the head and the soft gaze can convey humility and remorse, which are common in apologetic expressions. Eyes: The eyes are not fully open, which can be a sign of contrition or the reluctance to make direct, bold eye contact when one feels sorry. Mouth: The lips are gently closed, and the lack of a strong smile suggests a serious demeanor, fitting for an apologetic stance. Overall Demeanor: The combination of the facial expression and body language gives an overall impression of sincerity and the desire to make amends. These elements together suggest that the person may be expressing an apology or feeling remorseful."
+          }
+        ]
+      },
+      {
+        "id": "v14",
+        "image": "test14.jpg",
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+          },
+          {
+            "from": "gpt",
+            "value": "The person in the image appears alarmed due to several expressive features: Wide Eyes: Their eyes are significantly widened, a common physical response to shock or alarm. Raised Eyebrows: The eyebrows are raised high on the forehead, which typically accompanies a look of surprise or alarm. Open Mouth: The mouth is open in a way that one might react when startled or taken aback. Hand Gesture: The hands are up and open near the face, which is a defensive or protective posture often associated with being startled or on high alert. Facial Expression: The overall expression is one of heightened alertness, as if responding to an unexpected event or situation. These visual cues collectively convey an impression of someone who is experiencing a moment of alarm or surprise."
+          }
+        ]
+      },
+      {
+        "id": "v15",
+        "image": "test15.jpg",
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+          },
+          {
+            "from": "gpt",
+            "value": "The person in the image might be perceived as indifferent due to a combination of facial expression and body language: Neutral Expression: The face shows a lack of strong emotional expression, neither smiling nor frowning. Gaze Direction: The gaze is directed away from the camera, which can indicate a lack of engagement or interest in the viewer or the environment being photographed. Relaxed Posture: The body appears relaxed and casual, without any dynamic tension that might suggest interest or excitement. Mouth: The mouth is in a neutral position, which supports the overall impression of disinterest. These cues together may give the impression of someone who is not particularly affected by or interested in their current surroundings or situation."
+          }
+        ]
+      },
+      {
+        "id": "v16",
+        "image": "test16.jpg",
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+          },
+          {
+            "from": "gpt",
+            "value": "The person in the image could be perceived as encouraging based on their body language and facial expression: Smile: They have a broad, genuine smile, which can be a sign of warmth and positive intent. Eyes: The eyes appear to be slightly squinted due to the wide smile, which often happens during moments of happiness and when offering support or encouragement. Fist Gesture: The clenched fist near the chest is a gesture that often signifies determination and can be used to motivate others. Body Posture: The relaxed but upright posture can be associated with confidence, which is often present in an encouraging stance. Engagement: Even though they are looking away, the facial expression directed towards someone or something off-camera suggests a positive engagement. These cues together present an impression of someone who is likely offering support or expressing belief in someone else's abilities."
+          }
+        ]
+      },
+      {
+        "id": "v17",
+        "image": "test17.jpg",
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+          },
+          {
+            "from": "gpt",
+            "value": "The person in the image exhibits several characteristics that suggest a playful demeanor: Bright Smile: The broad and genuine smile is a key indicator of joy and playfulness. Sparkling Eyes: The eyes are crinkled at the corners, which often happens when someone is genuinely smiling or laughing. Relaxed Facial Expression: The overall relaxed state of the facial features, without any signs of tension, contributes to a sense of ease and lightheartedness. Head Tilt: The slight tilt of the head can be seen as an inviting and casual gesture, commonly associated with a playful attitude. Open Body Language: The open posture, with the shoulders back and the face leaning towards the camera, gives off a feeling of openness and engagement, which complements a playful personality. These visual cues together create an impression of someone who is in a light mood and exhibiting a playful character. "
+          }
+        ]
+      },
+      {
+        "id": "v18",
+        "image": "test18.jpg",
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+          },
+          {
+            "from": "gpt",
+            "value": "The person in the image displays several indications of being preoccupied: Distant Gaze: The individual is looking away into the distance, which often suggests deep thought or contemplation. Leaning Forward: The posture of leaning forward with arms crossed on what appears to be a bar or counter suggests engagement with one’s own thoughts. Absent Facial Expression: The lack of a strong emotional expression, with a relaxed but not necessarily happy or sad face, is typical when someone is absorbed in thought. Slight Furrow of Brow: There appears to be a subtle furrow in the brow, indicating concentration or concern about something. These visual cues collectively give the impression of someone who is mentally occupied with their own thoughts or concerns. "
+          }
+        ]
+      },
+      {
+        "id": "v19",
+        "image": "test19.jpg",
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+          },
+          {
+            "from": "gpt",
+            "value": "The person in the image appears contemplative due to several visual cues: Gaze Direction: They are looking off into the distance, not focusing on anything in their immediate environment, which is a common sign of deep thought or reflection. Hand Position: The hand resting on the chin is a classic gesture associated with thinking or evaluating something. Relaxed Facial Expression: Their face is calm, without signs of strong emotion, which often accompanies concentration or introspection. Slight Furrow of the Brow: There is a very mild furrow in the brow, suggesting they might be pondering something with care or concern. These factors combine to give the impression of someone engaged in serious thought or contemplation. "
+          }
+        ]
+      },
+      {
+        "id": "v20",
+        "image": "test20.jpg",
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+          },
+          {
+            "from": "gpt",
+            "value": "The individual in the image exhibits certain facial expressions and body language that could be associated with worry: Gaze: The person is looking off to the side with a focused intensity, which may indicate concern about something specific. Facial Expression: The slight furrowing of the brow and the absence of a smile can be indicative of a troubled or pensive state. Hand Position: The hand near the face, with a finger resting on the temple, is a common gesture that people make when they are feeling stressed or anxious. Mouth: The mouth is closed, and the lips are somewhat tight, which can signal tension or unease. These cues combined suggest that the person might be experiencing some form of worry or concern. "
+          }
+        ]
+      }
+]
