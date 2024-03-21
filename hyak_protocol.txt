@@ -1,0 +1,318 @@
+Hyak Protocol
+
+Start wsl:
+open powershell: wsl
+
+Login: 
+ssh bll313@klone.hyak.uw.edu
+password & Duo
+
+
+
+Sending local files/folders to hyak ** RUN IN WINDOWS POWERSHELL ON LINUX
+
+path/on/cluster:
+/gscratch/scrubbed/$USER -- for temporary large Storage
+/gscratch/escience/$USER -- for long term large storage 
+
+file:
+scp path/to/your/local/file.npy username@cluster_address:/path/on/cluster/
+
+folder:
+scp -r path/to/your/local/folder username@cluster_address:/path/on/cluster/
+
+Example:
+scp C:/Users/Bridget Leonard/Desktop/hyak/01-playful-comforting-irritated-bored-300x175.jpg bll313@klone.hyak.uw.edu:/gscratch/scrubbed/bll313
+scp "C:\\Users\\Bridget Leonard\\Desktop\\hyak\\01-playful-comforting-irritated-bored-300x175.jpg" bll313@klone.hyak.uw.edu:/gscratch/scrubbed/bll313
+
+scp "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak/train/train.py" bll313@klone.hyak.uw.edu:/gscratch/scrubbed/bll313/llava_hyak/train
+scp "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak/rmet_materials/answers.txt" bll313@klone.hyak.uw.edu:/gscratch/scrubbed/bll313/llava_hyak/rmet_materials
+
+scp -r "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313
+scp -r "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak/qualitative_check" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak
+scp -r "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak/rmet_materials" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak
+
+scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/data/raw_stimuli" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/data
+scp -r "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak/emotic_dataset" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak
+scp -r "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak/fireflyFer_dataset" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak
+
+scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/data/fmri_data/mappers" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/data/mappers/S1
+
+Pulling files/folders from hyak to local
+
+file:
+scp username@cluster_address:/path/on/cluster/file.npy /path/to/local/directory
+
+bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/voxelwise_chunks.py "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container/"
+
+folder:
+scp -r username@cluster_address:/path/on/cluster/folder /path/to/local/directory
+
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/movie "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/encoding_model"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak/output/checkpoints"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak/output/checkpoints "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak/output"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak/rmet_results "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/story "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/encoding_model"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/feature_vectors "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
+
+/mmfs1
+
+Running python scripts in apptainer:
+1. Transfer Local Files to HPC Cluster
+Files to Transfer: Include both the Python script that contains your linear regression model and the dataset(s) you plan to use.
+Transfer Method: Use secure methods like scp (secure copy), rsync, or any other recommended method by your HPC provider.
+2. Create an Apptainer Definition File
+Specify Base Image: Choose a base image that matches your requirements (e.g., a Python image).
+Install Libraries: In the %post section, install necessary libraries like NumPy, SciPy, scikit-learn, etc.
+Python Version: Ensure the Python version in the container matches the one needed for your script. This can be specified in the From: tag in the Bootstrap header.
+Script Inclusion (Optional): You can copy the Python script into the container if you want it bundled with the image. However, for flexibility and ease of updating the script, you might prefer to access it via a bind mount.
+3. Make Data Accessible to Apptainer Using Bind Mounts
+Identify Data Location: Know where your data is stored on the HPC cluster.
+Bind Mount Syntax: Use the --bind /path/on/host:/path/in/container option when running your Apptainer container. This makes the data on the host (HPC cluster) accessible inside the container.
+4. Run the Script within the Container
+Accessing the Script: If the script is inside the container, navigate to its location and run it. If it's accessed via a bind mount, run it directly from the mounted directory.
+Executing the Model: Execute your Python script normally as you would on a regular system. The script will run the linear regression model using the libraries installed in the container and the data from the bind mount.
+
+
+Llava test:
+1. move test image into hyak: /gscratch/scrubbed/$USER/01-playful-comforting-irritated-bored-300x175.jpg -- with example path above in windows powershell
+2. salloc to request resources: salloc --account escience --partition gpu-a40 --mem 64G -c 8 -n 1 --time 1:00:00 --gpus 2
+    salloc -A <lab> -p <node_type> -N <NUM_NODES> -c <NUM_CPUS> --mem=<MEM>[UNIT] --time=DD-HH:MM:SS
+3. run image query with llava:
+    apptainer run \
+>     --nv \
+>     --writable-tmpfs \
+>     --bind /gscratch \
+>     --env HUGGINGFACE_HUB_CACHE=/gscratch/scrubbed/${USER}/hf-cache \
+>     oras://ghcr.io/uw-psych/llava-container:0.0.2 \
+>     llava-run \
+>     --model-path liuhaotian/llava-v1.5-7b \
+>     --image-file "https://llava-vl.github.io/static/images/view.jpg" \
+>     --query "What's going on here?"
+
+
+
+Running llava with multiple query-image pairs:
+I put in a little more work to make it easier for you to run queries over multiple images at once. The model is loaded only once, so it saves quite a bit of time, and you get JSON output to save for later.
+
+ If you look at https://github.com/uw-psych/llava-container in a little bit (doing a final build right now), there will be a new container at  oras://ghcr.io/uw-psych/llava-container/llava-container:latest (also available with the tag oras://ghcr.io/uw-psych/llava-container/llava-container:0.0.4 if you want to load this particular version)
+
+After you've set up the cache directories and settings as shown in the docs, If you run it like this, specifying multiple queries and outputs:
+
+```bash
+apptainer run oras://ghcr.io/uw-psych/llava-container/llava-container:latest \
+    llava-run \
+    --model-path liuhaotian/llava-v1.5-7b \
+    --query \
+        "What's unusual about this image?" \
+        "Where is this image set?" \
+        --image-file \
+            /mmfs1/gscratch/escience/altan/dogs.png \
+            /mmfs1/gscratch/escience/altan/view.jpg \
+    | tee output.json # "tee" writes the output to output.json while also printing it on the screen
+```
+
+Then run this to show the output:
+
+```bash
+cat output.json
+```
+
+You get:
+
+```json
+{"image": "/mmfs1/gscratch/escience/altan/dogs.png", "query": "What's unusual about this image?", "output": "The unusual aspect of this image is that it features a group of four dogs sitting around a table, playing cards and engaging in a casino-like setting. This is not a typical scene, as dogs are not known to engage in such activities. The dogs are sitting on chairs and are surrounded by various objects, such as a bottle, a cup, a knife, and a bowl, which further emphasizes the unconventional nature of the scene. The presence of a person in the image also adds to the peculiarity of the situation."}
+{"image": "/mmfs1/gscratch/escience/altan/dogs.png", "query": "Where is this image set?", "output": "This image is set in a casino, with a group of dogs sitting around a table and playing cards."}
+{"image": "/mmfs1/gscratch/escience/altan/view.jpg", "query": "What's unusual about this image?", "output": "The unusual aspect of this image is that the pier is located in the middle of a lake, rather than being near a shoreline or a river. This is not a typical setting for a pier, as piers are usually found near bodies of water like rivers, lakes, or oceans, where they provide access to the water for boats and other watercraft. The presence of a pier in the middle of a lake is an interesting and unexpected sight."}
+{"image": "/mmfs1/gscratch/escience/altan/view.jpg", "query": "Where is this image set?", "output": "This image is set at a pier or dock on a lake, with a mountain in the background."}
+```
+
+
+
+Building apptainer defintion ** make sure using real path mmfs1/...
+
+ORDER:
+1. login
+2. go to directory using real path
+3. adjust scripts if needed
+4. use salloc to start session
+5. build a new container if needed
+    a. if getting mount error make sure APPTAINER_BIND and APPTAINER_BINDPATH are not environmental variable 'env'
+    b. use unset "" if exist in env
+6. run script
+
+
+FINETUNING STEPS
+1. start apptainer llava instance
+    # Do this in every session where you're running LLaVA on Hyak!
+
+    # Set up cache directories:
+    export APPTAINER_CACHEDIR="/gscratch/scrubbed/${USER}/.cache/apptainer"
+    export HUGGINGFACE_HUB_CACHE="/gscratch/scrubbed/${USER}/.cache/huggingface"
+    mkdir -p "${APPTAINER_CACHEDIR}" "${HUGGINGFACE_HUB_CACHE}"
+
+    # Set up Apptainer:
+    export APPTAINER_BIND=/gscratch APPTAINER_WRITABLE_TMPFS=1 APPTAINER_NV=1
+2. make scripts available   
+    chmod -R +x llava_hyak
+3. Get resources *task is GPU intensive so more the better
+     salloc --account escience --partition gpu-a40 --mem 64G -c 8 -n 1 --time 2:00:00 --gpus 4
+4. run finetuning script
+    ./finetune_llava.sh
+    # If set up cache correctly should say "Using HUGGINGFACE_HUB_CACHE="/gscratch/scrubbed/bll313/.cache/huggingface""
+
+ 
+RUNNING FINETUNED MODELS
+apptainer run \
+    --bind llava_hyak/output:/container/output \
+    --bind llava_hyak/test:/container/test
+    oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
+    --model-path /container/output/checkpoint/llava-v1.5-13b-task-lora \
+    --model-base liuhaotian/llava-v1.5-13b \
+    --image-file /container/test/test1.jpg \
+    --query "What's going on here?"
+
+
+1. Base model:
+apptainer run \
+    --bind llava_hyak/output:/container/output \
+    --bind llava_hyak/qualitative_check:/container/qualitative_check \
+    oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
+    llava-run \
+    --model-path liuhaotian/llava-v1.5-13b \
+    --query "What's does this person look like they're feeling or thinking?" \
+        --image-file \
+            /container/qualitative_check/check1.jpg \
+            /container/qualitative_check/check2.jpg \
+            /container/qualitative_check/check3.jpg \
+            /container/qualitative_check/check4.jpg \
+            /container/qualitative_check/check5.jpg \
+            /container/qualitative_check/check6.jpg \
+            /container/qualitative_check/check7.jpg \
+            /container/qualitative_check/check8.jpg \
+            /container/qualitative_check/check9.jpg \
+            /container/qualitative_check/check10.jpg \
+            | tee output.json # "tee" writes the output to output.json while also printing it on the screen
+
+2. 1 epoch
+apptainer run \
+    --bind llava_hyak/output:/container/output \
+    --bind llava_hyak/qualitative_check:/container/qualitative_check \
+    oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
+    llava-run \
+    --model-path /container/output/checkpoints/llava-v1.5-13b-task-lora \
+    --model-base liuhaotian/llava-v1.5-13b \
+    --query "What's does this person look like they're feeling or thinking?" \
+        --image-file \
+            /container/qualitative_check/check1.jpg \
+            /container/qualitative_check/check2.jpg \
+            /container/qualitative_check/check3.jpg \
+            /container/qualitative_check/check4.jpg \
+            /container/qualitative_check/check5.jpg \
+            /container/qualitative_check/check6.jpg \
+            /container/qualitative_check/check7.jpg \
+            /container/qualitative_check/check8.jpg \
+            /container/qualitative_check/check9.jpg \
+            /container/qualitative_check/check10.jpg \
+            | tee output.json # "tee" writes the output to output.json while also printing it on the screen
+
+3. 5 epochs
+apptainer run \
+    --bind llava_hyak/output:/container/output \
+    --bind llava_hyak/qualitative_check:/container/qualitative_check \
+    oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
+    llava-run \
+    --model-path /container/output/checkpoints/llava-v1.5-13b-task-lora-v1.1 \
+    --model-base liuhaotian/llava-v1.5-13b \
+    --query "What's does this person look like they're feeling or thinking?" \
+        --image-file \
+            /container/qualitative_check/check1.jpg \
+            /container/qualitative_check/check2.jpg \
+            /container/qualitative_check/check3.jpg \
+            /container/qualitative_check/check4.jpg \
+            /container/qualitative_check/check5.jpg \
+            /container/qualitative_check/check6.jpg \
+            /container/qualitative_check/check7.jpg \
+            /container/qualitative_check/check8.jpg \
+            /container/qualitative_check/check9.jpg \
+            /container/qualitative_check/check10.jpg \
+            | tee output.json # "tee" writes the output to output.json while also printing it on the screen
+
+4. 10 epochs
+apptainer run \
+    --bind llava_hyak/output:/container/output \
+    --bind llava_hyak/qualitative_check:/container/qualitative_check \
+    oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
+    llava-run \
+    --model-path /container/output/checkpoints/llava-v1.5-13b-task-lora-v1.2 \
+    --model-base liuhaotian/llava-v1.5-13b \
+    --query "What's does this person look like they're feeling or thinking?" \
+        --image-file \
+            /container/qualitative_check/check1.jpg \
+            /container/qualitative_check/check2.jpg \
+            /container/qualitative_check/check3.jpg \
+            /container/qualitative_check/check4.jpg \
+            /container/qualitative_check/check5.jpg \
+            /container/qualitative_check/check6.jpg \
+            /container/qualitative_check/check7.jpg \
+            /container/qualitative_check/check8.jpg \
+            /container/qualitative_check/check9.jpg \
+            /container/qualitative_check/check10.jpg \
+            | tee output.json # "tee" writes the output to output.json while also printing it on the screen
+
+
+5. 7 epochs
+apptainer run \
+    --bind llava_hyak/output:/container/output \
+    --bind llava_hyak/qualitative_check:/container/qualitative_check \
+    oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
+    llava-run \
+    --model-path /container/output/checkpoints/llava-v1.5-13b-task-lora-v1.3 \
+    --model-base liuhaotian/llava-v1.5-13b \
+    --query "What's does this person look like they're feeling or thinking?" \
+        --image-file \
+            /container/qualitative_check/check1.jpg \
+            /container/qualitative_check/check2.jpg \
+            /container/qualitative_check/check3.jpg \
+            /container/qualitative_check/check4.jpg \
+            /container/qualitative_check/check5.jpg \
+            /container/qualitative_check/check6.jpg \
+            /container/qualitative_check/check7.jpg \
+            /container/qualitative_check/check8.jpg \
+            /container/qualitative_check/check9.jpg \
+            /container/qualitative_check/check10.jpg \
+            | tee output.json # "tee" writes the output to output.json while also printing it on the screen
+
+
+General/old command
+apptainer run             
+    --bind llava_hyak/output:/container/output \            
+    --bind llava_hyak/test:/container/test \            
+    oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \            
+    llava-run \            
+    --model-path /container/output/checkpoints/llava-v1.5-13b-task-lora \            
+    --model-base liuhaotian/llava-v1.5-13b \            
+    --query "What's does this person look like they're feeling or thinking?" \            
+    --image-file /container/test/test2.jpg  \                    
+    | tee output.json # "tee" writes the output to output.json while also printing it on the screen
+
+
+Testing RMET 
+apptainer run \
+    --bind llava_hyak/output:/container/output \
+    --bind llava_hyak/rmet_materials:/container/rmet_materials \
+    oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
+    llava-run \
+    --model-path liuhaotian/llava-v1.5-13b \
+    --query "Choose which word best describes what the person in the picture is thinking or feeling based on just their eyes alone. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 4 choices are: playful comforting irritated bored" \
+    --image-file /container/rmet_materials/images/01-playful-comforting-irritated-bored-300x175.jpg
+
+apptainer run \
+    --bind llava_hyak/output:/container/output \
+    --bind llava_hyak/rmet_materials:/container/rmet_materials \
+    oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
+    llava-run \
+    --model-path /container/output/checkpoints/llava-v1.5-13b-task-lora \
+    --model-base liuhaotian/llava-v1.5-13b \
+    --query "Choose which word best describes what the person in the picture is thinking or feeling based on just their eyes alone. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 4 choices are: playful comforting irritated bored" \
+    --image-file /container/rmet_materials/images/01-playful-comforting-irritated-bored-300x175.jpg
