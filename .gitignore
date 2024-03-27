@@ -1,4 +1,3 @@
-ai_results/gpt4/chatgpt.py
 llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora/adapter_model.bin
 llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora/non_lora_trainables.bin
 
