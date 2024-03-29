@@ -1,0 +1,36 @@
+Question 1: no response
+Question 2: upset
+Question 3: joking
+Question 4: amused
+Question 5: worried
+Question 6: no response
+Question 7: dispirited
+Question 8: relieved
+Question 9: preoccupied
+Question 10: no response
+Question 11: amused
+Question 12: skeptical
+Question 13: no response
+Question 14: irritated
+Question 15: flustered
+Question 16: sympathetic
+Question 17: affectionate
+Question 18: bored
+Question 19: grateful
+Question 20: guilty
+Question 21: fantasizing
+Question 22: imploring
+Question 23: curious
+Question 24: hostile
+Question 25: no response
+Question 26: shy
+Question 27: no response
+Question 28: joking
+Question 29: no response
+Question 30: hostile
+Question 31: dispirited
+Question 32: serious
+Question 33: no response
+Question 34: no response
+Question 35: nervous
+Question 36: indecisive
