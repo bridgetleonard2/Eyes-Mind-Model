@@ -1,6 +1,9 @@
 import glob
 import base64
 import requests
+import pandas as pd
+import json
+from sklearn.model_selection import train_test_split
 
 api_key = ''
 
@@ -56,38 +59,52 @@ def get_response(prompt, image_path):
     return simple_response
 
 
-file_path = 'fine_tuning/training/uniqueWords.txt'
-words = []
+train_data = pd.read_csv('../llava_hyak/ferGPT/train_data.csv')
+train_json_data, val_json_data = train_test_split(train_sample, test_size=0.2, random_state=42)
 
-with open(file_path, 'r') as file:
-    for line in file:
-        word = line.strip()
-        words.append(word)
-print(words)
 
-responses = []
+def json_item(image, word, answer, index):
+    new_item = {
+        "id": f"{index:02}",  # Formats the index to a string with leading zeros
+        "image": image,
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDescribe what makes this person look like they are {word}."
+            },
+            {
+                "from": "gpt",
+                "value": answer
+            }
+        ]
+    }
+    return new_item
 
-# for index in range(len(questions)):
-index = 0
 
-for index in range(len(words)):
-    word = words[index]
-    print(word)
-    if word == "desire":
-        text = "Describe what makes this person look like they have desire."
-    else:
-        text = f"Describe what makes this person look like they are {word}."
-    pattern = f"fine_tuning/training/Firefly/*{word}.jpg"
+train_json = []
 
-    # Use glob to find matching filenames
-    image_path = glob.glob(pattern)[0]
-    print(image_path)
+for index, row in train_json_data.iterrows():
+    image = row['filename']
+    word = row['emotion_words']
+    answer = get_response(f"Describe what makes this person look like they are {word}.",
+                          '../llava_hyak/ferGPT/images/' + image)
+    new_item = json_item(image, word, answer, index)
+    print(new_item)
+    train_json.append(new_item)
 
-    response = get_response(text, image_path)
-    print(response)
+with open('../llava_hyak/ferGPT_dataset/train/train_data.json', 'w') as f:
+    json.dump(train_json, f, indent=2)
 
-    responses.append([word, response])
+val_json = []
 
-with open("fine_tuning/training/descriptions.txt", "w") as file:
-    for response in responses:
-        file.write(f"{response[0]}: {response[1]}\n")
+for index, row in val_json_data.iterrows():
+    image = row['filename']
+    word = row['emotion_words']
+    answer = get_response(f"Describe what makes this person look like they are {word}.",
+                          '../llava_hyak/ferGPT/images/' + image)
+    new_item = json_item(image, word, answer, index)
+    print(new_item)
+    val_json.append(new_item)
+
+with open('../llava_hyak/ferGPT_dataset/validation/val_data.json', 'w') as f:
+    json.dump(val_json, f, indent=2)
