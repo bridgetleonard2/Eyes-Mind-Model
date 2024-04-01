@@ -1,7 +1,7 @@
 import json
 import requests
 
-api_key = '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'
+api_key = ''
 
 
 def get_response(prompt):
