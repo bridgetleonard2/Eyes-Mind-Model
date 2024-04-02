@@ -1,4 +1,3 @@
-import glob
 import base64
 import requests
 import pandas as pd
@@ -59,8 +58,8 @@ def get_response(prompt, image_path):
     return simple_response
 
 
-train_data = pd.read_csv('../llava_hyak/ferGPT/train_data.csv')
-train_json_data, val_json_data = train_test_split(train_sample, test_size=0.2, random_state=42)
+train_data = pd.read_csv('llava_hyak/ferGPT_dataset/train_data.csv')
+train_json_data, val_json_data = train_test_split(train_data, test_size=0.2, random_state=42)
 
 
 def json_item(image, word, answer, index):
@@ -87,12 +86,12 @@ for index, row in train_json_data.iterrows():
     image = row['filename']
     word = row['emotion_words']
     answer = get_response(f"Describe what makes this person look like they are {word}.",
-                          '../llava_hyak/ferGPT/images/' + image)
+                          'llava_hyak/ferGPT_dataset/images/' + image)
     new_item = json_item(image, word, answer, index)
     print(new_item)
     train_json.append(new_item)
 
-with open('../llava_hyak/ferGPT_dataset/train/train_data.json', 'w') as f:
+with open('llava_hyak/ferGPT_dataset/train/train_data.json', 'w') as f:
     json.dump(train_json, f, indent=2)
 
 val_json = []
@@ -101,10 +100,10 @@ for index, row in val_json_data.iterrows():
     image = row['filename']
     word = row['emotion_words']
     answer = get_response(f"Describe what makes this person look like they are {word}.",
-                          '../llava_hyak/ferGPT/images/' + image)
+                          'llava_hyak/ferGPT_dataset/images/' + image)
     new_item = json_item(image, word, answer, index)
     print(new_item)
     val_json.append(new_item)
 
-with open('../llava_hyak/ferGPT_dataset/validation/val_data.json', 'w') as f:
+with open('llava_hyak/ferGPT_dataset/validation/val_data.json', 'w') as f:
     json.dump(val_json, f, indent=2)
