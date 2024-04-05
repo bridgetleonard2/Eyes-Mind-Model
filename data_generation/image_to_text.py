@@ -60,17 +60,18 @@ def get_response(prompt, image_path):
 
 
 train_data = pd.read_csv('llava_hyak/ferGPT_dataset/train_data.csv')
-train_json_data, val_json_data = train_test_split(train_data, test_size=0.2, random_state=42)
+train_json_data, val_json_data = train_test_split(train_data, test_size=0.2,
+                                                  random_state=42)
 
 
 def json_item(image, word, answer, index):
     new_item = {
-        "id": f"{index:02}",  # Formats the index to a string with leading zeros
+        "id": f"{index:02}",  # Formats index leading zeros
         "image": image,
         "conversations": [
             {
                 "from": "human",
-                "value": f"Describe what makes this person look like they are {word}."
+                "value": "<image>\nWhat does this person look like they are thinking or feeling?"
             },
             {
                 "from": "gpt",
