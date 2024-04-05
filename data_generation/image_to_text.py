@@ -66,7 +66,7 @@ train_json_data, val_json_data = train_test_split(train_data, test_size=0.2,
 
 def json_item(image, word, answer, index):
     new_item = {
-        "id": f"{index:02}",  # Formats index leading zeros
+        "id": f"{index:07}",  # Formats index leading zeros
         "image": image,
         "conversations": [
             {
