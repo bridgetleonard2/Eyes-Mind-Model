@@ -1,4 +1,4 @@
-import glob
+import json
 import base64
 import requests
 
@@ -56,6 +56,24 @@ def get_response(prompt, image_path):
     return simple_response
 
 
+def json_item(image, word, answer, index):
+    new_item = {
+        "id": f"{index:07}",  # Formats index leading zeros
+        "image": image,
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat does this person look like they are thinking or feeling?"
+            },
+            {
+                "from": "gpt",
+                "value": answer
+            }
+        ]
+    }
+    return new_item
+
+
 file_path = 'fine_tuning/training/uniqueWords.txt'
 words = []
 
@@ -65,29 +83,22 @@ with open(file_path, 'r') as file:
         words.append(word)
 print(words)
 
-responses = []
-
-# for index in range(len(questions)):
-index = 0
+train_json = []
 
 for index in range(len(words)):
     word = words[index]
-    print(word)
     if word == "desire":
         text = "Describe what makes this person look like they have desire."
     else:
         text = f"Describe what makes this person look like they are {word}."
-    pattern = f"fine_tuning/training/Firefly/*{word}.jpg"
 
-    # Use glob to find matching filenames
-    image_path = glob.glob(pattern)[0]
-    print(image_path)
+    image = f"{word}_2.jpg"
 
-    response = get_response(text, image_path)
-    print(response)
+    response = get_response(text, 
+                            "data_generation/data/adobe2/" + image)
+    new_item = json_item(image, word, response, index)
 
-    responses.append([word, response])
+    train_json.append(new_item)
 
-with open("fine_tuning/training/descriptions.txt", "w") as file:
-    for response in responses:
-        file.write(f"{response[0]}: {response[1]}\n")
+with open("llava_hyak/adobe_dataset2/train/train_data.json", "w") as file:
+    json.dump(train_json, file, indent=2)
