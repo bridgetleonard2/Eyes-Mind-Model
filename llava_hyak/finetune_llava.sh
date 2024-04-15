@@ -2,7 +2,7 @@
 
 apptainer run --nv \
     --bind llava_hyak/train:/container/training_script \
-    --bind llava_hyak/dataset:/container/dataset \
+    --bind llava_hyak/adobe_dataset_full:/container/dataset \
     --bind llava_hyak/output:/container/output \
     --bind llava_hyak/scripts:/container/scripts \
     oras://ghcr.io/uw-psych/llava-container/llava-container-train:latest \
@@ -25,7 +25,7 @@ apptainer run --nv \
     --image_aspect_ratio pad \
     --group_by_modality_length True \
     --bf16 True \
-    --output_dir /container/output/checkpoints/llava-v1.5-13b-task-lora \
+    --output_dir /container/output/checkpoints/llava-v1.5-13b-task-lora-fullAdobe \
     --num_train_epochs 5 \
     --per_device_train_batch_size 16 \
     --per_device_eval_batch_size 4 \

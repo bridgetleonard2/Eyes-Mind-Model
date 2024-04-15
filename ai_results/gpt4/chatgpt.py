@@ -2,10 +2,9 @@ import glob
 import base64
 import requests
 import re
+from tqdm import tqdm
 
-api_key = '*enter your key here*'
-
-subject = 'P001'  # Choose images to evaluate
+api_key = ''
 
 
 # Function to encode the image
@@ -24,7 +23,7 @@ def get_response(prompt, image_path):
     }
 
     payload = {
-        "model": "gpt-4-vision-preview",
+        "model": "gpt-4-turbo",
         "messages": [
             {
              "role": "user",
@@ -78,28 +77,26 @@ print(questions)
 
 responses = {}
 
-# for index in range(len(questions)):
-index = 0
-question, answers = questions[index]
-print(question)
-text = f"Choose which word best describes what \
-    the person in the picture is thinking or feeling. \
-        You may feel that more than one word is applicable, \
-            but please choose just one word, the word \
-                which you consider to be most suitable. \
-                    Your 4 choices are:, {answers}"
+for index in tqdm(range(len(questions))):
+    question, answers = questions[index]
+    print(question)
+    text = f"Choose which word best describes what \
+        the person in the picture is thinking or feeling. \
+            You may feel that more than one word is applicable, \
+                but please choose just one word, the word \
+                    which you consider to be most suitable. \
+                        Your 4 choices are:, {answers}"
 
-folder = subject  # Change to relevant subject
-pattern = f"{folder}/{index + 1:02d}*.png"
+    pattern = f"task_materials/regular/{index + 1:02d}*.jpg"
 
-# Use glob to find matching filenames
-image_path = glob.glob(pattern)[0]
-print(image_path)
+    # Use glob to find matching filenames
+    image_path = glob.glob(pattern)[0]
+    print(image_path)
 
-response = get_response(text, image_path)
+    response = get_response(text, image_path)
 
-responses[question] = response
+    responses[question] = response
 
-with open(subject + "_gpt.txt", "w") as file:
+with open("ai_results/gpt4/gpt-2.txt", "w") as file:
     for question, response in responses.items():
-        file.write(f"{question}: {response}\n")
+        file.write(f"{response}\n")

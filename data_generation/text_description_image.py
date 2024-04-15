@@ -1,6 +1,7 @@
 import json
 import base64
 import requests
+from tqdm import tqdm
 
 api_key = ''
 
@@ -21,7 +22,7 @@ def get_response(prompt, image_path):
     }
 
     payload = {
-        "model": "gpt-4-vision-preview",
+        "model": "gpt-4-turbo",
         "messages": [
             {
              "role": "user",
@@ -74,7 +75,7 @@ def json_item(image, word, answer, index):
     return new_item
 
 
-file_path = 'fine_tuning/training/uniqueWords.txt'
+file_path = 'data_generation/uniqueWords.txt'
 words = []
 
 with open(file_path, 'r') as file:
@@ -85,7 +86,7 @@ print(words)
 
 train_json = []
 
-for index in range(len(words)):
+for index in tqdm(range(len(words))):
     word = words[index]
     if word == "desire":
         text = "Describe what makes this person look like they have desire."
@@ -95,8 +96,9 @@ for index in range(len(words)):
     image = f"{word}_2.jpg"
 
     response = get_response(text, 
-                            "data_generation/data/adobe2/" + image)
+                            "data_generation/data/adobe2_images/" + image)
     new_item = json_item(image, word, response, index)
+    print(new_item)
 
     train_json.append(new_item)
 

@@ -23,7 +23,7 @@ def get_response(prompt, image_path):
     }
 
     payload = {
-        "model": "gpt-4-vision-preview",
+        "model": "gpt-4-turbo",
         "messages": [
             {
              "role": "user",
@@ -49,13 +49,13 @@ def get_response(prompt, image_path):
 
     response_json = response.json()
 
-    #print(response_json)
+    # print(response_json)
     if 'choices' in response_json and response_json['choices']:
         simple_response = response_json['choices'][0]['message']['content']
     else:
         simple_response = "no response"
 
-    #print(simple_response)
+    # print(simple_response)
     return simple_response
 
 
