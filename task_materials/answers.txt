@@ -7,7 +7,7 @@
 07, uneasy
 08, despondent
 09, preoccupied
-10, catious
+10, cautious
 11, regretful
 12, skeptical
 13, anticipating

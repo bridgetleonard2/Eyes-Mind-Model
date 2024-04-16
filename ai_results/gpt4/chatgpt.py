@@ -87,7 +87,7 @@ for index in tqdm(range(len(questions))):
                     which you consider to be most suitable. \
                         Your 4 choices are:, {answers}"
 
-    pattern = f"task_materials/regular/{index + 1:02d}*.jpg"
+    pattern = f"task_materials/cropped/{index + 1:02d}*.jpg"
 
     # Use glob to find matching filenames
     image_path = glob.glob(pattern)[0]
@@ -97,6 +97,6 @@ for index in tqdm(range(len(questions))):
 
     responses[question] = response
 
-with open("ai_results/gpt4/gpt-2.txt", "w") as file:
+with open("ai_results/gpt4/gpt_newImages-2.txt", "w") as file:
     for question, response in responses.items():
         file.write(f"{response}\n")
