@@ -1,0 +1,36 @@
+Question 1: comforting
+Question 2: no response
+Question 3: flustered
+Question 4: insisting
+Question 5: no response
+Question 6: fantasizing
+Question 7: no response
+Question 8: shy
+Question 9: hostile
+Question 10: cautious
+Question 11: no response
+Question 12: indifferent
+Question 13: no response
+Question 14: irritated
+Question 15: contemplative
+Question 16: no response
+Question 17: no response
+Question 18: amused
+Question 19: no response
+Question 20: friendly
+Question 21: fantasizing
+Question 22: imploring
+Question 23: curious
+Question 24: pensive
+Question 25: panicked
+Question 26: shy
+Question 27: reassuring
+Question 28: contented
+Question 29: impatient
+Question 30: hostile
+Question 31: dispirited
+Question 32: alarmed
+Question 33: embarrassed
+Question 34: distrustful
+Question 35: insisting
+Question 36: suspicious

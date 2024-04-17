@@ -24,6 +24,7 @@ class QuestionnaireApp:
                                        font=("Helvetica", 16))
         self.question_label.pack(pady=20)
 
+
         # Label for displaying the image
         self.image_label = tk.Label(self.root)
         self.image_label.pack(pady=20)
@@ -36,13 +37,13 @@ class QuestionnaireApp:
         self.display_question(self.current_question_index)
 
         # Navigation buttons
-        self.prev_button = tk.Button(self.root, text="Previous",
-                                     command=self.prev_question)
-        self.prev_button.pack(side=tk.LEFT, padx=10)
+        # self.prev_button = tk.Button(self.root, text="Previous",
+        #                              command=self.prev_question)
+        # self.prev_button.pack(side=tk.LEFT, padx=10)
 
-        self.next_button = tk.Button(self.root, text="Next",
-                                     command=self.next_question)
-        self.next_button.pack(side=tk.RIGHT, padx=10)
+        # self.next_button = tk.Button(self.root, text="Next",
+        #                              command=self.next_question)
+        # self.next_button.pack(side=tk.RIGHT, padx=10)
 
     def display_question(self, index):
         # Clear previous answers
@@ -69,7 +70,7 @@ class QuestionnaireApp:
             image_path = glob.glob(pattern)[0]
 
             # Load and display image after 3 seconds
-            self.root.after(3000, self.update_image, image_path)
+            self.root.after(500, self.update_image, image_path)
 
             for answer in answers:
                 btn = tk.Button(self.answers_frame, text=answer,

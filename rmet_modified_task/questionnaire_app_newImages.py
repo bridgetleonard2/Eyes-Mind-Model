@@ -36,13 +36,13 @@ class QuestionnaireApp:
         self.display_question(self.current_question_index)
 
         # Navigation buttons
-        self.prev_button = tk.Button(self.root, text="Previous",
-                                     command=self.prev_question)
-        self.prev_button.pack(side=tk.LEFT, padx=10)
+        # self.prev_button = tk.Button(self.root, text="Previous",
+        #                              command=self.prev_question)
+        # self.prev_button.pack(side=tk.LEFT, padx=10)
 
-        self.next_button = tk.Button(self.root, text="Next",
-                                     command=self.next_question)
-        self.next_button.pack(side=tk.RIGHT, padx=10)
+        # self.next_button = tk.Button(self.root, text="Next",
+        #                              command=self.next_question)
+        # self.next_button.pack(side=tk.RIGHT, padx=10)
 
     def display_question(self, index):
         # Clear previous answers
@@ -69,7 +69,7 @@ class QuestionnaireApp:
             image_path = glob.glob(pattern)[0]
 
             # Load and display image after 3 seconds
-            self.root.after(3000, self.update_image, image_path)
+            self.root.after(0, self.update_image, image_path)
 
             for answer in answers:
                 btn = tk.Button(self.answers_frame, text=answer,
@@ -87,6 +87,7 @@ class QuestionnaireApp:
             messagebox.showwarning("Image Not Found",
                                    f"Image file not found: {image_path}")
             self.image_label.config(image=None)
+
         # Schedule the next question after 3 seconds
         self.root.after(10000, self.display_next_question)
 
@@ -132,7 +133,7 @@ class QuestionnaireApp:
         file_name = simpledialog.askstring("Save File", "Enter file name to \
                                            save responses:", parent=self.root)
         if file_name:
-            with open(os.path.join("rmet_modified_task/data/newImages/", file_name + ".txt"), "w") as file:
+            with open(os.path.join("rmet_modified_task/data/newimages/", file_name + ".txt"), "w") as file:
                 for question, response in self.responses.items():
                     file.write(f"{question}: {response}\n")
             # Close the window after saving responses
