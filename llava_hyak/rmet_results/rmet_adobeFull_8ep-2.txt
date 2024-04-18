@@ -1,0 +1,108 @@
+Comforting
+Upset
+Desire
+Insisting
+Worried
+Alarmed
+Uneasy
+Despondent
+Preoccupied
+Cautious
+Terrified
+Skeptical
+Shy
+Accusing
+Encouraging
+Sympathetic
+Doubtful
+Aghast
+Tentative
+Dominant
+Confused
+Insisting
+Curious
+Pensive
+Panicked
+anxious
+Cautious
+Interested
+Reflective
+Flirtatious
+Confident
+Serious
+Concerned
+Distrustful
+Insisting
+Suspicious
+Comforting
+Upset
+Convinced
+Insisting
+Worried
+Alarmed
+Uneasy
+Despondent
+Preoccupied
+Cautious
+Terrified
+Skeptical
+Shy
+Accusing
+Encouraging
+Sympathetic
+Doubtful
+Aghast
+Tentative
+Dominant
+Confused
+Insisting
+Curious
+Pensive
+Panicked
+anxious
+Cautious
+Interested
+Reflective
+Flirtatious
+Confident
+Serious
+Concerned
+Distrustful
+Insisting
+Suspicious
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found
+./rmet.sh: line 49: apptainer: command not found

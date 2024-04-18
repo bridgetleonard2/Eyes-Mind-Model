@@ -1,4 +1,4 @@
-llava_adobefull_7ep-2
+llava_adobefull_8ep-3 
 comforting
 upset
 convinced
@@ -9,18 +9,18 @@ uneasy
 despondent
 preoccupied
 cautious
-regretful
+terrified
 skeptical
 shy
 accusing
-contemplative
+encouraging
 sympathetic
 doubtful
 aghast
 tentative
 dominant
 confused
-preoccupied
+insisting
 curious
 pensive
 panicked
@@ -30,7 +30,7 @@ interested
 reflective
 flirtatious
 confident
-ashamed
+serious
 concerned
 distrustful
 insisting
