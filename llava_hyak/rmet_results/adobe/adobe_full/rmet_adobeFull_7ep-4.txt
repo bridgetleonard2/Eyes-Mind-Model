@@ -8,7 +8,7 @@ aghast
 uneasy
 despondent
 preoccupied
-insisting
+cautious
 regretful
 skeptical
 shy
@@ -30,7 +30,7 @@ interested
 reflective
 flirtatious
 confident
-ashamed
+serious
 concerned
 distrustful
 insisting

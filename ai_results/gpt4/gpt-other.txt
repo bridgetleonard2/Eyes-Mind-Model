@@ -1,10 +1,10 @@
 gpt-4
-playful
+irritated
 upset
 desire
 insisting
 worried
-alarmed
+fantasizing
 uneasy
 relieved
 preoccupied
@@ -28,10 +28,10 @@ anxious
 cautious
 interested
 reflective
-flirtatious
+hostile
 confident
 serious
-concerned
-distrustful
+None
+baffled
 contemplative
 suspicious

@@ -1,4 +1,4 @@
-llava_adobefull_8ep-3 
+llava_adobefull_8ep-3
 comforting
 upset
 convinced
