@@ -66,6 +66,8 @@ To investigate if the performance difference is due to quantity of training data
 
 ## Acknowledgements
 ### LLaVA
+[LLaVA GitHub](https://github.com/haotian-liu/LLaVA/tree/main)
+
 - Haotian Liu, Chunyuan Li, Yuheng Li, Bo Li, Yuanhan Zhang, Sheng Shen, and Yong Jae Lee. (2024). LLaVA-NeXT: Improved reasoning, OCR, and world knowledge. [Link](https://llava-vl.github.io/blog/2024-01-30-llava-next/).
 
 - Haotian Liu, Chunyuan Li, Yuheng Li, and Yong Jae Lee. (2023). Improved Baselines with Visual Instruction Tuning. arXiv:2310.03744.
