@@ -3,6 +3,7 @@ import base64
 import requests
 import re
 from tqdm import tqdm
+import time
 
 api_key = ''
 
@@ -23,7 +24,7 @@ def get_response(prompt, image_path):
     }
 
     payload = {
-        "model": "gpt-4-turbo",
+        "model": "gpt-4-vision-preview",
         "messages": [
             {
              "role": "user",
@@ -48,7 +49,7 @@ def get_response(prompt, image_path):
                              headers=headers, json=payload)
 
     response_json = response.json()
-
+    print(response_json)
     # Extracting the generated answer
     short_response = response_json['choices'][0]['message']['content']
     answer = re.findall(r'"([^"]*)"', short_response)
@@ -78,10 +79,12 @@ print(questions)
 responses = {}
 
 for index in tqdm(range(len(questions))):
+    time.sleep(3)
     question, answers = questions[index]
     print(question)
     text = f"Choose which word best describes what \
-        the person in the picture is thinking or feeling. \
+        the person in the picture is thinking or feeling \
+            based on their eyes alone. \
             You may feel that more than one word is applicable, \
                 but please choose just one word, the word \
                     which you consider to be most suitable. \
@@ -97,6 +100,6 @@ for index in tqdm(range(len(questions))):
 
     responses[question] = response
 
-with open("ai_results/gpt4/gpt-4.txt", "w") as file:
+with open("ai_results/gpt4/gpt_preview-3.txt", "w") as file:
     for question, response in responses.items():
         file.write(f"{response}\n")

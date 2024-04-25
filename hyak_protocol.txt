@@ -54,6 +54,8 @@ scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak/outpu
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak/rmet_results "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak"
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/story "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/encoding_model"
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/feature_vectors "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/crossmodal_noPlot.py "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container"
+
 
 /mmfs1
 
