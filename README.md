@@ -26,7 +26,7 @@ Through this project, we observed a **% increase in performance in the LLava mod
 
 ## Results
 ### GPT-4v vs LLaVA
-<img src="/llava_hyak/output/gpt_llava_overlay.png" width="500" alt="GPT-4v vs LLaVA performance on the RMET"/>
+<img src="/llava_hyak/output/gpt_llava_dist_overlay.png" width="500" alt="GPT-4v vs LLaVA performance on the RMET"/>
 
 Density plots of GPT-4v and LLaVA performance overlayed on a human performance distribution. GPT-4v excels at the task, matching the higher ends of human performance while LLaVA barely meets the bottom-end of human performance.
 
