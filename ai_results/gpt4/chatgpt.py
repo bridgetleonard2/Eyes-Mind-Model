@@ -48,19 +48,17 @@ def get_response(prompt, image_path):
                              headers=headers, json=payload)
 
     response_json = response.json()
-    print(response_json)
 
     # Extracting the generated answer
-    # short_response = response_json['choices'][0]['message']['content']
-    # answer = re.findall(r'"([^"]*)"', short_response)
+    short_response = response_json['choices'][0]['message']['content']
+    answer = re.findall(r'"([^"]*)"', short_response)
 
-    # print(answer)
+    print(answer)
 
-    # if answer:
-    #     answer = answer[0]
-    # else:
-    #     answer = 'None'
-    answer = response_json['choices'][0]['message']['content']
+    if answer:
+        answer = answer[0]
+    else:
+        answer = 'None'
 
     print(answer)
     return answer
@@ -82,16 +80,12 @@ responses = {}
 for index in tqdm(range(len(questions))):
     question, answers = questions[index]
     print(question)
-    # text = f"Choose which word best describes what \
-    #     the person in the picture is thinking or feeling. \
-    #         You may feel that more than one word is applicable, \
-    #             but please choose just one word, the word \
-    #                 which you consider to be most suitable. \
-    #                     Your 4 choices are:, {answers}"
-    text = "Choose which word best describes what the person in the picture is thinking or feeling. " \
-            "You may feel that more than one word is applicable, but please choose just one word, " \
-            "the word which you consider to be most suitable. Your responses are being automatically "\
-            "scored so please just use one word. Your 4 choices are: " + ', '.join(answers)
+    text = f"Choose which word best describes what \
+        the person in the picture is thinking or feeling. \
+            You may feel that more than one word is applicable, \
+                but please choose just one word, the word \
+                    which you consider to be most suitable. \
+                        Your 4 choices are:, {answers}"
 
     pattern = f"task_materials/regular/{index + 1:02d}*.jpg"
 
@@ -103,6 +97,6 @@ for index in tqdm(range(len(questions))):
 
     responses[question] = response
 
-with open("ai_results/gpt4/gpt_otherPrompt-3.txt", "w") as file:
+with open("ai_results/gpt4/gpt-7.txt", "w") as file:
     for question, response in responses.items():
         file.write(f"{response}\n")
