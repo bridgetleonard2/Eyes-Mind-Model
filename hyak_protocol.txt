@@ -54,7 +54,7 @@ scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak/outpu
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_hyak/rmet_results "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak"
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/story "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/encoding_model"
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/feature_vectors "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
-scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/crossmodal_noPlot.py "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/crossmodal_noPlot.py "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
 
 
 /mmfs1
@@ -318,3 +318,7 @@ apptainer run \
     --model-base liuhaotian/llava-v1.5-13b \
     --query "Choose which word best describes what the person in the picture is thinking or feeling based on just their eyes alone. You may feel that more than one word is applicable, but please choose just one word, the word which you consider to be most suitable. Your 4 choices are: playful comforting irritated bored" \
     --image-file /container/rmet_materials/images/01-playful-comforting-irritated-bored-300x175.jpg
+
+
+RUN CROSSMODAL.PY 
+apptainer run cuda_crossmodal.sif crossmodal.py S1 vision 8
