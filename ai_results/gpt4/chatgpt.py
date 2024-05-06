@@ -3,7 +3,6 @@ import base64
 import requests
 import re
 from tqdm import tqdm
-import time
 
 api_key = ''
 
@@ -24,7 +23,7 @@ def get_response(prompt, image_path):
     }
 
     payload = {
-        "model": "gpt-4-vision-preview",
+        "model": "gpt-4-turbo",
         "messages": [
             {
              "role": "user",
@@ -50,16 +49,18 @@ def get_response(prompt, image_path):
 
     response_json = response.json()
     print(response_json)
+
     # Extracting the generated answer
-    short_response = response_json['choices'][0]['message']['content']
-    answer = re.findall(r'"([^"]*)"', short_response)
+    # short_response = response_json['choices'][0]['message']['content']
+    # answer = re.findall(r'"([^"]*)"', short_response)
 
-    print(answer)
+    # print(answer)
 
-    if answer:
-        answer = answer[0]
-    else:
-        answer = 'None'
+    # if answer:
+    #     answer = answer[0]
+    # else:
+    #     answer = 'None'
+    answer = response_json['choices'][0]['message']['content']
 
     print(answer)
     return answer
@@ -79,16 +80,18 @@ print(questions)
 responses = {}
 
 for index in tqdm(range(len(questions))):
-    time.sleep(3)
     question, answers = questions[index]
     print(question)
-    text = f"Choose which word best describes what \
-        the person in the picture is thinking or feeling \
-            based on their eyes alone. \
-            You may feel that more than one word is applicable, \
-                but please choose just one word, the word \
-                    which you consider to be most suitable. \
-                        Your 4 choices are:, {answers}"
+    # text = f"Choose which word best describes what \
+    #     the person in the picture is thinking or feeling. \
+    #         You may feel that more than one word is applicable, \
+    #             but please choose just one word, the word \
+    #                 which you consider to be most suitable. \
+    #                     Your 4 choices are:, {answers}"
+    text = "Choose which word best describes what the person in the picture is thinking or feeling. " \
+            "You may feel that more than one word is applicable, but please choose just one word, " \
+            "the word which you consider to be most suitable. Your responses are being automatically "\
+            "scored so please just use one word. Your 4 choices are: " + ', '.join(answers)
 
     pattern = f"task_materials/regular/{index + 1:02d}*.jpg"
 
@@ -100,6 +103,6 @@ for index in tqdm(range(len(questions))):
 
     responses[question] = response
 
-with open("ai_results/gpt4/gpt_preview-3.txt", "w") as file:
+with open("ai_results/gpt4/gpt_otherPrompt-3.txt", "w") as file:
     for question, response in responses.items():
         file.write(f"{response}\n")
