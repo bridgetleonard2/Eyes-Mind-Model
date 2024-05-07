@@ -1,6 +1,6 @@
 gpt-7
-bored
-annoyed
+irritated
+upset
 desire
 insisting
 worried
@@ -10,7 +10,7 @@ relieved
 preoccupied
 cautious
 regretful
-skeptical
+None
 anticipating
 accusing
 contemplative
@@ -20,7 +20,7 @@ decisive
 tentative
 friendly
 confused
-imploring
+preoccupied
 curious
 pensive
 interested
@@ -28,7 +28,7 @@ anxious
 cautious
 interested
 reflective
-flirtatious
+hostile
 confident
 serious
 concerned

@@ -4,7 +4,7 @@ upset
 desire
 insisting
 worried
-alarmed
+fantasizing
 uneasy
 relieved
 preoccupied
@@ -20,7 +20,7 @@ decisive
 tentative
 friendly
 confused
-preoccupied
+imploring
 curious
 pensive
 interested

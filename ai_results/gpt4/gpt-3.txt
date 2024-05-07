@@ -1,6 +1,6 @@
 gpt-3
 irritated
-upset
+annoyed
 desire
 insisting
 worried
@@ -18,7 +18,7 @@ thoughtful
 doubtful
 decisive
 tentative
-guilty
+friendly
 confused
 preoccupied
 curious

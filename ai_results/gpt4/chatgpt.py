@@ -6,6 +6,7 @@ from tqdm import tqdm
 
 api_key = ''
 
+short = "ON"
 
 # Function to encode the image
 def encode_image(image_path):
@@ -49,16 +50,19 @@ def get_response(prompt, image_path):
 
     response_json = response.json()
 
-    # Extracting the generated answer
-    short_response = response_json['choices'][0]['message']['content']
-    answer = re.findall(r'"([^"]*)"', short_response)
-
-    print(answer)
-
-    if answer:
-        answer = answer[0]
+    if short == "ON":
+        answer = response_json['choices'][0]['message']['content']
     else:
-        answer = 'None'
+        # Extracting the generated answer
+        short_response = response_json['choices'][0]['message']['content']
+        answer = re.findall(r'"([^"]*)"', short_response)
+
+        print(answer)
+
+        if answer:
+            answer = answer[0]
+        else:
+            answer = 'None'
 
     print(answer)
     return answer
@@ -80,12 +84,18 @@ responses = {}
 for index in tqdm(range(len(questions))):
     question, answers = questions[index]
     print(question)
-    text = f"Choose which word best describes what \
-        the person in the picture is thinking or feeling. \
-            You may feel that more than one word is applicable, \
-                but please choose just one word, the word \
-                    which you consider to be most suitable. \
-                        Your 4 choices are:, {answers}"
+    if short == "ON":
+        text = "Choose which word best describes what the person in the picture is thinking or feeling. " \
+                "You may feel that more than one word is applicable, but please choose just one word, " \
+                "the word which you consider to be most suitable. Your responses are being automatically "\
+                "scored so please just use one word. Your 4 choices are: " + ', '.join(answers)
+    else:
+        text = f"Choose which word best describes what \
+            the person in the picture is thinking or feeling. \
+                You may feel that more than one word is applicable, \
+                    but please choose just one word, the word \
+                        which you consider to be most suitable. \
+                            Your 4 choices are: {answers}"
 
     pattern = f"task_materials/regular/{index + 1:02d}*.jpg"
 

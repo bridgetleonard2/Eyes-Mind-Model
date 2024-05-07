@@ -1,6 +1,6 @@
 gpt-2
-irritated
-upset
+bored
+annoyed
 desire
 insisting
 worried
@@ -15,12 +15,12 @@ anticipating
 accusing
 contemplative
 thoughtful
-doubtful
+None
 decisive
 tentative
 friendly
 confused
-preoccupied
+imploring
 curious
 pensive
 interested
@@ -28,7 +28,7 @@ anxious
 cautious
 interested
 reflective
-hostile
+flirtatious
 confident
 serious
 concerned
