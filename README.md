@@ -46,7 +46,7 @@ To try to bridge the gap between GPT-4v and LLaVA performance, we fine-tuned the
 We saw an increase in the performance of the fine-tuned models on the RMET task. Specifically, the models trained with 5 and 7 epochs saw a 12% increase in performance on the task.
 <div align="center">
   <br>
-  <img src="/llava_hyak/output/ft_performance.png" width="500" alt="Increase in performance over epochs"/>
+  <img src="/llava_hyak/output/percent_increase.png" width="500" alt="Increase in performance over epochs"/>
 </div>
 
 <br>
