@@ -89,7 +89,7 @@ class QuestionnaireApp:
                                    f"Image file not found: {image_path}")
             self.image_label.config(image=None)
         # Schedule the next question after 3 seconds
-        self.root.after(10000, self.display_next_question)
+        self.root.after(7000, self.display_next_question)
 
         # Clear existing answer buttons
         for widget in self.answers_frame.winfo_children():
