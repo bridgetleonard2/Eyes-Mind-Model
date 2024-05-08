@@ -2,7 +2,7 @@ gpt_newimages-3
 playful
 annoyed
 convinced
-amused
+relaxed
 worried
 impatient
 uneasy
@@ -20,13 +20,13 @@ amused
 tentative
 friendly
 confused
-preoccupied
+imploring
 curious
 pensive
 interested
 anxious
 reassuring
-contented
+interested
 reflective
 disappointed
 confident

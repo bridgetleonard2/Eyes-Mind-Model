@@ -1,15 +1,15 @@
-gpt_preview-1
+gpt_preview-4
 playful
 upset
-desire
+convinced
 insisting
 worried
 impatient
 uneasy
-relieved
+despondent
 preoccupied
 cautious
-regretful
+amused
 skeptical
 None
 accusing
@@ -20,7 +20,7 @@ amused
 tentative
 friendly
 confused
-imploring
+preoccupied
 curious
 pensive
 interested
@@ -33,5 +33,5 @@ confident
 serious
 concerned
 baffled
-contemplative
+contemlative
 suspicious

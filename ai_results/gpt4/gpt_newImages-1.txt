@@ -1,5 +1,5 @@
 gpt_newImages-1
-comforting
+playful
 annoyed
 convinced
 relaxed
@@ -9,7 +9,7 @@ uneasy
 shy
 preoccupied
 cautious
-regretful
+amused
 skeptical
 anticipating
 accusing
@@ -25,13 +25,13 @@ curious
 pensive
 interested
 anxious
-cautious
-contented
+reassuring
+interested
 reflective
 disappointed
 confident
 serious
 concerned
-distrustful
+baffled
 contemplative
 suspicious

@@ -1,7 +1,7 @@
-gpt_preview-1
+gpt_preview-5
 playful
 upset
-desire
+convinced
 insisting
 worried
 impatient
@@ -20,7 +20,7 @@ amused
 tentative
 friendly
 confused
-imploring
+preoccupied
 curious
 pensive
 interested

@@ -1,12 +1,12 @@
 gpt-5
-bored
-annoyed
+playful
+upset
 desire
 insisting
 worried
 impatient
 uneasy
-despondent
+relieved
 preoccupied
 cautious
 regretful
@@ -25,7 +25,7 @@ curious
 pensive
 interested
 anxious
-None
+cautious
 interested
 reflective
 flirtatious
