@@ -25,7 +25,7 @@ def get_response(prompt, image_path):
     }
 
     payload = {
-        "model": "gpt-4-turbo",
+        "model": "gpt-4o",
         "top_p": 0.5,
         "messages": [
             {
@@ -117,6 +117,6 @@ for index in tqdm(range(len(questions))):
 
     responses[question] = response
 
-with open("ai_results/gpt4/gpt_manipulate-5.txt", "w") as file:
+with open("ai_results/gpt4/4o_results/gpt4o_manipulate-1.txt", "w") as file:
     for question, response in responses.items():
         file.write(f"{response}\n")

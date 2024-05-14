@@ -25,7 +25,7 @@ def get_response(prompt, image_path):
     }
 
     payload = {
-        "model": "gpt-4-turbo",
+        "model": "gpt-4o",
         "top_p": 0.5,
         "messages": [
             {
@@ -103,7 +103,7 @@ for index in tqdm(range(len(questions))):
                         which you consider to be most suitable. \
                             Your 4 choices are: {answers}"
 
-    pattern = f"task_materials/regular/{index + 1:02d}*.jpg"
+    pattern = f"task_materials/cropped/{index + 1:02d}*.jpg"
 
     # Use glob to find matching filenames
     image_path = glob.glob(pattern)[0]
@@ -113,6 +113,6 @@ for index in tqdm(range(len(questions))):
 
     responses[question] = response
 
-with open("ai_results/gpt4/gpt-6.txt", "w") as file:
+with open("ai_results/gpt4/gpt4o_newImages-1.txt", "w") as file:
     for question, response in responses.items():
         file.write(f"{response}\n")
