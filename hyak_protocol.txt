@@ -57,6 +57,8 @@ scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/feature_
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/crossmodal_noPlot.py "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
 
 
+scp -r  "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container/crossmodal.py" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313
+
 /mmfs1
 
 Running python scripts in apptainer:
