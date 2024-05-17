@@ -38,6 +38,11 @@ scp -r "C:/Users/Bridget Leonard/Desktop/eyes_emotion/llava_hyak/fireflyFer_data
 
 scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/data/fmri_data/mappers" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/data/mappers/S1
 
+scp -r "C:/Users/Bridget Leonard/Desktop/spatial_representation/perspective_taking_task/firehydrant.jpg" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/spatial_representation/perspective_taking_task
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_perspective_taking_task_firehydrant.json "C:/Users/Bridget Leonard/Desktop/spatial_representation/perspective_taking_task/results"
+
+scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/data/frmi_data/storydata/S1" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/data/storydata/
+
 Pulling files/folders from hyak to local
 
 file:
