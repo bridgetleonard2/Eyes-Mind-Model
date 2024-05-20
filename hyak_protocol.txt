@@ -43,6 +43,9 @@ scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_perspectiv
 
 scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/data/frmi_data/storydata/S1" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/data/storydata/
 
+scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container/crossmodal.py" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313
+
+
 Pulling files/folders from hyak to local
 
 file:
