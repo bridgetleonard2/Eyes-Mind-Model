@@ -64,6 +64,8 @@ scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/story "C
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/feature_vectors "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/crossmodal_noPlot.py "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
 
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/movie_to_story/S1 "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/correlations/movie_to_story"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/alignment "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
 
 scp -r  "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container/crossmodal.py" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313
 
