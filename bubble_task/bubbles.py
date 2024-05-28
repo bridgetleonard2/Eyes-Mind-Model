@@ -1,13 +1,22 @@
-import cv2
-import numpy as np
-import matplotlib.pyplot as plt
-import glob
-import base64
-import requests
+# System navigation
 import re
 import os
 import sys
+import glob
+
+# Image processing
+import cv2
+import base64
+import requests
+
+# Data processing
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Machine Learning
 import sklearn.linear_model as lm
+
+# Progress bar
 from tqdm import tqdm
 
 
@@ -52,7 +61,7 @@ def crop_image(image_path):
     return croppedImg
 
 
-def bubbles_test(image_path, num_bubbles=10, bubble_size=20, num_trials=500):
+def bubbles_test(image_path, item, num_bubbles=10, bubble_size=20, num_trials=500):
     # Load the grayscale image
     img = crop_image(image_path)
     if img.ndim == 3:  # Convert to grayscale if it is not
@@ -110,7 +119,12 @@ def bubbles_test(image_path, num_bubbles=10, bubble_size=20, num_trials=500):
     plt.imshow(average_response.reshape(imageSize), cmap='gray')
     plt.title('Average Response Image')
     plt.colorbar()
+
+    plt.savefig(f'bubble_task/results/TEST_averageResponse_{num_trials}_{item}.png')
+
     plt.show()
+
+    return responseMatrix, responses, imageSize
 
 
 def encode_image(image_path):
@@ -127,7 +141,7 @@ def get_response(prompt, image_path):
     }
 
     payload = {
-        "model": "gpt-4o",
+        "model": "gpt-4-turbo",
         "top_p": 0.5,
         "messages": [
             {
@@ -176,7 +190,7 @@ def get_response(prompt, image_path):
     return answer
 
 
-def bubbles_gpt(image_path, answer, num_bubbles=10,
+def bubbles_gpt(image_path, item, answer, num_bubbles=10,
                 bubble_size=20, num_trials=500):
     # Load the grayscale image
     img = crop_image(image_path)
@@ -265,30 +279,43 @@ def bubbles_gpt(image_path, answer, num_bubbles=10,
     plt.imshow(average_response.reshape(imageSize), cmap='gray')
     plt.title('Average Response Image')
     plt.colorbar()
+
+    plt.savefig(f'bubble_task/results/averageResponse_{num_trials}_{item}.png')
+
     plt.show()
 
     return responseMatrix, responses, imageSize
 
 
-def linReg_analysis(responseMatrix, responses, imageSize):
+def linReg_analysis(responseMatrix, responses, imageSize, item,
+                    num_trials=500):
     X = responseMatrix
     y = responses
     reg = lm.LinearRegression().fit(X, y)
     coef = reg.coef_
+    beta = reg.intercept_
 
     # Plot coefficients to see which pixels are most important
     plt.imshow(coef.reshape(imageSize), cmap='coolwarm')
     plt.colorbar()
     plt.title('Linear Regression Coefficients')
+
+    plt.savefig(f'bubble_task/results/linReg_{num_trials}_{item}.png')
+
     plt.show()
+
+    # Save coefficients and intercept
+    np.save(f'bubble_task/results/TEST_coefficients_{num_trials}_{item}.npy', coef)
+    np.save(f'bubble_task/results/TEST_intercept_{num_trials}_{item}.npy', beta)
 
 
 if __name__ == "__main__":
     # Set your OpenAI API key here
     api_key = ""
 
-    if len(sys.argv) == 2:
+    if len(sys.argv) == 3:
         rmet_item = int(sys.argv[1])
+        trials = int(sys.argv[2])
 
         # Get item answer
         answers_file = 'task_materials/answers.txt'
@@ -306,14 +333,29 @@ if __name__ == "__main__":
         image_path = glob.glob(image_path_pattern)[0]
 
         # Start with test
-        # bubbles_test(image_path, num_trials=50)
+        responseMatrix, responses, imageSize = bubbles_test(image_path,
+                                                            rmet_item,
+                                                            num_trials=trials)
+
+        np.save(f'bubble_task/results/TEST_responseMatrix_{trials}_{rmet_item}.npy',
+                responseMatrix)
+        np.save(f'bubble_task/results/TEST_responses_{trials}_{rmet_item}.npy',
+                responses)
 
         # Now GPT
-        responseMatrix, responses, imageSize = bubbles_gpt(image_path, answer,
-                                                           num_trials=50)
+        # responseMatrix, responses, imageSize = bubbles_gpt(image_path,
+        #                                                    rmet_item,
+        #                                                    answer,
+        #                                                    num_trials=trials)
+
+        np.save(f'bubble_task/results/responseMatrix_{trials}_{rmet_item}.npy',
+                responseMatrix)
+        np.save(f'bubble_task/results/responses_{trials}_{rmet_item}.npy',
+                responses)
 
         # Linear Regression Analysis
-        linReg_analysis(responseMatrix, responses, imageSize)
+        linReg_analysis(responseMatrix, responses, imageSize,
+                        num_trials=trials, item=rmet_item)
     else:
-        print("Usage: python bubbles.py <image_path>")
+        print("Usage: python bubbles.py <image_item> <num_trials>")
         sys.exit(1)
