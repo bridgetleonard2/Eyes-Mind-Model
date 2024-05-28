@@ -1,36 +1,36 @@
-01, playful
-02, upset
-03, desire
-04, insisting
-05, worried
-06, fantasizing
-07, uneasy
-08, despondent
-09, preoccupied
-10, cautious
-11, regretful
-12, skeptical
-13, anticipating
-14, accusing
-15, contemplative
-16, thoughtful
-17, doubtful
-18, decisive
-19, tentative
-20, friendly
-21, fantasizing
-22, preoccupied
-23, defiant
-24, pensive
-25, interested
-26, hostile
-27, cautious
-28, interested
-29, reflective
-30, flirtatious
-31, confident
-32, serious
-33, concerned
-34, distrustful
-35, nervous
-36, suspicious
+playful
+upset
+desire
+insisting
+worried
+fantasizing
+uneasy
+despondent
+preoccupied
+cautious
+regretful
+skeptical
+anticipating
+accusing
+contemplative
+thoughtful
+doubtful
+decisive
+tentative
+friendly
+fantasizing
+preoccupied
+defiant
+pensive
+interested
+hostile
+cautious
+interested
+reflective
+flirtatious
+confident
+serious
+concerned
+distrustful
+nervous
+suspicious
