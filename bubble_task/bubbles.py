@@ -5,6 +5,7 @@ import glob
 import base64
 import requests
 import re
+import os
 import sys
 import sklearn.linear_model as lm
 from tqdm import tqdm
@@ -210,11 +211,11 @@ def bubbles_gpt(image_path, answer, num_bubbles=10,
         # Extract possible answers from image name
         # Ex image path: 01-playful-comforting-irritated-bored-300x175.jpg
         image_name = image_path.split("\\")[-1]
-        print(f"File Name: {image_name}")
+        # print(f"File Name: {image_name}")
         image_name = image_name.split(".")[0]
-        print(f"Without Extension: {image_name}")
+        # print(f"Without Extension: {image_name}")
         image_answers = image_name.split("-")[1:5]
-        print(f"Image Answers: {image_answers}")
+        # print(f"Image Answers: {image_answers}")
         answers = ", ".join(image_answers)
 
         print(answers)
@@ -223,8 +224,7 @@ def bubbles_gpt(image_path, answer, num_bubbles=10,
                 in the picture is thinking or feeling. You may feel that \
                 more than one word is applicable, but please choose \
                 just one word, the word which you consider to be most \
-                suitable. Your responses are being automatically scored \
-                so please just use one word. Your 4 choices are: {answers}"
+                suitable. Your 4 choices are: {answers}"
 
         # Get response from GPT-4
         response = get_response(prompt, filename)
@@ -236,6 +236,11 @@ def bubbles_gpt(image_path, answer, num_bubbles=10,
             response = 0
         responses[t] = response
         responseMatrix[t, :] = mask.ravel()
+
+    # Delete contents in temp folder
+    files = glob.glob('bubble_task/temp/*')
+    for f in files:
+        os.remove(f)
 
     # Calculate the mean response over the trials with positive responses
     filtered_responses = responseMatrix[responses > 0]
@@ -262,9 +267,20 @@ def bubbles_gpt(image_path, answer, num_bubbles=10,
     plt.colorbar()
     plt.show()
 
-    return responseMatrix, responses
+    return responseMatrix, responses, imageSize
 
-def linReg_analysis(responseMatrix):
+
+def linReg_analysis(responseMatrix, responses, imageSize):
+    X = responseMatrix
+    y = responses
+    reg = lm.LinearRegression().fit(X, y)
+    coef = reg.coef_
+
+    # Plot coefficients to see which pixels are most important
+    plt.imshow(coef.reshape(imageSize), cmap='coolwarm')
+    plt.colorbar()
+    plt.title('Linear Regression Coefficients')
+    plt.show()
 
 
 if __name__ == "__main__":
@@ -293,7 +309,11 @@ if __name__ == "__main__":
         # bubbles_test(image_path, num_trials=50)
 
         # Now GPT
-        bubbles_gpt(image_path, answer, num_trials=10)
+        responseMatrix, responses, imageSize = bubbles_gpt(image_path, answer,
+                                                           num_trials=50)
+
+        # Linear Regression Analysis
+        linReg_analysis(responseMatrix, responses, imageSize)
     else:
         print("Usage: python bubbles.py <image_path>")
         sys.exit(1)
