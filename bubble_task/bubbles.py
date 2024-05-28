@@ -6,6 +6,7 @@ import base64
 import requests
 import re
 import sys
+import sklearn.linear_model as lm
 from tqdm import tqdm
 
 
@@ -111,7 +112,14 @@ def bubbles_test(image_path, num_bubbles=10, bubble_size=20, num_trials=500):
     plt.show()
 
 
-def get_response(prompt, image):
+def encode_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode('utf-8')
+
+
+def get_response(prompt, image_path):
+    image = encode_image(image_path)
+
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}"
@@ -195,13 +203,20 @@ def bubbles_gpt(image_path, answer, num_bubbles=10,
         mask /= mask.max()  # Normalize the mask
         sparseImg = img * mask
 
+        filename = f'bubble_task/temp/sparse_image_trial_{t}.png'
+        cv2.imwrite(filename, (sparseImg * 255).astype(np.uint8))
+
         # Call GPT-4 API:
         # Extract possible answers from image name
         # Ex image path: 01-playful-comforting-irritated-bored-300x175.jpg
         image_name = image_path.split("\\")[-1]
+        print(f"File Name: {image_name}")
         image_name = image_name.split(".")[0]
+        print(f"Without Extension: {image_name}")
         image_answers = image_name.split("-")[1:5]
+        print(f"Image Answers: {image_answers}")
         answers = ", ".join(image_answers)
+
         print(answers)
 
         prompt = f"Choose which word best describes what the person \
@@ -211,11 +226,8 @@ def bubbles_gpt(image_path, answer, num_bubbles=10,
                 suitable. Your responses are being automatically scored \
                 so please just use one word. Your 4 choices are: {answers}"
 
-        # Encode image as base64
-        input_image = base64.b64encode(sparseImg).decode('utf-8')
-
         # Get response from GPT-4
-        response = get_response(prompt, input_image)
+        response = get_response(prompt, filename)
 
         # Check if response is correct
         if response == answer:
@@ -250,30 +262,38 @@ def bubbles_gpt(image_path, answer, num_bubbles=10,
     plt.colorbar()
     plt.show()
 
+    return responseMatrix, responses
+
+def linReg_analysis(responseMatrix):
+
 
 if __name__ == "__main__":
     # Set your OpenAI API key here
-    api_key = "YOUR_API_KEY"
+    api_key = ""
 
     if len(sys.argv) == 2:
-        rmet_item = sys.argv[1]
+        rmet_item = int(sys.argv[1])
 
         # Get item answer
-        answers_file = 'rmet_materials/answers.txt'
+        answers_file = 'task_materials/answers.txt'
         with open(answers_file, 'r') as file:
             answers = [line.strip() for line in file.readlines()]
 
         answer = answers[rmet_item - 1]
 
         # If rmet_item is single digit integer without leading zero
-        if len(rmet_item) == 1:
+        if rmet_item < 10:
             rmet_item = f"0{rmet_item}"
 
         # Find image path based on item
         image_path_pattern = f"task_materials/regular/{rmet_item}*"
         image_path = glob.glob(image_path_pattern)[0]
 
-        bubbles_gpt(image_path, answer)
+        # Start with test
+        # bubbles_test(image_path, num_trials=50)
+
+        # Now GPT
+        bubbles_gpt(image_path, answer, num_trials=10)
     else:
         print("Usage: python bubbles.py <image_path>")
         sys.exit(1)
