@@ -287,26 +287,28 @@ def bubbles_gpt(image_path, item, answer, num_bubbles=10,
     return responseMatrix, responses, imageSize
 
 
-def linReg_analysis(responseMatrix, responses, imageSize, item,
+def logReg_analysis(responseMatrix, responses, imageSize, item,
                     num_trials=500):
     X = responseMatrix
     y = responses
-    reg = lm.LinearRegression().fit(X, y)
-    coef = reg.coef_
-    beta = reg.intercept_
+    reg = lm.LogisticRegression().fit(X, y)
+    betas = reg.coef_
+    intercept = reg.intercept_
 
     # Plot coefficients to see which pixels are most important
-    plt.imshow(coef.reshape(imageSize), cmap='coolwarm')
+    plt.imshow(betas.reshape(imageSize), cmap='coolwarm')
     plt.colorbar()
-    plt.title('Linear Regression Coefficients')
+    plt.title('Logistic Regression Coefficients')
 
-    plt.savefig(f'bubble_task/results/linReg_{num_trials}_{item}.png')
+    plt.savefig(f'bubble_task/results/logReg_{num_trials}_{item}.png')
 
     plt.show()
 
     # Save coefficients and intercept
-    np.save(f'bubble_task/results/TEST_coefficients_{num_trials}_{item}.npy', coef)
-    np.save(f'bubble_task/results/TEST_intercept_{num_trials}_{item}.npy', beta)
+    np.save(f'bubble_task/results/coefficients_{num_trials}_{item}.npy',
+            betas)
+    np.save(f'bubble_task/results/intercept_{num_trials}_{item}.npy',
+            intercept)
 
 
 if __name__ == "__main__":
@@ -333,20 +335,20 @@ if __name__ == "__main__":
         image_path = glob.glob(image_path_pattern)[0]
 
         # Start with test
-        responseMatrix, responses, imageSize = bubbles_test(image_path,
-                                                            rmet_item,
-                                                            num_trials=trials)
+        # responseMatrix, responses, imageSize = bubbles_test(image_path,
+        #                                                     rmet_item,
+        #                                                     num_trials=trials)
 
-        np.save(f'bubble_task/results/TEST_responseMatrix_{trials}_{rmet_item}.npy',
-                responseMatrix)
-        np.save(f'bubble_task/results/TEST_responses_{trials}_{rmet_item}.npy',
-                responses)
+        # np.save(f'bubble_task/results/TEST_responseMatrix_{trials}_{rmet_item}.npy',
+        #         responseMatrix)
+        # np.save(f'bubble_task/results/TEST_responses_{trials}_{rmet_item}.npy',
+        #         responses)
 
         # Now GPT
-        # responseMatrix, responses, imageSize = bubbles_gpt(image_path,
-        #                                                    rmet_item,
-        #                                                    answer,
-        #                                                    num_trials=trials)
+        responseMatrix, responses, imageSize = bubbles_gpt(image_path,
+                                                           rmet_item,
+                                                           answer,
+                                                           num_trials=trials)
 
         np.save(f'bubble_task/results/responseMatrix_{trials}_{rmet_item}.npy',
                 responseMatrix)
@@ -354,7 +356,7 @@ if __name__ == "__main__":
                 responses)
 
         # Linear Regression Analysis
-        linReg_analysis(responseMatrix, responses, imageSize,
+        logReg_analysis(responseMatrix, responses, imageSize,
                         num_trials=trials, item=rmet_item)
     else:
         print("Usage: python bubbles.py <image_item> <num_trials>")
