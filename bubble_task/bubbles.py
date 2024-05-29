@@ -16,6 +16,9 @@ import matplotlib.pyplot as plt
 # Machine Learning
 import sklearn.linear_model as lm
 
+# Time
+import time
+
 # Progress bar
 from tqdm import tqdm
 
@@ -61,7 +64,8 @@ def crop_image(image_path):
     return croppedImg
 
 
-def bubbles_test(image_path, item, num_bubbles=10, bubble_size=20, num_trials=500):
+def bubbles_test(image_path, item, num_bubbles=10, bubble_size=20,
+                 num_trials=500):
     # Load the grayscale image
     img = crop_image(image_path)
     if img.ndim == 3:  # Convert to grayscale if it is not
@@ -120,7 +124,8 @@ def bubbles_test(image_path, item, num_bubbles=10, bubble_size=20, num_trials=50
     plt.title('Average Response Image')
     plt.colorbar()
 
-    plt.savefig(f'bubble_task/results/TEST_averageResponse_{num_trials}_{item}.png')
+    plt.savefig(f'bubble_task/results/ \
+                TEST_averageResponse_{num_trials}_{item}.png')
 
     plt.show()
 
@@ -240,6 +245,7 @@ def bubbles_gpt(image_path, item, answer, num_bubbles=10,
                 just one word, the word which you consider to be most \
                 suitable. Your 4 choices are: {answers}"
 
+        time.sleep(2)
         # Get response from GPT-4
         response = get_response(prompt, filename)
 
@@ -278,7 +284,8 @@ def bubbles_gpt(image_path, item, answer, num_bubbles=10,
     # Display the mean response image
     plt.imshow(average_response.reshape(imageSize), cmap='gray')
     plt.title('Average Response Image')
-    plt.colorbar()
+    cbar = plt.colorbar()
+    cbar.set_label('Average Pixel Value')
 
     plt.savefig(f'bubble_task/results/averageResponse_{num_trials}_{item}.png')
 
@@ -291,13 +298,15 @@ def logReg_analysis(responseMatrix, responses, imageSize, item,
                     num_trials=500):
     X = responseMatrix
     y = responses
-    reg = lm.LogisticRegression().fit(X, y)
+    reg = lm.LogisticRegression(max_iter=5000).fit(X, y)
     betas = reg.coef_
     intercept = reg.intercept_
 
     # Plot coefficients to see which pixels are most important
-    plt.imshow(betas.reshape(imageSize), cmap='coolwarm')
-    plt.colorbar()
+    plt.imshow(np.abs(betas.reshape(imageSize)), cmap='hot')
+    cbar = plt.colorbar()
+    cbar.set_label('Absolute Value of Coefficients')
+
     plt.title('Logistic Regression Coefficients')
 
     plt.savefig(f'bubble_task/results/logReg_{num_trials}_{item}.png')

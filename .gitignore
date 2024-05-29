@@ -9,3 +9,5 @@ llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora-v1.2/non_lora_trainables.
 
 llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora-v1.3/adapter_model.bin
 llava_hyak/output/checkpoints/llava-v1.5-13b-task-lora-v1.3/non_lora_trainables.bin
+
+bubble_task/results/response_matrices/responseMatrix_500_01.npy
