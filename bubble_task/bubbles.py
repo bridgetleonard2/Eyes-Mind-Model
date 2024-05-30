@@ -14,10 +14,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Machine Learning
-import sklearn.linear_model as lm
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import GridSearchCV
 
 # Time
-import time
+# import time
 
 # Progress bar
 from tqdm import tqdm
@@ -245,7 +246,7 @@ def bubbles_gpt(image_path, item, answer, num_bubbles=10,
                 just one word, the word which you consider to be most \
                 suitable. Your 4 choices are: {answers}"
 
-        time.sleep(2)
+        # time.sleep(2)
         # Get response from GPT-4
         response = get_response(prompt, filename)
 
@@ -298,14 +299,29 @@ def logReg_analysis(responseMatrix, responses, imageSize, item,
                     num_trials=500):
     X = responseMatrix
     y = responses
-    reg = lm.LogisticRegression(max_iter=5000).fit(X, y)
-    betas = reg.coef_
-    intercept = reg.intercept_
+
+    model = LogisticRegression(C=1.0, penalty='l2', solver='lbfgs',
+                               max_iter=1000)
+
+    # Create a parameter grid
+    param_grid = {'C': [0.001, 0.01, 0.1, 1, 10, 100]}
+
+    grid = GridSearchCV(model, param_grid, cv=5, scoring='accuracy')
+    grid.fit(X, y)
+
+    print("Best c:", grid.best_params_['C'])
+    best_model = grid.best_estimator_
+
+    betas = best_model.coef_
+    intercept = best_model.intercept_
+
+    # Set negative betas to zero for visualization
+    # betas_for_visualization = np.where(betas > 0, betas, 0)
 
     # Plot coefficients to see which pixels are most important
-    plt.imshow(np.abs(betas.reshape(imageSize)), cmap='hot')
+    plt.imshow(betas.reshape(imageSize), cmap='coolwarm')
     cbar = plt.colorbar()
-    cbar.set_label('Absolute Value of Coefficients')
+    cbar.set_label('Value of Coefficients')
 
     plt.title('Logistic Regression Coefficients')
 
