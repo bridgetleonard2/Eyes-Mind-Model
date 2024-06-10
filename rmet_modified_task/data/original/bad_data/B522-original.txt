@@ -1,0 +1,36 @@
+Question 1: irritated
+Question 2: arrogant
+Question 3: flustered
+Question 4: relaxed
+Question 5: sarcastic
+Question 6: fantasizing
+Question 7: uneasy
+Question 8: no response
+Question 9: preoccupied
+Question 10: cautious
+Question 11: flirtatious
+Question 12: skeptical
+Question 13: decisive
+Question 14: accusing
+Question 15: contemplative
+Question 16: thoughtful
+Question 17: doubtful
+Question 18: decisive
+Question 19: tentative
+Question 20: no response
+Question 21: fantasizing
+Question 22: imploring
+Question 23: curious
+Question 24: hostile
+Question 25: interested
+Question 26: anxious
+Question 27: cautious
+Question 28: contented
+Question 29: reflective
+Question 30: grateful
+Question 31: dispirited
+Question 32: serious
+Question 33: guilty
+Question 34: aghast
+Question 35: nervous
+Question 36: suspicious

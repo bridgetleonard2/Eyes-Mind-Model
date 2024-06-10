@@ -133,7 +133,7 @@ class QuestionnaireApp:
         file_name = simpledialog.askstring("Save File", "Enter file name to \
                                            save responses:", parent=self.root)
         if file_name:
-            with open(os.path.join("rmet_modified_task/data/newimages/", file_name + ".txt"), "w") as file:
+            with open(os.path.join("rmet_modified_task/data/newimages/", file_name + "-newimages.txt"), "w") as file:
                 for question, response in self.responses.items():
                     file.write(f"{question}: {response}\n")
             # Close the window after saving responses

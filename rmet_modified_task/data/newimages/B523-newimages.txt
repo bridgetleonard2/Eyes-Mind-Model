@@ -1,0 +1,36 @@
+Question 1: playful
+Question 2: upset
+Question 3: joking
+Question 4: insisting
+Question 5: worried
+Question 6: no response
+Question 7: uneasy
+Question 8: despondent
+Question 9: preoccupied
+Question 10: cautious
+Question 11: regretful
+Question 12: embarrassed
+Question 13: shy
+Question 14: accusing
+Question 15: amused
+Question 16: thoughtful
+Question 17: no response
+Question 18: amused
+Question 19: arrogant
+Question 20: friendly
+Question 21: panicked
+Question 22: preoccupied
+Question 23: curious
+Question 24: pensive
+Question 25: despondent
+Question 26: hostile
+Question 27: no response
+Question 28: interested
+Question 29: impatient
+Question 30: flirtatious
+Question 31: no response
+Question 32: alarmed
+Question 33: concerned
+Question 34: distrustful
+Question 35: nervous
+Question 36: suspicious
