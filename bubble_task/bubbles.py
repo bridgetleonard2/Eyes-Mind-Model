@@ -18,7 +18,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import GridSearchCV
 
 # Time
-# import time
+import time
 
 # Progress bar
 from tqdm import tqdm
@@ -246,7 +246,7 @@ def bubbles_gpt(image_path, item, answer, num_bubbles=10,
                 just one word, the word which you consider to be most \
                 suitable. Your 4 choices are: {answers}"
 
-        # time.sleep(2)
+        time.sleep(2)
         # Get response from GPT-4
         response = get_response(prompt, filename)
 
@@ -301,7 +301,7 @@ def logReg_analysis(responseMatrix, responses, imageSize, item,
     y = responses
 
     model = LogisticRegression(C=1.0, penalty='l2', solver='lbfgs',
-                               max_iter=1000)
+                               max_iter=5000)
 
     # Create a parameter grid
     param_grid = {'C': [0.001, 0.01, 0.1, 1, 10, 100]}

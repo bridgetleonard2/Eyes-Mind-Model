@@ -44,6 +44,11 @@ scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/llava_perspectiv
 scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/data/frmi_data/storydata/S1" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/data/storydata/
 
 scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container/crossmodal.py" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313
+scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container/functions.py" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313
+
+scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container/data/face_stimuli" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/data/
+
+scp -r "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/intermediate_steps/feature_alignment" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/alignment/layer_8
 
 
 Pulling files/folders from hyak to local
@@ -64,10 +69,18 @@ scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/story "C
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/feature_vectors "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/crossmodal_noPlot.py "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
 
-scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/movie_to_story/S1 "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/correlations/movie_to_story"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/movie_to_story/S1 "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/movie_to_story"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/story_to_movie/S1 "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/story_to_movie"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/story_to_movie/S1 "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/story_to_movie"
+
+
 scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/alignment "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/faces "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results/face_check"
+scp -r bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313/results/vision_encoding "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/results"
+
 
 scp -r  "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container/crossmodal.py" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313
+scp -r  "C:/Users/Bridget Leonard/Desktop/BridgeTower-Brain/container/testBT.py" bll313@klone.hyak.uw.edu:/mmfs1/gscratch/scrubbed/bll313
 
 /mmfs1
 
